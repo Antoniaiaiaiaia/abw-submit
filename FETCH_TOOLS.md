@@ -22,6 +22,14 @@ Zero-install, single HTTP call, returns LLM-ready content. Use these first.
 - **Repo:** [jina-ai/reader](https://github.com/jina-ai/reader)
 - **Good for:** 90% of pages — static sites, job boards, blogs, docs. Handles moderate JS rendering server-side.
 
+### OpenCLI ⭐ also recommended
+
+- **Usage:** `npm i -g @jackwener/opencli` then `opencli <site> <command>` (e.g. `opencli hackernews top --limit 5`)
+- **Returns:** deterministic structured output from the user's **already-logged-in Chrome** session
+- **Auth:** uses whatever you're already logged into in Chrome — great for pages behind auth (LinkedIn, internal ATSes)
+- **Repo:** [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI)
+- **Good for:** pages Jina can't reach (login-gated, tracking-blocked, SPA-heavy). Bridges the gap between "HTTP-only extractors" and "spin up a headless browser" — you already have Chrome, this is a thin CLI over it.
+
 ### Firecrawl
 
 - **Usage:** `POST https://api.firecrawl.dev/v1/scrape` with `{"url": "..."}`

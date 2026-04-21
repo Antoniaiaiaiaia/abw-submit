@@ -14,7 +14,7 @@ The user will often paste a URL — a job posting on another site (jobs.solana.c
 Rules for URL-first submissions:
 
 1. **Always fetch the URL** before asking the user for fields. Pick by tier, stop at the first that works:
-    - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), **[Jina Reader](https://github.com/jina-ai/reader)** (`curl https://r.jina.ai/<URL>` — zero-config, no API key), [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
+    - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), **[Jina Reader](https://github.com/jina-ai/reader)** (`curl https://r.jina.ai/<URL>` — zero-config, no API key), **[OpenCLI](https://github.com/jackwener/OpenCLI)** (uses your logged-in Chrome session — great for auth-walled pages), [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
     - **Tier 2 — headless browser (only if Tier 1 fails):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't default to these.
     - **Tier 3 — ask the user:** *"I can't reach that page from here. Can you paste the job description?"* Extract from what they paste. **Never invent fields because you couldn't fetch.**
     - Full tradeoffs: [FETCH_TOOLS.md](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/FETCH_TOOLS.md).
@@ -30,7 +30,7 @@ Rules for URL-first submissions:
 Not every submitted field shows up in the public Telegram post that readers actually see. See [`PUBLIC_MAPPING.md`](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/PUBLIC_MAPPING.md) in the upstream repo for the full breakdown. Short version — spend extraction effort in this order:
 
 1. `company` / `name` (always shown, required).
-2. `requirements` (recruit) or `skills` + `experience` (talent) — the main text body the reader reads. Note: for recruit, `requirements` is routed to the Notion page body (正文) as paragraph blocks, not to a table property — no 2000-char limit to worry about. Use double newlines (`\n\n`) to separate paragraphs.
+2. **recruit**: `requirements` = **list of job titles** the company is hiring for (one per line — a single posting often has multiple roles; put each title on its own line). Routed to the Notion page body, so a 10-title list is fine. The narrative/responsibilities/requirements prose goes in `job_description` (a separate field).  **talent**: `skills` + `experience` — the main text body the reader reads.
 3. Employment-type checkboxes (`fulltime` / `parttime` / `internship` / `remote`) — become the leading hashtags.
 4. `roles` + `job_types` — feed the rest of the hashtag row.
 5. `apply_link` + `apply_info` (recruit) / `contact` (talent) — how the reader acts.

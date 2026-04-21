@@ -68,8 +68,9 @@ This returns the current field list and all valid `select` / `multi_select` opti
 
 Not every field surfaces in the public Telegram post. See [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) for a field-by-field breakdown. Short version:
 
-- **High priority** (always shown): `company`/`name`, `requirements` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `roles`, `source_url`.
-- **Note — `requirements` writes to the Notion page body, not a table property.** The relay automatically splits on double-newlines into paragraph blocks. No length cap matters at the 2000-char rich_text level; put the full job listing here.
+- **High priority** (always shown): `company`/`name`, `requirements` + `job_description` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `roles`, `source_url`.
+- **`requirements` = list of job titles, one per line**. A single company often hires for multiple roles — put each job title on its own line (e.g. `Senior Solana Engineer` / `Staff Data Engineer` / …). The relay routes this to the Notion page body. Do NOT put the role narrative here.
+- **`job_description` = narrative prose** describing what the role does, responsibilities, what the company is looking for. Use this for the "what you'll do" / "what we're looking for" paragraphs.
 - **Medium priority** (shown as hashtags or sometimes inlined): `job_types`, `salary`, `company_type`, `ecosystem`.
 - **Internal / filter only** (not shown in the public post): `locations`, `experience_required`, `web3_experience`, `education_level`, `languages`, `looking_for`, `open_to_recruiters`, `token_equity`, most "选填" fields.
 
@@ -82,7 +83,7 @@ The user will often paste a URL — a job posting on jobs.solana.com / cryptocur
 Rules:
 
 1. **Always fetch the URL** first. Pick by tier, stop at the first that works:
-    - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), or [Jina Reader](https://github.com/jina-ai/reader) (`curl https://r.jina.ai/<URL>`), or [Firecrawl](https://github.com/mendableai/firecrawl) / [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
+    - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), [Jina Reader](https://github.com/jina-ai/reader) (`curl https://r.jina.ai/<URL>`), [OpenCLI](https://github.com/jackwener/OpenCLI) (uses the user's logged-in Chrome — great for auth-walled pages), or [Firecrawl](https://github.com/mendableai/firecrawl) / [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
     - **Tier 2 — browser control (only if Tier 1 fails on the specific URL):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't reach for these by default.
     - **Tier 3 — ask the user:** if you have no network or Tier 1+2 all fail, say *"I can't reach that page from here. Can you paste the job description?"* Extract fields from what they paste. Never invent fields because you couldn't fetch.
     - Full tradeoffs in [`FETCH_TOOLS.md`](./FETCH_TOOLS.md).
