@@ -66,3 +66,7 @@ Swap `examples/talent.json` for `examples/recruit.json` to test a job posting. B
 ## License
 
 MIT.
+
+---
+
+![abetterweb3](./assets/abetterweb3-banner.jpeg)

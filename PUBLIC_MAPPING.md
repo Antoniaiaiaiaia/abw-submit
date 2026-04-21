@@ -47,8 +47,7 @@ https://jobs.ashbyhq.com/trust-wallet
 | `requirements` | **List of job titles being hired for** (shown as the numbered list in the Telegram post: `1. Senior Full Stack Engineer (AI/Web3)` / `2. Senior Blockchain Engineer (Rust)` / …) | **One job title per line.** A single company often hires for multiple roles at once — put each one on its own line. The relay routes this to the Notion **page body (正文)** as paragraph blocks, not to a table property, so a 10-title list is fine. Format each line as plain text (e.g. `Senior Solana Engineer`) or numbered (`1. Senior Solana Engineer`). Do **not** put the role narrative here. |
 | `job_description` | Narrative description of the role(s) — responsibilities, requirements, what you're looking for | Free-text prose. Shown in the Notion `岗位描述` property. May get inlined into the published post or used by the admin for context during review. Put the "what you'll do / what we're looking for" paragraphs here, not in `requirements`. |
 | `fulltime` / `parttime` / `internship` | **Hashtag row** (`#全职` / `#兼职` / `#实习`) | Each `true` checkbox becomes one hashtag at the start of the hashtag row. |
-| `roles` | **Hashtag row** (each value → `#开发`, `#产品`, etc.) | Admin may trim, reorder, or rename a few tags before publishing. Submit what the company listed; admin normalizes. |
-| `job_types` | Hashtag row / narrower tags | Same rule. `求职意向` (roles) is the broad tag list; `涉及工种` (job_types) is granular. Both feed the hashtag row; admin decides final mix. |
+| `job_types` | **Hashtag row** (each value → `#开发`, `#产品`, `#智能合约`, etc.) | This is the recruit DB's multi_select for granular role tags. Admin may trim / reorder / rename before publishing. Submit what the posting lists; admin normalizes. |
 | `remote` | **`✅远程` line** | Shown as a single line before the apply section iff `true`. |
 | `apply_info` | **`投递` line** (`投递 / @YingCTW`) | Shown verbatim. Use for Telegram handle, contact name, or brief apply instructions. |
 | `contact_email` | **`✅企业邮箱已认证` badge** | Shown as a green verified badge **only if** the admin confirms the email is a genuine corporate domain. Not shown as a raw address. |
@@ -58,11 +57,10 @@ https://jobs.ashbyhq.com/trust-wallet
 | `locations` | Not usually shown directly in the Telegram post | Only `✅远程` renders explicitly. For physical locations, the admin may or may not inline them. Still worth including for filter / discovery. |
 | `experience_required` | Not shown in the Telegram post | Filter/internal only. |
 | `web3_experience` | Not shown in the Telegram post | Filter/internal only. |
-| `education_level` | Not shown in the Telegram post | Filter/internal only. |
-| `languages` | Not shown in the Telegram post | Filter/internal only. |
-| `looking_for` | Not shown in the Telegram post | Filter/internal only. |
 | `token_equity` | Not shown directly | Occasionally noted in the main block; admin judgment. |
 | `open_to_recruiters` | Not shown in public post | Filter/internal only — tells recruiters whether this company welcomes recruiter outreach. |
+
+> **Gotcha — recruit does NOT have `roles`, `languages`, `education_level`, or `looking_for`.** Those are talent-only fields. For a recruit submission, granular role tags go in `job_types`. Sending these keys to the recruit endpoint will get rejected by validation; don't include them.
 
 ## Admin-added fields (not in the submission API)
 
@@ -98,7 +96,7 @@ When extracting from a URL or collecting from the user, spend your effort here, 
 1. **`company` / `name`** — required, always shown.
 2. **`requirements`** (recruit) or **`skills` + `experience`** (talent) — the main text body; do the most extraction work here.
 3. **Employment-type checkboxes** — `fulltime` / `parttime` / `internship` / `remote` — these become the leading hashtags.
-4. **`roles`** + **`job_types`** — feed the hashtag row.
+4. **`roles`** (talent) / **`job_types`** (recruit) — feed the hashtag row. (Recruit does not have a `roles` field — use `job_types`.)
 5. **`apply_link`** + **`apply_info`** (recruit) / **`contact`** (talent) — how the reader acts on the post.
 6. **`source_url`** — drop in the aggregator URL so the "更多在招" block links back.
 7. **Company/role metadata** (`company_type`, `ecosystem`, `experience_required`, `locations`, `salary`) — improves discovery and review; include when easy to extract, skip when not obvious.

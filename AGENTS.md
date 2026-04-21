@@ -77,11 +77,12 @@ This returns the current field list and all valid `select` / `multi_select` opti
 
 Not every field surfaces in the public Telegram post. See [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) for a field-by-field breakdown. Short version:
 
-- **High priority** (always shown): `company`/`name`, `requirements` + `job_description` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `roles`, `source_url`.
+- **High priority** (always shown): `company`/`name`, `requirements` + `job_description` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `job_types` (recruit) / `roles` (talent), `source_url`.
 - **`requirements` = list of job titles, one per line**. A single company often hires for multiple roles — put each job title on its own line (e.g. `Senior Solana Engineer` / `Staff Data Engineer` / …). The relay routes this to the Notion page body. Do NOT put the role narrative here.
 - **`job_description` = narrative prose** describing what the role does, responsibilities, what the company is looking for. Use this for the "what you'll do" / "what we're looking for" paragraphs.
-- **Medium priority** (shown as hashtags or sometimes inlined): `job_types`, `salary`, `company_type`, `ecosystem`.
-- **Internal / filter only** (not shown in the public post): `locations`, `experience_required`, `web3_experience`, `education_level`, `languages`, `looking_for`, `open_to_recruiters`, `token_equity`, most "选填" fields.
+- **Medium priority** (shown as hashtags or sometimes inlined): `salary`, `company_type`, `ecosystem`.
+- **Internal / filter only** (not shown in the public post): `locations`, `experience_required`, `web3_experience`, `education_level` (talent-only), `languages` (talent-only), `looking_for` (talent-only), `open_to_recruiters`, `token_equity`, most "选填" fields.
+- **Recruit DB does NOT have `roles`, `languages`, `education_level`, `looking_for`.** Those are talent-only. Sending them to the recruit endpoint will fail validation.
 
 Spend extraction effort on the high-priority fields first. Skip low-priority fields if the source doesn't clearly have them.
 

@@ -41,7 +41,7 @@ Not every submitted field shows up in the public Telegram post that readers actu
 1. `company` / `name` (always shown, required).
 2. **recruit**: `requirements` = **list of job titles** the company is hiring for (one per line — a single posting often has multiple roles; put each title on its own line). Routed to the Notion page body, so a 10-title list is fine. The narrative/responsibilities/requirements prose goes in `job_description` (a separate field).  **talent**: `skills` + `experience` — the main text body the reader reads.
 3. Employment-type checkboxes (`fulltime` / `parttime` / `internship` / `remote`) — become the leading hashtags.
-4. `roles` + `job_types` — feed the rest of the hashtag row.
+4. For **recruit**: `job_types` feeds the hashtag row. For **talent**: `roles` feeds the hashtag row. (Note: recruit does NOT have a `roles` field, and does not have `languages`/`education_level`/`looking_for` either — those are talent-only. Don't include them in a recruit payload; validation will reject.)
 5. `apply_link` + `apply_info` (recruit) / `contact` (talent) — how the reader acts.
 6. `source_url` — the "更多在招" link at the bottom.
 

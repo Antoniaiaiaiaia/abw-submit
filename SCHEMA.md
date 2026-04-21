@@ -82,16 +82,12 @@ Title key: `company` (required, non-empty string)
 | `salary` | rich_text | Salary info, free-text |
 | `benefits` | rich_text | Benefits and work environment, free-text |
 | `apply_info` | rich_text | How to apply — contact info, process, etc. |
-| `roles` | multi_select | Role tags / target candidate roles |
-| `job_types` | multi_select | Granular job categories for this posting |
+| `job_types` | multi_select | Granular job categories for this posting — drives the Telegram hashtag row. |
 | `experience_required` | multi_select | Required years of experience |
 | `ecosystem` | multi_select | Blockchain ecosystems relevant to the role (note: casing is inconsistent; use exactly the values below) |
 | `company_type` | multi_select | Company category / sector |
 | `locations` | multi_select | Office locations or time zones |
-| `languages` | multi_select | Required spoken languages |
 | `web3_experience` | select | Required years of web3 experience |
-| `education_level` | select | Required education level (optional) |
-| `looking_for` | select | Hiring posture |
 | `fulltime` | checkbox | Full-time role |
 | `parttime` | checkbox | Part-time role |
 | `internship` | checkbox | Internship role |
@@ -102,16 +98,8 @@ Title key: `company` (required, non-empty string)
 ### recruit: valid `select` options
 
 - **`web3_experience`**: `< 1年`, `1-2年`, `2-4年`, `> 4年`
-- **`education_level`**: `学士/本科`, `硕士/研究生`, `博士/博士后`, `大专`, `辍学大佬`, `其他`
-- **`looking_for`**: `随时合作`, `看看机会`, `交友拓展`
 
 ### recruit: valid `multi_select` options
-
-<details><summary><b><code>roles</code></b> (56 options)</summary>
-
-`开发`, `前端`, `后端`, `全栈`, `智能合约`, `Solana`, `EVM`, `QA`, `测试`, `产品`, `设计`, `平面`, `3D`, `视觉`, `UIUX`, `运营`, `BD`, `HRBP`, `Infra`, `Tokenomics`, `DeFi`, `VC`, `交易`, `风控`, `量化`, `交易所`, `合伙人`, `增长`, `投研`, `投资`, `数据`, `文案`, `法务`, `游戏`, `游戏策划`, `翻译`, `项目管理`, `其他`, `Python`, `C++`, `Java`, `JavaScript`, `Nodejs`, `SQL`, `C#`, `PHP`, `TypeScript`, `Go`, `Rust`, `Solidity`, `Swift`, `Figma`, `PS`, `AE`, `PR`, `运维`
-
-</details>
 
 <details><summary><b><code>job_types</code></b> (130 options)</summary>
 
@@ -140,12 +128,6 @@ Title key: `company` (required, non-empty string)
 <details><summary><b><code>locations</code></b> (136 options)</summary>
 
 `深圳`, `香港`, `HongKong`, `上海`, `global`, `看人`, `北京`, `成都`, `杭州`, `合肥`, `台北`, `Singapore`, `Canada`, `US`, `SF`, `NYC`, `Seattle`, `EST`, `Australia`, `Europe`, `Britain`, `Brazil`, `Dubai`, `Remote`, `Paris`, `SanFrancisco`, `Lisbon`, `Berlin`, `Miami`, `Zurich`, `Poland`, `Czechia`, `UK`, `苏州`, `Malaysia`, `India`, `分布式`, `Israel`, `Switzerland`, `Tokyo`, `Sydney`, `London`, `Lincolnshire`, `Scunthorpe`, `迪拜`, `Tel Aviv`, `上海/北京/深圳/成都办公均可`, `China`, `LasVegas`, `LA`, `Bangkok`, `Szczecin`, `Brussels`, `Asia`, `Vietnam`, `Pakistan`, `southkorea`, `Barcelona`, `Dublin`, `Madrid`, `Portugal`, `Boston`, `EMEA`, `APAC`, `Limassol`, `USA`, `Colombia`, `SouthEastAsia`, `Japan`, `Taipei`, `LosAngeles`, `Hawaii`, `SantaMonica`, `大理`, `Russia`, `伦敦`, `non-china`, `美国`, `吉隆坡`, `Korean`, `Korea`, `印度`, `台湾`, `PST`, `bangalore`, `大连`, `马尼拉`, `Manila`, `Philippine`, `osaka`, `base`, `韩国`, `maca`, `中国`, `中山`, `广州`, `mainland china/ HK`, `新加坡`, `amsterdam`, `SriLanka`, `remote`, `东京`, `青岛`, `Toronto`, `Bengualuru`, `Americas`, `日本`, `germany`, `france`, `netherlands`, `spain`, `NCY`, `Portland`, `工作签`, `CQ`, `France`, `hybrid`, `losaltos`, `南京`, `温哥华`, `Vancouver`, `菲律宾`, `马来西亚`, `South America`, `melbourne`, `江浙沪`, `长沙`, `denver`, `远程`, `Kualar Lumpur`, `泰国`, `SilliconValley`, `Taiwan`, `曼谷`, `Abu Dhabi`, `UTC+8`
-
-</details>
-
-<details><summary><b><code>languages</code></b> (11 options)</summary>
-
-`English`, `中文`, `粤语`, `한국어`, `日本語`, `Française`, `Deutsch`, `Pусский`, `Española`, `Mandarin`, `Cantonese`
 
 </details>
 
