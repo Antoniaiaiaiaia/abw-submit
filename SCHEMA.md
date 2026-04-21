@@ -75,8 +75,8 @@ Title key: `company` (required, non-empty string)
 |---|---|---|
 | `company` | title | Company or project name (required) |
 | `contact_email` | rich_text | Company contact email |
-| `source_url` | url | Original job posting URL (where you found it) |
-| `apply_link` | url | Direct apply link, if different from source |
+| `source_url` | url | Where you found the listing — aggregator URL (jobs.solana.com / ashbyhq / greenhouse / lever / workable etc.). This is what your agent fetched. |
+| `apply_link` | url | Company's own official website (e.g. trustwallet.com, lightcone.trade) — NOT the aggregator URL. If the company has no official site, the admin will reject the submission; warn the user before submitting. |
 | `job_description` | rich_text | What the role does |
 | `requirements` | rich_text | What the company is looking for |
 | `salary` | rich_text | Salary info, free-text |

@@ -39,8 +39,8 @@ const TALENT_MAP = {
 const RECRUIT_MAP = {
   company: { prop: 'Company', type: 'title', desc: 'Company or project name (required)' },
   contact_email: { prop: '企业邮箱', type: 'rich_text', desc: 'Company contact email' },
-  source_url: { prop: '来源', type: 'url', desc: 'Original job posting URL (where you found it)' },
-  apply_link: { prop: 'link', type: 'url', desc: 'Direct apply link, if different from source' },
+  source_url: { prop: '来源', type: 'url', desc: 'Where you found the listing — aggregator URL (jobs.solana.com / ashbyhq / greenhouse / lever / workable etc.). This is what your agent fetched.' },
+  apply_link: { prop: 'link', type: 'url', desc: "Company's own official website (e.g. trustwallet.com, lightcone.trade) — NOT the aggregator URL. If the company has no official site, the admin will reject the submission; warn the user before submitting." },
   job_description: { prop: '岗位描述', type: 'rich_text', desc: 'What the role does' },
   requirements: { prop: '岗位需求', type: 'rich_text', desc: 'What the company is looking for' },
   salary: { prop: '薪酬', type: 'rich_text', desc: 'Salary info, free-text' },

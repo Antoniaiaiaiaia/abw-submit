@@ -24,7 +24,10 @@ Rules for URL-first submissions:
     - **Tier 2 — headless browser (only if Tier 1 fails):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't default to these.
     - **Tier 3 — ask the user:** *"I can't reach that page from here. Can you paste the job description?"* Extract from what they paste. **Never invent fields because you couldn't fetch.**
     - Full tradeoffs: [FETCH_TOOLS.md](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/FETCH_TOOLS.md).
-2. **Put the URL in `source_url`** (for recruit) or in `more_links` (for talent).
+2. For **recruit**, two URLs matter:
+    - `source_url` = the URL you fetched (aggregator page: jobs.solana.com, ashbyhq, greenhouse, lever, workable…). Put the user's pasted URL here.
+    - `apply_link` = the **company's own official website** (e.g. `lightcone.trade`, `trustwallet.com`). Find it on the aggregator page or search the web for the company name. **If no official company website exists, tell the user upfront**: *"The admin won't approve submissions without a company official website — do you have one?"* Don't submit without it.
+   For **talent**, put the source URL in `more_links`.
 3. **Extract aggressively.** Company / job title / description / requirements / salary / location / remote status / employment type / required tech → all usually on the page.
 4. **Omit fields you cannot confidently determine.** Leave them blank rather than guessing. The admin reviewer will fill in what's missing.
 5. **Map extracted values onto the legal option lists** from `GET /api/schema`. Be careful with casing — `solana` lowercase for `ecosystem`, `Solana` capitalized for `roles`.

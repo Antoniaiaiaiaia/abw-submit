@@ -98,7 +98,10 @@ Rules:
     - **Tier 2 — browser control (only if Tier 1 fails on the specific URL):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't reach for these by default.
     - **Tier 3 — ask the user:** if you have no network or Tier 1+2 all fail, say *"I can't reach that page from here. Can you paste the job description?"* Extract fields from what they paste. Never invent fields because you couldn't fetch.
     - Full tradeoffs in [`FETCH_TOOLS.md`](./FETCH_TOOLS.md).
-2. For **recruit** submissions, put the URL in `source_url`. For **talent** submissions, put it in `more_links`.
+2. For **recruit** submissions, **distinguish two different URLs**:
+    - `source_url` = the URL you fetched (the aggregator page — jobs.solana.com, ashbyhq, greenhouse, lever, workable, etc.). Set this to whatever the user pasted.
+    - `apply_link` = the **company's own official website** (e.g. `lightcone.trade`, `trustwallet.com`). Usually linked from the aggregator page; if not, do a quick web search for the company name. **If you cannot find an official company website, tell the user upfront:** *"The admin won't approve submissions without a company official website — do you have one?"* Don't submit without it.
+    - For **talent** submissions, put the source URL in `more_links`.
 3. **Extract aggressively**: company name, job title, job description, requirements, salary, locations, remote/hybrid/on-site, full-time/part-time/internship, required technologies and ecosystems — almost always on the page.
 4. **Omit fields you cannot confidently determine.** Do not guess. The admin will fill in anything missing during review.
 5. **Map extracted text onto the legal option lists** from `GET /api/schema`. Be careful with casing — for `recruit.ecosystem`, `solana` is lowercase; for `recruit.roles`, `Solana` is capitalized. Same word, different capitalization in different fields.
