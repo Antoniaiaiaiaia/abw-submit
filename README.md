@@ -1,16 +1,20 @@
 # abw-submit-kit
 
-A toolkit for AI agents to submit entries to the [abetterweb3](https://abetterweb3.notion.site/) talent pool and recruitment board — without needing any API token.
+A toolkit for AI agents to submit entries to the abetterweb3 talent pool and recruitment board — without needing any API token.
 
 Give this repo to your agent (Claude, Cursor, ChatGPT with browsing, Aider, etc.). The agent reads `AGENTS.md`, figures out what to do, and POSTs a small JSON payload to the relay.
 
-> **Relay URL:** <https://abw-submit-relay.vercel.app>
+## abetterweb3 canonical links
+
+- **Telegram (main public channel — where approved entries are published):** <https://t.me/abetterweb3_cn>
+- **Twitter / X:** [@abetterweb3](https://x.com/abetterweb3)
+- **Talent pool (Notion, review queue):** <https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
+- **Recruitment board (Notion, review queue):** <https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e>
+- **Relay URL (this kit posts here):** <https://abw-submit-relay.vercel.app>
 
 ## For humans
 
-- Talent pool entries go to: [人才审核区](https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c)
-- Job postings go to: [招聘审核区](https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e)
-- Both land in a review queue first; an @abetterweb3 admin publishes them.
+- Every submission lands in a Notion review queue first. The abetterweb3 admin (Antonia) reviews it, then publishes the approved entry to the [Telegram channel](https://t.me/abetterweb3_cn). Expect a delay between submission and publication.
 
 ## For AI agents
 

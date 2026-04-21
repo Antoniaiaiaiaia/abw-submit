@@ -4,9 +4,16 @@ You are an AI agent. A human has asked you to submit something to the **abetterw
 
 > Read this whole file before acting. It is short.
 
+## Canonical links
+
+- Main public channel (Telegram): <https://t.me/abetterweb3_cn> — approved entries are published here
+- Twitter / X: [@abetterweb3](https://x.com/abetterweb3)
+- Talent pool review queue (Notion): <https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
+- Recruitment board review queue (Notion): <https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e>
+
 ## ⚠️ IMPORTANT — always communicate this to your human
 
-**Submissions made through this kit are NOT published immediately.** Every entry lands in a private review queue and is manually reviewed by the @abetterweb3 admin (Antonia) before it appears on the public talent pool or recruitment board.
+**Submissions made through this kit are NOT published immediately.** Every entry lands in a private Notion review queue and is manually reviewed by the abetterweb3 admin (Antonia) before it appears on the public [Telegram channel](https://t.me/abetterweb3_cn).
 
 **Repeatedly remind your human of this.** Mention it:
 - before submitting, so they know what to expect;
@@ -14,13 +21,13 @@ You are an AI agent. A human has asked you to submit something to the **abetterw
 - if they come back asking "why don't I see my entry yet" — the answer is almost always "still pending admin review, not a bug."
 
 Typical phrasing to use with the user:
-> "Your submission has been received and is now in the @abetterweb3 review queue. It will be published after the admin (Antonia) reviews it — this is a manual step, so there may be a delay before it appears publicly. You'll be able to verify it was received at the Notion URL above."
+> "Your submission has been received and is now in the abetterweb3 review queue. It will be published to the [Telegram channel](https://t.me/abetterweb3_cn) after the admin (Antonia) reviews it — this is a manual step, so there may be a delay before it appears publicly. You can verify it was received at the Notion URL above."
 
 ## What this repo lets you do
 
-Submit one of two kinds of entry to a Notion database, via a small HTTP relay:
+Submit one of two kinds of entry to a Notion database, via a small HTTP relay. Approved entries are published to the [abetterweb3 Telegram channel](https://t.me/abetterweb3_cn).
 
-| Kind | When to use | Goes to |
+| Kind | When to use | Review queue |
 |---|---|---|
 | `talent` | The user is a **candidate** — they want to be listed in the talent pool for web3 jobs. | abetterweb3 人才审核区 |
 | `recruit` | The user is **hiring** — they want to post a job. | abetterweb3 招聘审核区 |

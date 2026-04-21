@@ -1,11 +1,15 @@
 ---
 name: abw-submit
-description: Submit a candidate profile or job posting to the @abetterweb3 community (Notion-backed talent pool + recruitment board). Use when the user mentions abetterweb3, abw, web3 job board submission, web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterweb3 / 投递简历到 abw / 发一个招聘到 abw / 把这个候选人加到 abw人才库.
+description: Submit a candidate profile or job posting to the abetterweb3 community (Telegram channel t.me/abetterweb3_cn, Twitter @abetterweb3). Posts go to a Notion-backed review queue; admin approves and publishes to Telegram. Use when the user mentions abetterweb3, abw, web3 job board submission, web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterweb3 / 投递简历到 abw / 发一个招聘到 abw / 把这个候选人加到 abw人才库.
 ---
 
 # abw-submit
 
-You're helping the user submit to one of the @abetterweb3 Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
+You're helping the user submit to one of the abetterweb3 Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
+
+Community canonical links:
+- Main public channel: <https://t.me/abetterweb3_cn> (Telegram — approved entries publish here)
+- Twitter / X: [@abetterweb3](https://x.com/abetterweb3)
 
 ## If the user gives you a URL, use it
 
@@ -82,7 +86,7 @@ If ambiguous ("提交到 abw" with no context), ask once which one.
 
 ## ⚠️ Always communicate this to your human
 
-**Submissions are NOT published immediately.** Every entry goes to a private review queue and is manually reviewed by the @abetterweb3 admin (Antonia) before it appears publicly.
+**Submissions are NOT published immediately.** Every entry goes to a private Notion review queue and is manually reviewed by the abetterweb3 admin (Antonia) before it appears on the [public Telegram channel](https://t.me/abetterweb3_cn).
 
 Mention this:
 - before submitting, so they know what to expect;
@@ -90,7 +94,7 @@ Mention this:
 - if they ask "why don't I see my entry yet" — the answer is almost always "still pending admin review."
 
 Typical phrasing:
-> "Your submission has been received and is now in the @abetterweb3 review queue. It will be published after admin Antonia reviews it manually, so there may be a delay before it shows up publicly. You can verify the entry was received at the Notion URL above."
+> "Your submission has been received and is now in the abetterweb3 review queue. It will be published to the [Telegram channel](https://t.me/abetterweb3_cn) after admin Antonia reviews it manually, so there may be a delay before it shows up publicly. You can verify the entry was received at the Notion URL above."
 
 ## Payload shape quick reference
 
