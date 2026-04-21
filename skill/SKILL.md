@@ -13,9 +13,11 @@ The user will often paste a URL — a job posting on another site (jobs.solana.c
 
 Rules for URL-first submissions:
 
-1. **Always fetch the URL** before asking the user for fields.
-    - If you have a native web-reading tool (Claude Code's `WebFetch`, Cursor's browser, etc.), use it.
-    - If you don't, use **Jina AI Reader** as a zero-config fallback — it works from any HTTP client: `curl https://r.jina.ai/<the-URL>` returns the page as clean markdown that you can feed to your LLM. No API key needed for typical volumes.
+1. **Always fetch the URL** before asking the user for fields. Pick the first option that works for your runtime:
+    - (a) **Native web-reading tool** — Claude Code's `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`, etc.
+    - (b) **[Jina AI Reader](https://github.com/jina-ai/reader)** — zero-config fallback: `curl https://r.jina.ai/<the-URL>` returns clean markdown. Works from any HTTP client, no API key for typical volumes.
+    - (c) **Heavy-JS or anti-bot sites** — try [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai), or [Playwright](https://github.com/microsoft/playwright). Full list in [FETCH_TOOLS.md](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/FETCH_TOOLS.md).
+    - (d) **No network at all** — ask the user to paste the page text directly: *"I can't reach that page from here. Can you paste the job description?"* Extract fields from what they paste. Never invent fields because you couldn't fetch.
 2. **Put the URL in `source_url`** (for recruit) or in `more_links` (for talent).
 3. **Extract aggressively.** Company / job title / description / requirements / salary / location / remote status / employment type / required tech → all usually on the page.
 4. **Omit fields you cannot confidently determine.** Leave them blank rather than guessing. The admin reviewer will fill in what's missing.

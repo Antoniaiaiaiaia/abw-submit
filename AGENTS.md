@@ -81,7 +81,11 @@ The user will often paste a URL — a job posting on jobs.solana.com / cryptocur
 
 Rules:
 
-1. **Always fetch the URL** first. Use whatever web-reading tool you have — Claude Code's `WebFetch`, Cursor's browser, etc. If you only have raw HTTP (no native reader), use **Jina AI Reader** as a zero-config fallback: `curl https://r.jina.ai/<the-URL>` returns the page as clean markdown. No API key needed for typical volumes.
+1. **Always fetch the URL** first. Picking order:
+    - (a) Native web-reading tool in your runtime (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`, etc.).
+    - (b) **Jina AI Reader** — zero-config HTTP fallback that works from any `curl`: `curl https://r.jina.ai/<the-URL>` returns clean markdown. Repo: [jina-ai/reader](https://github.com/jina-ai/reader).
+    - (c) If the site is heavy JS / SPA / anti-bot, reach for [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai), or [Playwright](https://github.com/microsoft/playwright). See [`FETCH_TOOLS.md`](./FETCH_TOOLS.md) for the full list with tradeoffs.
+    - (d) If you have no network access at all, **ask the user to paste the page text** and extract fields from what they paste. Never invent fields because you couldn't fetch a URL.
 2. For **recruit** submissions, put the URL in `source_url`. For **talent** submissions, put it in `more_links`.
 3. **Extract aggressively**: company name, job title, job description, requirements, salary, locations, remote/hybrid/on-site, full-time/part-time/internship, required technologies and ecosystems — almost always on the page.
 4. **Omit fields you cannot confidently determine.** Do not guess. The admin will fill in anything missing during review.
