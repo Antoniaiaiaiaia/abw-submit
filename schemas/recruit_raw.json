@@ -1,1 +1,3979 @@
-{"object":"database","id":"1f784271-ff55-80ec-ba7f-c2d3da928b9e","cover":null,"icon":{"type":"emoji","emoji":"🚡"},"created_time":"2025-05-18T08:55:00.000Z","created_by":{"object":"user","id":"5c3f6ffa-ca91-4d3f-9541-32665c1488c1"},"last_edited_by":{"object":"user","id":"5c3f6ffa-ca91-4d3f-9541-32665c1488c1"},"last_edited_time":"2026-04-09T13:08:00.000Z","title":[{"type":"text","text":{"content":"招聘审核区","link":null},"annotations":{"bold":false,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"招聘审核区","href":null}],"description":[{"type":"text","text":{"content":"- 审核原则请参见 ","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"- 审核原则请参见 ","href":null},{"type":"text","text":{"content":"https://t.me/abetterweb3_cn/3977","link":{"url":"https://t.me/abetterweb3_cn/3977"}},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":"https://t.me/abetterweb3_cn/3977","href":"https://t.me/abetterweb3_cn/3977"},{"type":"text","text":{"content":" \n- ","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":" \n- ","href":null},{"type":"text","text":{"content":"通过审核的招聘将加入","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"通过审核的招聘将加入","href":null},{"type":"text","text":{"content":" ","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":" ","href":null},{"type":"mention","mention":{"type":"page","page":{"id":"e3577a9e-ea17-46b1-8b64-21227cfa3ccf"}},"annotations":{"bold":false,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":"Untitled","href":"https://www.notion.so/e3577a9eea1746b18b6421227cfa3ccf"},{"type":"text","text":{"content":" 并同步至","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"default"},"plain_text":" 并同步至","href":null},{"type":"text","text":{"content":" ","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":" ","href":null},{"type":"text","text":{"content":"Telegram 频道","link":{"url":"https://t.me/abetterweb3_cn"}},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":"Telegram 频道","href":"https://t.me/abetterweb3_cn"},{"type":"text","text":{"content":"  ","link":null},"annotations":{"bold":true,"italic":false,"strikethrough":false,"underline":false,"code":false,"color":"blue"},"plain_text":"  ","href":null}],"is_inline":false,"properties":{"上次编辑时间":{"id":"AZ~%5E","name":"上次编辑时间","description":null,"type":"last_edited_time","last_edited_time":{}},"Created time":{"id":"OA%5BF","name":"Created time","description":null,"type":"created_time","created_time":{}},"薪酬":{"id":"PWVA","name":"薪酬","description":null,"type":"rich_text","rich_text":{}},"岗位描述":{"id":"RQBH","name":"岗位描述","description":null,"type":"rich_text","rich_text":{}},"企业邮箱":{"id":"WJm%7C","name":"企业邮箱","description":null,"type":"rich_text","rich_text":{}},"Company":{"id":"title","name":"Company","description":null,"type":"title","title":{}},"投递":{"id":"05244bce-7d6f-429d-b624-88606af7f48a","name":"投递","description":null,"type":"rich_text","rich_text":{}},"web3经验":{"id":"24e66c49-b1ab-49e8-846c-914037090f13","name":"web3经验","description":null,"type":"select","select":{"options":[{"id":"041438be-0e27-47c5-9103-a360eac76322","name":"< 1年","color":"yellow","description":null},{"id":"4571e1ae-4999-4359-9265-615026bfea66","name":"1-2年","color":"green","description":null},{"id":"c654cf26-8813-4d0b-b4ec-1810df500501","name":"2-4年","color":"blue","description":null},{"id":"e6b23e5e-0e7f-4eff-b9a8-ca8fd0be6fd0","name":"> 4年","color":"purple","description":null}]}},"语言":{"id":"301ece4a-45f3-4d7c-a216-72abb8218e9c","name":"语言","description":null,"type":"multi_select","multi_select":{"options":[{"id":"@QEa","name":"English","color":"pink","description":null},{"id":"sg@_","name":"中文","color":"red","description":null},{"id":"143ee8b0-011f-4370-a767-74c60e2405f7","name":"粤语","color":"purple","description":null},{"id":"{<z}","name":"한국어","color":"orange","description":null},{"id":"20039d13-6590-41ac-96bf-0cb9f4b45e4b","name":"日本語","color":"yellow","description":null},{"id":"754efd2b-633b-4588-a7f5-295ec49e6c96","name":"Française","color":"green","description":null},{"id":"XTza","name":"Deutsch","color":"blue","description":null},{"id":"A^Rj","name":"Pусский","color":"purple","description":null},{"id":"6c2c7bce-2051-47c6-ac57-2625b50df8aa","name":"Española","color":"gray","description":null},{"id":"01f6d9de-3812-4c95-ba53-2c643d4b3a98","name":"Mandarin","color":"brown","description":null},{"id":"28e24b60-e3e0-4e4b-86f8-16ec133b8454","name":"Cantonese","color":"default","description":null}]}},"全职":{"id":"30ac9185-89dc-4b30-9ce6-bebbcf402225","name":"全职","description":null,"type":"checkbox","checkbox":{}},"币权/NFT":{"id":"30ca4332-58d9-4bc4-aee3-606279c334a6","name":"币权/NFT","description":null,"type":"checkbox","checkbox":{}},"求职意向":{"id":"34253e6b-a5a4-47a0-a4b6-cbfa1a32b069","name":"求职意向","description":null,"type":"multi_select","multi_select":{"options":[{"id":":^O?","name":"开发","color":"green","description":null},{"id":"RK^R","name":"前端","color":"green","description":null},{"id":"Jo^U","name":"后端","color":"green","description":null},{"id":"}f|y","name":"全栈","color":"green","description":null},{"id":"6d575f2f-f37b-4988-b028-05bb58ea88e9","name":"智能合约","color":"green","description":null},{"id":"c5556d87-16d5-460d-a876-e0e4b1588571","name":"Solana","color":"green","description":null},{"id":"42f38c28-fbc6-44de-86d8-108d1ac4dc6d","name":"EVM","color":"green","description":null},{"id":"iQ[O","name":"QA","color":"green","description":null},{"id":"c34254b7-198c-46d8-aa93-f4c929978f38","name":"测试","color":"green","description":null},{"id":"WvhZ","name":"产品","color":"yellow","description":null},{"id":"WN;_","name":"设计","color":"blue","description":null},{"id":"c8ba3a48-6cd8-448d-bbfa-91108634e69c","name":"平面","color":"blue","description":null},{"id":"FsLN","name":"3D","color":"blue","description":null},{"id":"jVxz","name":"视觉","color":"blue","description":null},{"id":"|e`r","name":"UIUX","color":"blue","description":null},{"id":"iqUg","name":"运营","color":"pink","description":null},{"id":"p;m}","name":"BD","color":"pink","description":null},{"id":":R\\[","name":"HRBP","color":"brown","description":null},{"id":";rot","name":"Infra","color":"gray","description":null},{"id":"Itp?","name":"Tokenomics","color":"orange","description":null},{"id":"v<K[","name":"DeFi","color":"blue","description":null},{"id":"owNw","name":"VC","color":"red","description":null},{"id":"x|W~","name":"交易","color":"purple","description":null},{"id":"PIeJ","name":"风控","color":"purple","description":null},{"id":"65d88d6b-058b-419d-a43b-f62796efea4c","name":"量化","color":"purple","description":null},{"id":"nE@S","name":"交易所","color":"pink","description":null},{"id":"YRD|","name":"合伙人","color":"blue","description":null},{"id":"EcjA","name":"增长","color":"default","description":null},{"id":"N<Un","name":"投研","color":"blue","description":null},{"id":"[Wyj","name":"投资","color":"red","description":null},{"id":"usaF","name":"数据","color":"gray","description":null},{"id":"WL}s","name":"文案","color":"brown","description":null},{"id":"]=sN","name":"法务","color":"purple","description":null},{"id":"_@uW","name":"游戏","color":"purple","description":null},{"id":"idDn","name":"游戏策划","color":"pink","description":null},{"id":"aQhg","name":"翻译","color":"yellow","description":null},{"id":"h>lk","name":"项目管理","color":"orange","description":null},{"id":"<hdx","name":"其他","color":"gray","description":null},{"id":"84953154-0f3e-4ca1-b037-732e5eba010d","name":"Python","color":"orange","description":null},{"id":"1e5c1f65-73aa-4929-a64f-cd34013cdf83","name":"C++","color":"blue","description":null},{"id":"2b5e7f0a-3fbd-4231-a1c4-4e73492abac8","name":"Java","color":"red","description":null},{"id":"b6d5e57d-92f0-4762-8c1c-8a699f4cc679","name":"JavaScript","color":"blue","description":null},{"id":"28141e04-585f-4de1-955f-2899d809526a","name":"Nodejs","color":"pink","description":null},{"id":"9055d30d-63f5-4955-bd70-c9517aab8fb7","name":"SQL","color":"default","description":null},{"id":"337986e5-e3f7-4a2c-94d9-385cd25a7446","name":"C#","color":"pink","description":null},{"id":"a74fc5aa-f54b-450e-a267-c91237e194ed","name":"PHP","color":"red","description":null},{"id":"878873b8-1dff-4208-96fd-3f04fc88a5c1","name":"TypeScript","color":"yellow","description":null},{"id":"9af1fc0a-8a50-46a8-8090-4e2c416eb194","name":"Go","color":"default","description":null},{"id":"392559de-0155-481d-a1e2-5d031c876878","name":"Rust","color":"red","description":null},{"id":"68b5c309-a27f-4f1e-bd8e-0efb263833eb","name":"Solidity","color":"blue","description":null},{"id":"078b5923-8e96-4626-a95c-92128526825c","name":"Swift","color":"green","description":null},{"id":"8dc7a47f-6944-4f22-8d59-057e4fc6056a","name":"Figma","color":"blue","description":null},{"id":"ae9ac415-bd8d-4fd5-b6fc-ccca3c89083a","name":"PS","color":"default","description":null},{"id":"5b0225e4-00c7-45bb-817f-7675be30572d","name":"AE","color":"blue","description":null},{"id":"33d8de4c-1c1b-4966-8981-4cd67bc131d4","name":"PR","color":"pink","description":null},{"id":"26772384-56e4-4ce5-9ed1-c667dade2b83","name":"运维","color":"purple","description":null}]}},"猎头对接":{"id":"3d24897e-f051-4a21-a8c2-facda152b345","name":"猎头对接","description":null,"type":"checkbox","checkbox":{}},"岗位需求":{"id":"4514d706-1ddc-40d6-b0df-8c1a0772b71f","name":"岗位需求","description":null,"type":"rich_text","rich_text":{}},"经验":{"id":"494c9c9f-8b29-4f22-93fb-f1f08b2c5dc8","name":"经验","description":null,"type":"multi_select","multi_select":{"options":[{"id":"825d8cc3-1b4c-4858-8a18-83a13c50a08f","name":"1年","color":"green","description":null},{"id":"7adfa077-e601-41cb-8f5e-9a47f438e522","name":"2年","color":"blue","description":null},{"id":"b3b33150-f3d4-4ccb-ab4d-027327706ed6","name":"3年","color":"purple","description":null},{"id":"9950c200-692e-4f6d-af41-09abe978d470","name":"4年","color":"pink","description":null},{"id":"d35f9e40-8e69-4bed-9042-d65d8f3fa385","name":"5年","color":"red","description":null},{"id":"37c28f2b-17bd-4c58-b612-f68b964bcab5","name":"8年","color":"orange","description":null},{"id":"ea34e342-1b08-4740-bd21-7bb5f6e39bf6","name":"10年+","color":"yellow","description":null},{"id":"11d73aa6-5fad-4d7d-b37c-7b89088ff4d6","name":"1-3年","color":"gray","description":null},{"id":"e9e1416b-9409-433d-8b67-63e554637245","name":"不限","color":"default","description":null},{"id":"5fcf402a-d144-4cbb-b245-0489e86b7a35","name":"1-5年","color":"purple","description":null},{"id":"093c102c-493f-44b2-9bdb-9ec7e74f3a15","name":"5-8年","color":"default","description":null},{"id":"b585a059-0800-48e7-b0c7-cb87acd67ce3","name":"2-5年","color":"gray","description":null},{"id":"c96d9e75-62cf-492c-a10e-ecba9199abbc","name":"在校大学生","color":"blue","description":null},{"id":"bf4a4b4c-6cdc-491a-8788-6be791d8cae1","name":"应届","color":"red","description":null},{"id":"2e557688-01e0-4663-b3e0-8f4c8945b2a6","name":"实习","color":"default","description":null},{"id":"af746302-fb86-4c48-b62c-807d3aaa1b05","name":"在校生","color":"yellow","description":null},{"id":"85ad3ed1-46a5-4de3-80fa-5e3b3af41bfe","name":"3-5年","color":"gray","description":null}]}},"学位（选填）":{"id":"5c04c72c-b9c4-4f83-bf0d-0e6d22f97807","name":"学位（选填）","description":null,"type":"select","select":{"options":[{"id":"f4b3aba5-9872-4a1e-ae11-67b8072b5788","name":"学士/本科","color":"blue","description":null},{"id":"4f74a146-ea8c-408d-a361-d40e354e14f0","name":"硕士/研究生","color":"purple","description":null},{"id":"2daaa587-9c3b-4784-947b-0a9b32c52c54","name":"博士/博士后","color":"pink","description":null},{"id":"22fd736c-acf3-40ae-a05f-5082a322c388","name":"大专","color":"brown","description":null},{"id":"dfcac915-37df-4189-ae52-47213f9b828e","name":"辍学大佬","color":"default","description":null},{"id":"35b6bd9d-1b4f-4156-8512-bdbe6f855b22","name":"其他","color":"default","description":null}]}},"来源":{"id":"698709b6-a30d-488d-beea-6a60ded1df5a","name":"来源","description":null,"type":"url","url":{}},"生态":{"id":"74f08a5c-55be-42de-aded-82e49b4f5449","name":"生态","description":null,"type":"multi_select","multi_select":{"options":[{"id":"9c688bea-6a82-4697-93aa-7e1e353c60f2","name":"Bitcoin","color":"yellow","description":null},{"id":"4e990809-6f2a-4710-aa5a-d7b4297ee26c","name":"solana","color":"purple","description":null},{"id":"2b88f36c-fef6-44b7-8df2-f985a76d8d73","name":"Multi-chain/Cross-chain","color":"brown","description":null},{"id":"d1a06212-f9c9-4b2b-ae7d-9bf9c8718156","name":"Ethereum","color":"yellow","description":null},{"id":"671df7af-5bed-4c27-946e-c0a0eb92fc3d","name":"BSC/BNBChain","color":"yellow","description":null},{"id":"7c7b4ed8-d540-4de1-80d9-6baf6fa618bf","name":"Polkadot/Substrate","color":"pink","description":null},{"id":"1e69f067-8da3-4ed1-8a3b-c7d228c56702","name":"NEAR","color":"green","description":null},{"id":"59676d50-8f71-4b43-9775-5db21ca4ca53","name":"Avalanche","color":"red","description":null},{"id":"0580a578-6332-45af-8abb-648d35f50381","name":"Move","color":"blue","description":null},{"id":"5ac16553-d482-4905-9131-4131186e8fcf","name":"Wormhole","color":"purple","description":null},{"id":"4330971a-3e5a-41eb-9a21-a00a4710b216","name":"Axie Infinity","color":"red","description":null},{"id":"d4e7d553-281a-49ce-86dc-3fc23616b821","name":"IPFS","color":"green","description":null},{"id":"e8713da1-f79b-4a12-b346-7cd51a0ff474","name":"Terra","color":"blue","description":null},{"id":"fc952420-1cd3-4fac-b957-23844e551d43","name":"NYM","color":"gray","description":null},{"id":"485335b2-746d-4253-bfa6-a33d302e42c8","name":"Stacks","color":"gray","description":null},{"id":"a2686a14-04e5-4138-b26f-1d6dc5feb8a9","name":"EVM","color":"orange","description":null},{"id":"5daba96d-8b92-421a-9165-64d8c481ff92","name":"Sui","color":"blue","description":null},{"id":"a0d7eff1-0d43-4235-bee9-d4d8687219fb","name":"Polygon","color":"default","description":null},{"id":"a136bb78-b0e8-44ce-be65-381931e0aef9","name":"Cosmos","color":"gray","description":null},{"id":"94a9af44-39ac-44aa-8f0d-39c866bbeae9","name":"Tezos","color":"orange","description":null},{"id":"3611a4d8-832f-4bb6-9706-47d1b72b1374","name":"Bitget","color":"green","description":null},{"id":"54f7fa33-17e5-4cad-87f2-49341cf040dd","name":"Aptos","color":"pink","description":null},{"id":"3f4ec40d-ac57-42f6-b2e2-6ef69d57a0e5","name":"Fantom","color":"red","description":null},{"id":"99b410c8-53d9-4f04-901f-0080c12db40b","name":"StarkNet","color":"green","description":null},{"id":"80d668ad-d5dd-4552-a2e1-d3836ae876dc","name":"IOTA","color":"yellow","description":null},{"id":"3ab513ef-2ee5-4da9-9d44-1931fd13e80d","name":"Celo","color":"gray","description":null},{"id":"0e051bdb-ca1c-4742-890d-65a6faca1a9c","name":"zksync","color":"pink","description":null},{"id":"dc293d5f-c036-4614-8d32-bfff04f37a4d","name":"Nervos","color":"yellow","description":null},{"id":"feadd2f8-e5b3-42cc-b60e-26e78f1a33a5","name":"republic of vertu","color":"green","description":null},{"id":"cd59fd1a-b1cf-4e44-b088-6395efe9496a","name":"Aleo","color":"default","description":null},{"id":"94036b38-0742-434b-90ae-c38344468156","name":"Arbitrum","color":"gray","description":null},{"id":"1a29ae5e-143c-48c7-b635-14770d261eab","name":"zkSync","color":"gray","description":null},{"id":"28ab2902-60fa-48fa-ade1-f01ffe3d56ed","name":"Celestia","color":"brown","description":null},{"id":"8a17993f-91f8-4a2b-a94c-345e59de64ce","name":"Aurora","color":"gray","description":null},{"id":"cfff47b8-759b-4fde-a247-deeeb88fbeb5","name":"Starkware","color":"red","description":null},{"id":"823fab51-a758-4b42-87d8-bbc6b6cff3b4","name":"Scroll","color":"green","description":null},{"id":"4f6a85ea-13a2-4dc0-a3f0-bdad02989364","name":"IoTeX","color":"red","description":null},{"id":"09ea1b70-e849-4796-a468-f109ba31d861","name":"LayerZero","color":"yellow","description":null},{"id":"aa496784-51e6-4ec5-a783-b22d26734aae","name":"BASE","color":"blue","description":null},{"id":"a1f9203c-29e9-410f-8481-18a86ef80d39","name":"Ton","color":"blue","description":null},{"id":"c9ade736-f47c-4678-a2e1-c5ed0c11674b","name":"laun","color":"blue","description":null},{"id":"1ead1f53-88b1-4201-865e-a15f2984b7f2","name":"Launchpad","color":"gray","description":null},{"id":"58ad193b-0e66-4281-a91f-8257c0dbbddd","name":"Defi","color":"brown","description":null},{"id":"9b312f75-f7c1-404b-a527-e44f2ae4b43c","name":"Filecoin","color":"green","description":null},{"id":"d0e7d4cd-c62f-4511-a89d-d0ba2761966f","name":"Blast","color":"green","description":null},{"id":"ed20b1df-848e-45a9-b096-e1976a9aa98f","name":"Merlin","color":"green","description":null},{"id":"6f1786c9-1a51-4094-afcb-6e93b4ebbbe6","name":"farcaster","color":"purple","description":null},{"id":"be6a7078-9b00-4978-a5be-fc388c4e9d31","name":"lens","color":"pink","description":null},{"id":"91f990b7-4ef5-4dc5-adc6-4a88d4951d99","name":"Sei","color":"red","description":null},{"id":"41769d09-9094-403e-b913-339cd77fc48d","name":"Injective","color":"default","description":null},{"id":"61180746-5ef1-43c9-ac36-d553a70accc7","name":"conflux","color":"red","description":null},{"id":"48495dc6-8de7-4b01-bc37-f1c21e78dfec","name":"Kaspa","color":"green","description":null},{"id":"3e744a58-f9ee-40c3-acf2-6d1c0f69d3f7","name":"Morph","color":"blue","description":null},{"id":"12d8baee-03e2-4a73-b519-ed97cb1eb9eb","name":"BeraChain","color":"default","description":null}]}},"远程":{"id":"8c811ea8-64f9-4ba5-a8e8-926f793c888e","name":"远程","description":null,"type":"checkbox","checkbox":{}},"类型":{"id":"9457fce9-b2d4-4311-a443-082664da34a1","name":"类型","description":null,"type":"multi_select","multi_select":{"options":[{"id":"8af6cda7-3ae4-48d7-a006-67db67d6656a","name":"开发者社区","color":"red","description":null},{"id":"3d4b6b29-3524-4bfe-bf7b-1dbce7b0544a","name":"开发者工具","color":"red","description":null},{"id":"80a55364-ec7b-4b8e-b8a0-7a0dde8206df","name":"孵化器","color":"red","description":null},{"id":"b4a12572-471e-4e73-baa5-78f64107b3b2","name":"PE/VC/咨询","color":"red","description":null},{"id":"c824be3d-5c4f-4127-bce1-ed6dbe0a8714","name":"审计","color":"red","description":null},{"id":"65aa5ddf-ae7c-4cbc-ad7c-d88099efd667","name":"区块链基建","color":"pink","description":null},{"id":"8717f18c-7f1b-45f2-8cc2-0a1a0e0d3b08","name":"安全","color":"pink","description":null},{"id":"46fca28b-b17d-4272-bcc0-ccade64a6b5d","name":"跨链","color":"pink","description":null},{"id":"0d6d8b75-ef12-48a9-ab48-e2752647c9c4","name":"Layer1","color":"pink","description":null},{"id":"05bac28f-4a7c-4fb5-b033-4283d77294d6","name":"Layer2","color":"pink","description":null},{"id":"24fe475b-8093-436b-9b6c-ee9b4ff277e2","name":"协议","color":"pink","description":null},{"id":"9d817cdd-dec8-4ded-ab12-7fc985ab08e8","name":"隐私","color":"pink","description":null},{"id":"7cfeda2e-df50-46b7-ba69-b89adfd8ce8a","name":"预言机","color":"pink","description":null},{"id":"c613317f-8330-43e8-bc8a-e5fbb17bed4a","name":"矿业/节点服务","color":"pink","description":null},{"id":"c2b86df6-202b-46db-b7d5-cd62e8cdba11","name":"SaaS","color":"pink","description":null},{"id":"1d457513-79e2-4eb2-8e2f-32d2b4d5e2fc","name":"云","color":"pink","description":null},{"id":"8fde64b9-650b-4a0c-ae74-dfccfa9f68ca","name":"zk","color":"pink","description":null},{"id":"24ee5f64-07bb-4ab3-a872-e4f2faebd00f","name":"钱包","color":"purple","description":null},{"id":"b28e0aef-866f-4f56-aa79-6cdca3b221de","name":"入口","color":"purple","description":null},{"id":"2aa0f12f-902a-4874-b025-751bdb5f346b","name":"支付","color":"purple","description":null},{"id":"08733f9d-1feb-44d1-ae8f-fc6bbbfe1573","name":"DID","color":"purple","description":null},{"id":"fdb954d2-070a-4a37-80a2-b6377764bfe3","name":"稳定币","color":"purple","description":null},{"id":"b32eb10b-99cc-4159-a20b-c4150a2b4d1e","name":"DeFi","color":"purple","description":null},{"id":"5a2a47f7-295a-48e6-a166-749ecf906fc0","name":"复合金融","color":"purple","description":null},{"id":"a9b7ac5d-5b65-4b4d-afe0-d3d1c7f189f0","name":"资产管理","color":"purple","description":null},{"id":"e1c8e3f3-4294-45f6-add7-da3411e4917b","name":"数据","color":"purple","description":null},{"id":"8d3ebe26-5a1c-4104-9538-e7cd00b86dfb","name":"NFT基建","color":"purple","description":null},{"id":"54ec30a6-1851-4587-8444-57b645da8ceb","name":"社区基建","color":"purple","description":null},{"id":"daedcfb1-80eb-4d90-ba36-9a37832806f8","name":"工具","color":"purple","description":null},{"id":"4b1b4b39-8170-461c-b8c8-63a3cd290efa","name":"AI","color":"purple","description":null},{"id":"406795fc-f492-4d09-971d-bb82473b9b67","name":"游戏","color":"purple","description":null},{"id":"55d047f0-5a56-4d6c-8d2a-7b6366885aae","name":"HealthFi","color":"purple","description":null},{"id":"af44216c-9305-4716-bbe4-1aeb1aec37ce","name":"metaverse","color":"purple","description":null},{"id":"_a[l","name":"DEX","color":"blue","description":null},{"id":"e6f5eb8c-fa49-4059-a54a-a289dfc7ff41","name":"CEX/交易所","color":"blue","description":null},{"id":"9d8581f3-7f06-4e8b-a7ad-ecfbedda2a78","name":"做市商","color":"blue","description":null},{"id":"4fae8a6c-96e7-463a-b761-04abcc385384","name":"视频","color":"green","description":null},{"id":"ded6381c-4ebd-4920-849a-5a97717f284e","name":"社交","color":"green","description":null},{"id":"738c7277-49cb-4eb5-ad8e-0da80f11916f","name":"DAO","color":"default","description":null},{"id":"11273034-231a-4c21-a1a4-a864ac8c9515","name":"平台","color":"default","description":null},{"id":"c732eab8-d8c7-4b3c-9307-e823fc43af0e","name":"工作室","color":"default","description":null},{"id":"9400577c-e879-43b8-8d66-2e2a7ccf8695","name":"媒体","color":"default","description":null},{"id":"7776964b-5572-440e-adca-3965a124b906","name":"自媒体","color":"default","description":null},{"id":"d0638155-1ba8-43ba-bb13-d215e2268943","name":"其他","color":"default","description":null},{"id":"9e6f2105-75ca-483f-80c1-138355495b07","name":"人力资源","color":"default","description":null},{"id":"8568fe65-769c-4ae0-a80c-678cee7adf02","name":"技术支持","color":"gray","description":null},{"id":"3a5a8f56-bf44-4bec-8d9a-ffb01fc331be","name":"硬件钱包","color":"gray","description":null},{"id":"97b990e5-a2df-4bdc-ab7f-77bbcc771283","name":"数据分析","color":"orange","description":null},{"id":"ed462739-f616-42f8-958d-9c79358549c8","name":"NFTfi","color":"yellow","description":null},{"id":"10c5fa67-b84f-4004-ba06-bfd72c9886a3","name":"营销服务","color":"default","description":null},{"id":"170ae003-b7e8-4a87-aaf7-2cf0e758d02a","name":"内容","color":"brown","description":null},{"id":"a093cec1-608d-4151-8367-3ab9a5665c94","name":"研究","color":"brown","description":null},{"id":"dde34645-49ed-4fbb-ae9f-b0f7974bb103","name":"Social","color":"green","description":null},{"id":"da635993-0d01-462b-905d-79f08aa0a6ab","name":"搜索引擎","color":"brown","description":null},{"id":"79c9fa00-c1df-4134-90d8-41b6d92e70da","name":"AIGC","color":"brown","description":null},{"id":"cd9dc485-6e3b-4c9c-8487-1bf47ce07432","name":"ERC3525","color":"gray","description":null},{"id":"d113f352-b712-4f0f-95e2-7786e809dff5","name":"darkpool","color":"yellow","description":null},{"id":"b8d6bd58-40b2-4952-b83f-30b62d7aee12","name":"Web3","color":"default","description":null},{"id":"dd9a9ea0-c4c9-49ba-bbe2-74b4d5908d0f","name":"游戏引擎","color":"red","description":null},{"id":"e16da5b0-d47f-40f9-96dc-17e411b2396d","name":"技术服务","color":"brown","description":null},{"id":"36cddb7f-e4d1-4b60-930b-951cf7cdae1e","name":"sk","color":"purple","description":null},{"id":"981be913-d1b6-43de-8e84-440ccf93469d","name":"layer3","color":"brown","description":null},{"id":"58bbf488-0dbd-43a0-b31b-6d5f82ac9a16","name":"on-chain game","color":"orange","description":null},{"id":"9f6c7bcd-8c65-4f5e-a17b-ad049e63da12","name":"StakingaaS","color":"pink","description":null},{"id":"09d411fa-ecb6-4570-89ae-e523cbe2c669","name":"DAO Tools","color":"gray","description":null},{"id":"046b9c7d-d3db-41e2-bbd6-151eab1d2dd6","name":"项目孵化/加速","color":"blue","description":null},{"id":"54914cb8-2dc4-4a24-88d6-5f196624fe87","name":"品牌和内容","color":"blue","description":null},{"id":"c4f902e2-ba39-4b97-8001-aef2aa0c72fd","name":"dapp","color":"orange","description":null},{"id":"067d975b-931e-4495-b7cb-ec603853d21e","name":"bugbounty","color":"red","description":null},{"id":"5ddbda77-c4b3-4ba4-b257-4bb0308be6ab","name":"platform","color":"blue","description":null},{"id":"20599345-ae30-450a-837b-0a67a3fea7b3","name":"infra","color":"brown","description":null},{"id":"a17123f9-e06b-430c-8994-205dfb534039","name":"x-to-earn","color":"purple","description":null},{"id":"7dbdfbdb-b6c7-4236-9e0a-5197d392dbf7","name":"Vtuber","color":"blue","description":null},{"id":"11c40a9c-fc3b-40ef-b24f-1986f182ab8a","name":"launchpad","color":"orange","description":null},{"id":"80990f1d-6af0-49e8-9f52-753192be0c81","name":"zk-rollup","color":"pink","description":null},{"id":"de151ad0-3334-4773-876c-da9e53e188ee","name":"evm","color":"red","description":null},{"id":"b18d021a-2c50-4cc4-86eb-e1b56ca601ce","name":"data","color":"gray","description":null},{"id":"3ee44758-4a99-4f0c-a4e7-ed158f321226","name":"借贷","color":"yellow","description":null},{"id":"98551635-09f3-4a6b-a423-79669a700c2c","name":"musicfi","color":"orange","description":null},{"id":"ba2cf45e-1739-4234-871a-afbd2261ab7f","name":"密码学","color":"gray","description":null},{"id":"77e2f1cb-f73b-4491-8d45-301839a8eb4d","name":"算法","color":"brown","description":null},{"id":"75a68d26-b38b-471f-a853-7bd8f24fb194","name":"Hedge Fund","color":"brown","description":null},{"id":"daf078fb-9ee0-46b8-917f-d2efd12aa170","name":"BTC","color":"yellow","description":null},{"id":"2ac39a5f-1a63-43dc-9bf4-f8845210f8d1","name":"解决方案","color":"yellow","description":null},{"id":"4d110991-3f93-4b7a-9464-4dea3ad8b56f","name":"hackathon","color":"orange","description":null},{"id":"704800ec-78bd-4aec-ae83-2bebe7b77b7e","name":"on chain fund platform","color":"blue","description":null},{"id":"ff7cee81-b986-46b1-866f-af6203cfe94a","name":"broker","color":"default","description":null},{"id":"f32d56db-93dd-4479-985b-3424bac5bf45","name":"音乐NFT","color":"gray","description":null},{"id":"4201d60f-ebfa-404f-9116-893d98e4cc0b","name":"社会组织","color":"purple","description":null},{"id":"a504c279-d39b-4b0a-9448-b23e48c2994c","name":"生态基金","color":"blue","description":null},{"id":"78102671-a7b8-44fe-8e8a-b702d04db7ff","name":"创作者经济","color":"green","description":null},{"id":"746dd505-2ce0-4c1e-970d-6437a0913d86","name":"NFT平台","color":"orange","description":null},{"id":"7bca8bee-ab68-41fa-b8d0-c84c8da56646","name":"机构级","color":"default","description":null},{"id":"6b16c5f7-e6b1-4a77-950f-f3363caf2765","name":"IM","color":"pink","description":null},{"id":"eef0bd87-92c1-4c07-a965-02007247a84e","name":"衍生品交易","color":"green","description":null},{"id":"d3ee814d-ea0e-42af-af32-9ec045743528","name":"RWA","color":"default","description":null},{"id":"8734569f-437a-4117-b71e-9a27b3421a62","name":"数字艺术","color":"default","description":null},{"id":"a97ffb5b-0596-4d76-887d-d20c975c1aae","name":"NFC","color":"blue","description":null},{"id":"368a7bb5-8519-4579-b39e-a521631270a9","name":"虚拟生活","color":"default","description":null},{"id":"6c0dbc2d-6cfb-4a6c-a241-ae8e3b5a3949","name":"元宇宙","color":"gray","description":null},{"id":"ed9c591d-fb3f-4d13-9205-f5939dfda943","name":"socialFi","color":"brown","description":null},{"id":"ba158ad8-eb40-45e4-acb7-1e9b5f80f670","name":"Perp DEX","color":"purple","description":null},{"id":"dd86e228-fa0a-47f3-968e-1f86bfd0167a","name":"线下活动","color":"green","description":null},{"id":"e867d536-95e3-40f9-b86d-071559ae8e7e","name":"链","color":"pink","description":null},{"id":"15a5e14b-7e7d-425f-8b16-5aa365589225","name":"域名","color":"pink","description":null},{"id":"ca603e4b-b41e-4404-aa74-5c19c3f9ffb9","name":"Marketing","color":"gray","description":null},{"id":"75ef2db8-7e5c-4611-998a-5aa59565d595","name":"公链","color":"brown","description":null},{"id":"b436e011-d1c5-4f93-9a5f-882fd6343a1d","name":"投资分析","color":"purple","description":null},{"id":"9107ff38-2112-43d4-a292-cfd88827536a","name":"产品","color":"default","description":null},{"id":"5922c4a9-b61d-44ef-b453-b10ad60ef66e","name":"企业支持","color":"brown","description":null},{"id":"26c3de0f-e2ea-4184-9003-130e048a8654","name":"碳中和","color":"red","description":null},{"id":"9e979e90-982d-4f88-8037-3a988c759d82","name":"交易所","color":"purple","description":null},{"id":"7b3613d4-c267-4108-9e62-f4b684efd78f","name":"信息聚合","color":"pink","description":null},{"id":"8c84bfe0-6416-49ea-a2fe-72f5ec0de19f","name":"加速器","color":"orange","description":null},{"id":"c1bc5123-6a00-4230-960c-738e53222a9c","name":"DePIN","color":"red","description":null},{"id":"52eeb819-da78-470d-a365-636d0daa7c17","name":"知识付费","color":"blue","description":null},{"id":"16150bef-bb89-4ae7-b175-f81ca18fefa3","name":"用户教育","color":"default","description":null},{"id":"9b559097-596c-4634-89f3-6d7a9c43c759","name":"算力","color":"gray","description":null},{"id":"e4ba7818-6d07-4b39-8a2a-cd7a3350afcf","name":"矿池","color":"orange","description":null},{"id":"207b815f-0239-412f-a78e-f28a15f685e3","name":"矿场","color":"orange","description":null},{"id":"9e9e5d27-5604-4d2e-831a-4fceb0ca2166","name":"RPC","color":"red","description":null},{"id":"f52fe648-d92f-4e8c-93f4-cfb36e65c516","name":"对赌","color":"red","description":null},{"id":"6341711b-7c26-45cb-acbb-a581de9dc5ad","name":"社区","color":"green","description":null},{"id":"4051a3d1-6b23-4f84-a89c-f7ba022eeb77","name":"机构","color":"purple","description":null},{"id":"b6489ddb-c26e-491a-a098-49cb56ff4542","name":"券商","color":"purple","description":null},{"id":"1ec739ce-baf4-4750-b208-38a5bb689e14","name":"Broker","color":"default","description":null},{"id":"c028e185-4086-43d0-96e6-35c749d722ae","name":"交易","color":"brown","description":null},{"id":"7da5b674-967c-4c4e-ac0f-06a7ad4eadfe","name":"MMORPG","color":"green","description":null},{"id":"9f1f60cf-a4f4-486a-8a53-9cac3d7443bf","name":"laucn","color":"brown","description":null},{"id":"7eaec36d-8105-430f-89ea-02d18a9aea12","name":"模拟经营","color":"brown","description":null},{"id":"649ac629-ea4c-447a-8a9e-bd7e7d87628f","name":"手机","color":"green","description":null},{"id":"0f3a2582-847f-4d56-88a6-f83236a91687","name":"数码产品","color":"purple","description":null},{"id":"8072dd4a-4c69-4733-bb2b-f2e6e06f27f4","name":"存储","color":"brown","description":null},{"id":"e9b80b3f-f100-43ad-b68e-87be66a8dade","name":"sdk","color":"blue","description":null},{"id":"922aab1e-c12e-4f16-aff6-325347fd2016","name":"dpein","color":"brown","description":null},{"id":"16e5019a-536d-45a8-b911-7781ab848de9","name":"电商","color":"default","description":null},{"id":"6cc9258b-3acd-4ed6-9311-1a4e3df59a19","name":"信用卡","color":"blue","description":null},{"id":"12af27e2-62bf-4423-8440-ba7e025fb6d9","name":"平替","color":"gray","description":null},{"id":"7db135e3-60ff-457f-8b11-6f4d151c785c","name":"内容营销","color":"purple","description":null},{"id":"6f7e9570-6d7a-48fa-aec5-643700125069","name":"交易工具","color":"orange","description":null},{"id":"f11b3524-d00b-40c6-8aa3-6b5dd10da22e","name":"框架","color":"pink","description":null},{"id":"2d5a4bc8-6f33-4245-97e3-283454add369","name":"法务","color":"brown","description":null},{"id":"1d0e27d0-dc42-424e-b803-8c422305623b","name":"GPU Network","color":"pink","description":null},{"id":"c51fe5b9-a787-4aa8-89f8-e4633ce9b498","name":"投研","color":"yellow","description":null},{"id":"9973e893-c9c2-41ad-968b-10fcccabb5fa","name":"社团","color":"purple","description":null},{"id":"9053e68a-be2b-4bc3-bb7c-853e18d661cc","name":"量化","color":"purple","description":null},{"id":"3a1c83df-1bbc-4c54-89a6-4d5abec3e902","name":"AI+web3","color":"orange","description":null},{"id":"1ce83f66-bac9-4442-8f0a-c08c4926190e","name":"冷钱包","color":"yellow","description":null},{"id":"9c5f6c19-c678-48fe-9433-74a3894cd423","name":"cec","color":"pink","description":null},{"id":"86f8ccfb-4f70-42e4-bdbc-1aa370fda25c","name":"浏览器","color":"yellow","description":null},{"id":"d4d7b429-03f3-4c07-bce3-085b30ef63c3","name":"DNS","color":"green","description":null},{"id":"c64b0738-300c-4d98-a368-07fb3190bf29","name":"layae","color":"brown","description":null},{"id":"910268d1-9e29-4f7c-83b1-2150ce5fb606","name":"区块浏览器","color":"brown","description":null},{"id":"b2276436-7f3b-4ff0-afe4-8fdc927ed856","name":"DeFund","color":"red","description":null},{"id":"052a186b-844d-4577-885b-a2f709153c05","name":"隐私计算","color":"red","description":null},{"id":"b655e453-40b8-4b1b-9487-dc0981a32ba7","name":"渠道","color":"yellow","description":null},{"id":"c760d3f9-af68-4ebd-9979-122659c42a0c","name":"liquidfund","color":"green","description":null},{"id":"b8587a4d-5684-431e-b6ba-ebe335ed3377","name":"可穿戴设备","color":"blue","description":null},{"id":"223d3e14-3208-4701-af9d-3187e9d090b4","name":"咨询","color":"blue","description":null},{"id":"5969c59b-0d36-4e45-97c1-408e13b58cfd","name":"deNet","color":"orange","description":null},{"id":"59131bdc-a542-4321-87c2-ec6ad7553cbb","name":"金融","color":"brown","description":null},{"id":"21cb4fec-7c70-4d7c-b9a2-3baccf12c44f","name":"证券","color":"pink","description":null},{"id":"661b4a46-e004-42c1-b07e-1ece7d9f77a3","name":"股票","color":"brown","description":null},{"id":"69156dc1-01ef-46b0-955e-e66b96ef6b21","name":"直播","color":"blue","description":null},{"id":"412e8774-2e58-441c-bcb5-4137a1a41da1","name":"矿机","color":"yellow","description":null},{"id":"1f6e5cd6-9e1e-4b19-827b-f204cad602fc","name":"NFT","color":"green","description":null},{"id":"a13aa743-4991-4e57-aea4-35b5816a87fc","name":"SUi","color":"orange","description":null},{"id":"f7a04a24-f2e6-4c1c-88a6-d25b45e08c59","name":"Sui","color":"default","description":null},{"id":"f2d83c48-d194-4f4d-b3b2-e4dff0e43880","name":"分布式","color":"blue","description":null},{"id":"a6205c80-d01e-418f-822a-729b3896b78b","name":"云计算","color":"yellow","description":null},{"id":"05d2783a-0dfe-4f95-967c-d5c893ad5ba0","name":"SVM","color":"brown","description":null},{"id":"491efde0-3960-4630-8f77-ff9ea9d27023","name":"比特币","color":"brown","description":null},{"id":"1a8369d5-5949-4c2d-8d54-a95425ffb36c","name":"潮玩","color":"pink","description":null},{"id":"de9cc8f8-bc7a-4e39-8d6f-1c921648164a","name":"IP","color":"yellow","description":null},{"id":"66e16e35-b253-4ad2-95bf-e7c2086a6a0f","name":"游戏开发","color":"default","description":null}]}},"实习":{"id":"951da210-82c6-403e-8540-48a86d9a648e","name":"实习","description":null,"type":"checkbox","checkbox":{}},"办公区域":{"id":"967c1c04-14a2-47f8-a652-94ed20e46581","name":"办公区域","description":null,"type":"multi_select","multi_select":{"options":[{"id":"c5ec05cf-7d6c-4af7-9801-a3b643f0343a","name":"深圳","color":"blue","description":null},{"id":"70918c95-6f6c-4f10-8309-9b7bc19d2b6a","name":"香港","color":"purple","description":null},{"id":"f4659c23-f135-4bdd-a77f-a5c9ce2c9eb0","name":"HongKong","color":"purple","description":null},{"id":"f1e95a8b-dfa1-4584-b8e5-17c655bc504a","name":"上海","color":"blue","description":null},{"id":"90a25b78-8555-4f8b-a0d8-2847d52a5f6d","name":"global","color":"purple","description":null},{"id":"fbe4ccab-9883-4f18-9715-f0278ba45c42","name":"看人","color":"default","description":null},{"id":"28cb05cf-8574-452d-a5cb-261823e154ac","name":"北京","color":"blue","description":null},{"id":"f8826f81-5169-4764-ac19-71b57217f266","name":"成都","color":"blue","description":null},{"id":"f97cc072-162a-4425-9049-bc83bb680f8f","name":"杭州","color":"blue","description":null},{"id":"c515af19-2072-4d23-94c8-2405605b5aa4","name":"合肥","color":"blue","description":null},{"id":"adeb589c-0571-4182-a0ec-3b0e6b5ff373","name":"台北","color":"purple","description":null},{"id":"dddce4ed-989b-4e03-9d3c-9d12bce7481e","name":"Singapore","color":"green","description":null},{"id":"334b9f7d-d1d6-460b-aea6-1693dfe031d0","name":"Canada","color":"brown","description":null},{"id":"805f8a9f-381b-4fa0-b448-f6152f999ce3","name":"US","color":"pink","description":null},{"id":"901a4663-2942-4e48-aedb-03161a94d2eb","name":"SF","color":"pink","description":null},{"id":"9fe5922d-28b1-4e24-bf76-7d0e0e8317e0","name":"NYC","color":"pink","description":null},{"id":"9d5250cd-c52e-4241-9172-0c0a01fe5e80","name":"Seattle","color":"pink","description":null},{"id":"cae98f5d-d851-49b9-8de0-b7e0f6eb70c5","name":"EST","color":"pink","description":null},{"id":"e8d60fee-6a45-4d2f-80a8-9fbb4afe34e4","name":"Australia","color":"yellow","description":null},{"id":"33cfff91-cdb9-4a81-9fc8-7de2a28bc8f9","name":"Europe","color":"orange","description":null},{"id":"316fbbbe-8e8c-4ea3-8223-44128707fa29","name":"Britain","color":"orange","description":null},{"id":"de937cdf-180f-495b-b9a9-e7f12e763a88","name":"Brazil","color":"red","description":null},{"id":"4ebb83d0-8bec-4f09-9d4b-00b4f6d5ce51","name":"Dubai","color":"yellow","description":null},{"id":"ab0fb363-6759-4b16-ab93-2bec48855a54","name":"Remote","color":"gray","description":null},{"id":"7973c039-a880-410f-8bd1-781deecf9f78","name":"Paris","color":"pink","description":null},{"id":"4efc93f3-c6f3-4c08-9577-b6e95cda78c7","name":"SanFrancisco","color":"blue","description":null},{"id":"46e4004a-37d9-4602-9705-505d967e5511","name":"Lisbon","color":"brown","description":null},{"id":"befd1d56-4f18-4ff0-9f90-5c28eb95865f","name":"Berlin","color":"purple","description":null},{"id":"97cdf24d-93a7-4a2b-bad9-acac6f335527","name":"Miami","color":"yellow","description":null},{"id":"f3c53c6c-ad2b-4002-a494-b880f87f8c51","name":"Zurich","color":"red","description":null},{"id":"579b38f8-183a-4395-991f-0e61b2689daa","name":"Poland","color":"gray","description":null},{"id":"d183a113-644f-46c9-a547-487f740a86c3","name":"Czechia","color":"brown","description":null},{"id":"48ef032e-cb6e-4f3d-b0de-cacd56c663e3","name":"UK","color":"blue","description":null},{"id":"0fa9647b-71b9-4fef-9dc2-c65ca5c10ca1","name":"苏州","color":"gray","description":null},{"id":"f78c6c4b-04b1-41c6-8cfb-754f584185ca","name":"Malaysia","color":"green","description":null},{"id":"15bf39cf-c950-41d6-8285-e69cdcd94f17","name":"India","color":"blue","description":null},{"id":"9df5d765-5560-4a8c-b7d5-8275bce8e854","name":"分布式","color":"green","description":null},{"id":"c1403bda-9515-4fb8-8689-b6e6efef4dcd","name":"Israel","color":"blue","description":null},{"id":"0d38f4e3-24aa-49e2-bf7b-8d80feca8f20","name":"Switzerland","color":"purple","description":null},{"id":"e2013e4b-9d0a-4296-a578-188a076e6951","name":"Tokyo","color":"green","description":null},{"id":"7a96e2be-7989-46b1-a851-a159493f39ee","name":"Sydney","color":"default","description":null},{"id":"db7ed279-1211-4b17-adb7-9c2b4bb0367b","name":"London","color":"brown","description":null},{"id":"d95cdda3-7446-4d2a-a3bc-029922411f93","name":"Lincolnshire","color":"orange","description":null},{"id":"b57dbf84-167c-4a1b-aa36-e1f1298156b8","name":"Scunthorpe","color":"blue","description":null},{"id":"ef7e75a8-ed66-4d9b-93aa-8258b1ea399e","name":"迪拜","color":"brown","description":null},{"id":"c1027e3a-8a19-4866-9b07-2d49fbd27303","name":"Tel Aviv","color":"brown","description":null},{"id":"b7572c96-2ad7-4d94-99de-a878e347a283","name":"上海/北京/深圳/成都办公均可","color":"gray","description":null},{"id":"399d37dd-6fd0-4e17-8a79-77e9a6954508","name":"China","color":"green","description":null},{"id":"a6d9a0f9-522e-49e4-a4e9-00c334e01ac8","name":"LasVegas","color":"default","description":null},{"id":"b02ffbe6-d522-440c-bf53-746d83afc0be","name":"LA","color":"gray","description":null},{"id":"1f020dd3-34b9-4b25-92cb-3874ab4460cb","name":"Bangkok","color":"purple","description":null},{"id":"98a7c949-5bb1-4dfb-8347-23a51201a926","name":"Szczecin","color":"brown","description":null},{"id":"5c801f1c-9d29-43c0-8a9b-c6b8f4e3a60f","name":"Brussels","color":"blue","description":null},{"id":"e23746a8-9ff0-48fc-961f-ad4bf941be94","name":"Asia","color":"pink","description":null},{"id":"8f18c539-4e03-43a3-8d9f-d8c0506170f9","name":"Vietnam","color":"orange","description":null},{"id":"65acc05e-bf17-4e20-a2d4-3fb118392557","name":"Pakistan","color":"pink","description":null},{"id":"8fcfbbf4-a8c0-46b0-a24d-e288f8490eb3","name":"southkorea","color":"gray","description":null},{"id":"d532c382-42a9-44d1-b2f5-1311d1231b11","name":"Barcelona","color":"brown","description":null},{"id":"8dee266f-4027-4275-9ca1-2e3acf458b72","name":"Dublin","color":"yellow","description":null},{"id":"cb4a1633-2308-4b86-93a5-3da3e9802462","name":"Madrid","color":"default","description":null},{"id":"056dbbf3-cc3c-4246-bde5-c9c591399192","name":"Portugal","color":"gray","description":null},{"id":"f5cfe3c1-d909-44a4-8101-bad3f8e91c52","name":"Boston","color":"default","description":null},{"id":"4bc7468f-14d6-4b18-a0c6-b5428b9dd575","name":"EMEA","color":"blue","description":null},{"id":"e5525264-bca1-4cc5-bd7c-8710bd70f12f","name":"APAC","color":"red","description":null},{"id":"f1ae55ac-9bd3-4a3e-994b-7bd546f1acfa","name":"Limassol","color":"blue","description":null},{"id":"0db443fe-d478-4038-b18e-b4ff49fe6a8f","name":"USA","color":"green","description":null},{"id":"8494698d-d1ef-465d-80c6-933ccd3cfab7","name":"Colombia","color":"pink","description":null},{"id":"d6d6fb70-ae6e-4729-a887-f2aed512d31b","name":"SouthEastAsia","color":"pink","description":null},{"id":"566b575d-0078-45ef-9835-a916f1672373","name":"Japan","color":"yellow","description":null},{"id":"be338f23-f69b-41b1-8a42-1f0bc4490fa9","name":"Taipei","color":"blue","description":null},{"id":"f933277b-3a7b-477d-afc3-8057e2313a1e","name":"LosAngeles","color":"default","description":null},{"id":"920b34d0-5316-4cfa-ab59-6f5c0ea69264","name":"Hawaii","color":"default","description":null},{"id":"ed2a2760-eb14-41c3-9fd0-f3ca6d9f46ee","name":"SantaMonica","color":"purple","description":null},{"id":"a48aac7d-e19b-4354-a13d-079d536e6181","name":"大理","color":"pink","description":null},{"id":"ec54e622-69ba-419d-9c05-1c21000e86d5","name":"Russia","color":"purple","description":null},{"id":"1cbf852e-f745-4984-90af-f6da59275111","name":"伦敦","color":"yellow","description":null},{"id":"d775df89-5e8e-4e36-be8f-9330159b6c88","name":"non-china","color":"gray","description":null},{"id":"9a41788d-402c-43b2-8d73-c13c884cd972","name":"美国","color":"brown","description":null},{"id":"de8e39cf-2353-41df-9f30-d3446a6f5210","name":"吉隆坡","color":"gray","description":null},{"id":"e282e4e8-01d3-478e-9044-6b66994fef0c","name":"Korean","color":"brown","description":null},{"id":"b52b2bea-9c17-4322-82ed-a9d656268c23","name":"Korea","color":"gray","description":null},{"id":"0074fc28-4ef5-4123-8ad4-a8f0b7b64b13","name":"印度","color":"purple","description":null},{"id":"659a119e-1831-44ac-ab88-b52a16c1ed4e","name":"台湾","color":"yellow","description":null},{"id":"a8c6faee-91b8-4c3b-94b4-64ec06a584b4","name":"PST","color":"purple","description":null},{"id":"0f1894a8-cb2f-41a2-9863-b54ee388ffc7","name":"bangalore","color":"purple","description":null},{"id":"09419110-e5a5-4356-81ea-16a9b30cd495","name":"大连","color":"pink","description":null},{"id":"0adfe683-6aa1-4413-afd6-fa4d9be7cc26","name":"马尼拉","color":"purple","description":null},{"id":"773814c7-7015-45da-9247-d6b9bf117f47","name":"Manila","color":"default","description":null},{"id":"4d683c52-cdc5-4ad6-8a1d-51c6b07c32ed","name":"Philippine","color":"default","description":null},{"id":"bfc3e364-4c67-40c8-af33-b3cebbb09b81","name":"osaka","color":"gray","description":null},{"id":"7d843703-6663-471e-9b87-d887088ea58d","name":"base","color":"green","description":null},{"id":"398a7249-ab47-45b6-b6eb-4fa7c2034b20","name":"韩国","color":"gray","description":null},{"id":"6c723440-5ef1-434c-bb28-ff0c859937d4","name":"maca","color":"yellow","description":null},{"id":"e67ee382-8f72-4050-ad77-42f86ec23c83","name":"中国","color":"red","description":null},{"id":"de280116-9153-43d7-94a0-126eab39b5e8","name":"中山","color":"default","description":null},{"id":"58fa2563-1051-4fbe-a06f-1e81f1990e37","name":"广州","color":"yellow","description":null},{"id":"c72b38d5-d816-41c2-8319-bd9645c117d1","name":"mainland china/ HK","color":"brown","description":null},{"id":"70e9f3d0-d889-4f14-8fed-98e64ddf7fc2","name":"新加坡","color":"pink","description":null},{"id":"b2b75d82-b0e1-4d37-a91d-7012d6458e35","name":"amsterdam","color":"purple","description":null},{"id":"fb4bc9c6-f036-427a-a255-20e7844fc733","name":"SriLanka","color":"yellow","description":null},{"id":"9e0cc495-7007-4b69-9c2c-1173736b9998","name":"remote","color":"default","description":null},{"id":"3993cda9-8b3f-4c21-9220-96af8f47bf5f","name":"东京","color":"default","description":null},{"id":"8c2e112a-1f5c-46da-b18a-5846a644b80b","name":"青岛","color":"default","description":null},{"id":"a2a9cfbf-2e84-49e9-ae73-ba86efccf711","name":"Toronto","color":"yellow","description":null},{"id":"1fc26b90-e1e2-490b-97a1-2ef682d7ba61","name":"Bengualuru","color":"pink","description":null},{"id":"cb6b6d9d-f3bd-4cfb-8343-f4189157be99","name":"Americas","color":"pink","description":null},{"id":"55809980-f02f-41ab-aef6-92cdab5db5a2","name":"日本","color":"default","description":null},{"id":"4753035d-12c0-47f8-850c-1a34dd0c5fda","name":"germany","color":"orange","description":null},{"id":"ad944156-8138-49a3-bf9f-0e4749f21dce","name":"france","color":"gray","description":null},{"id":"9d0b3175-331d-4ac0-9d84-d184b8289629","name":"netherlands","color":"brown","description":null},{"id":"f2380315-6b81-4467-a28c-f3f3c4c1bada","name":"spain","color":"red","description":null},{"id":"f973555b-f9dc-4ff5-9be7-66ec436ad21f","name":"NCY","color":"orange","description":null},{"id":"4052f2fc-4823-45b3-b3af-09ec6ab734d9","name":"Portland","color":"gray","description":null},{"id":"2a7d9105-e959-4a4d-b7dd-c5aad2663d8c","name":"工作签","color":"brown","description":null},{"id":"ee84f23e-de81-4102-9aaa-ab40637deca3","name":"CQ","color":"yellow","description":null},{"id":"7c4ce0ab-c049-4602-b546-5bcaf6125204","name":"France","color":"red","description":null},{"id":"a7b400ac-2ba2-4df0-8f0d-ffcf17041773","name":"hybrid","color":"green","description":null},{"id":"a4db3a87-4562-425e-8811-3b2f939b2696","name":"losaltos","color":"purple","description":null},{"id":"a188812c-d889-4f1e-ae3b-2d0f96a6ed7c","name":"南京","color":"orange","description":null},{"id":"0a326eb8-46ad-4325-acae-98ec341a0ff7","name":"温哥华","color":"gray","description":null},{"id":"aa18b5e0-5109-4656-9bf9-4d906da7def9","name":"Vancouver","color":"gray","description":null},{"id":"7b5e0e72-e6ae-4eb3-bcb5-3fb4a189d230","name":"菲律宾","color":"yellow","description":null},{"id":"34cc30ea-b66f-49d8-8b05-f88e7d4c9dbc","name":"马来西亚","color":"orange","description":null},{"id":"88920b5f-b5d4-4b26-9b18-a7bfb2184dd6","name":"South America","color":"green","description":null},{"id":"2b96dafc-0124-43d5-a63d-83445c9ee673","name":"melbourne","color":"pink","description":null},{"id":"083db6d9-c1b5-4687-be49-5ee273910580","name":"江浙沪","color":"yellow","description":null},{"id":"8a69836f-e647-4688-8127-dafc51f1bf04","name":"长沙","color":"red","description":null},{"id":"ca391e06-c518-496c-842b-b3df8702e71c","name":"denver","color":"purple","description":null},{"id":"85eb873d-61dc-4e62-9ed5-9f61ebc92c54","name":"远程","color":"pink","description":null},{"id":"84b6f72f-df39-4ba7-b86e-363f9c137a9a","name":"Kualar Lumpur","color":"gray","description":null},{"id":"23cc6423-965b-48de-b513-571e57bf4296","name":"泰国","color":"brown","description":null},{"id":"7897fb90-4805-48b0-bc79-a5176089c5fa","name":"SilliconValley","color":"orange","description":null},{"id":"6d409483-6701-4f9b-876e-cd80ad26c82e","name":"Taiwan","color":"pink","description":null},{"id":"15211e56-5704-41c6-87fd-a41f4fbef433","name":"曼谷","color":"default","description":null},{"id":"1f1a1ce6-ff57-4224-898f-7c8660cb1085","name":"Abu Dhabi","color":"yellow","description":null},{"id":"046ec599-572f-4639-8cbd-7f0063541ae1","name":"UTC+8","color":"purple","description":null}]}},"待遇/工作环境":{"id":"97ce83d6-4ecc-4e9b-96d1-3dcc47a02943","name":"待遇/工作环境","description":null,"type":"rich_text","rich_text":{}},"合作心态":{"id":"b2905bf2-ea79-474b-90d2-23135630e999","name":"合作心态","description":null,"type":"select","select":{"options":[{"id":"bf961c7d-76e8-46a9-9fec-2aafb28e5022","name":"随时合作","color":"red","description":null},{"id":"b49c959d-7ce4-4e43-a095-52b099ccb2a1","name":"看看机会","color":"green","description":null},{"id":"c7cd9ca8-4c39-4f4b-a06c-116ebe50ebce","name":"交友拓展","color":"default","description":null}]}},"link":{"id":"c3cf30d0-21c5-4bc9-aa21-264215c53fbd","name":"link","description":null,"type":"url","url":{}},"涉及工种":{"id":"d13c7b3a-0b3f-47e3-ba49-f4250e75d867","name":"涉及工种","description":null,"type":"multi_select","multi_select":{"options":[{"id":"c1e1b566-10ba-4ca6-9795-6d63e657d90c","name":"投研","color":"orange","description":null},{"id":"120d1931-c35e-41cc-b114-d43ccdb574fe","name":"开发","color":"green","description":null},{"id":"f6e66355-9bd4-4e03-bb97-7158cb92609e","name":"产品","color":"blue","description":null},{"id":"42e1865b-124c-4ec2-bcd0-fef0515b93e0","name":"UI/UX","color":"blue","description":null},{"id":"514f596b-a04b-400f-9156-59ced1ff7f71","name":"设计","color":"blue","description":null},{"id":"e6a77fea-38e8-497a-a36e-7c8bed632a8c","name":"运营","color":"pink","description":null},{"id":"f5451641-e57f-42dc-b783-c910a3ebb0a0","name":"市场","color":"pink","description":null},{"id":"6fbeebc7-10fa-47d4-9047-c523db0dbded","name":"增长","color":"pink","description":null},{"id":"a7da4406-9b8f-44fa-98be-ab5decd91fb8","name":"PR","color":"pink","description":null},{"id":"9b05c2a4-1af3-4c95-b1f9-647eeb1ffb48","name":"BD","color":"pink","description":null},{"id":"35a58dc0-475f-4484-81fe-384bcca3012e","name":"Mod","color":"purple","description":null},{"id":"442176c1-41b4-48f3-9b46-381fd6cfa528","name":"客服","color":"purple","description":null},{"id":"35dc6a48-acc7-4768-9dd5-ee27368fdaae","name":"数据","color":"green","description":null},{"id":"578e240c-741f-4c39-93ea-f55088ef9115","name":"运维","color":"green","description":null},{"id":"55612ae5-0d3b-423b-bae1-f87e77e88714","name":"安全","color":"green","description":null},{"id":"01e4dc18-41ff-4179-adf5-f3bc0851e0cb","name":"PHP","color":"green","description":null},{"id":"21913e2d-1617-4ff9-b6e5-88db73b88d64","name":"Rust","color":"green","description":null},{"id":"93ee8ec4-925f-430c-bb4e-a36c0707c2f5","name":"前端","color":"green","description":null},{"id":"46551538-e19d-4fd1-a869-e11b522e0ad2","name":"后端","color":"green","description":null},{"id":"6a9f019c-5031-4e84-ab57-6d8b435251f7","name":"全栈","color":"green","description":null},{"id":"46550990-4d5d-485c-b36c-898c7c5879ac","name":"智能合约","color":"green","description":null},{"id":"7cfdd077-d6f9-456a-a734-ad9f2bb91aad","name":"运维devops","color":"green","description":null},{"id":"b60a3a1a-b061-4393-9a1c-3b2c45dae7cb","name":"数据分析","color":"green","description":null},{"id":"3f617583-7316-4871-bf24-2475826c9764","name":"测试","color":"green","description":null},{"id":"5690f3ee-00ff-4723-9758-4eaed5831661","name":"python","color":"green","description":null},{"id":"0a871b3e-53f6-4b4f-801e-8b7ac48a92d5","name":"技术负责人","color":"green","description":null},{"id":"e9d89064-c187-45d0-8ced-7cae28f00feb","name":"区块链开发","color":"green","description":null},{"id":"4ae1458e-4776-4509-91b7-0dd07bec5b4b","name":"solidity","color":"green","description":null},{"id":"91008245-c99a-4b90-a6eb-40ae8f4084ad","name":"zk","color":"green","description":null},{"id":"9031ed7e-9b1e-425a-9eac-508f771e899c","name":"架构","color":"green","description":null},{"id":"3961915e-d8f6-4fdf-9146-64e84eeeddec","name":"技术支持","color":"green","description":null},{"id":"3cab2a12-e5fc-4fbf-a1d6-d556152f9875","name":"Linux","color":"green","description":null},{"id":"61049af9-f321-44a9-82f6-79aa4847d026","name":"Java","color":"green","description":null},{"id":"8c87a0ad-7ada-47f6-867c-9fd6414d53fd","name":"游戏开发","color":"green","description":null},{"id":"29bd0edb-3077-48af-8e5b-10e1bf417ece","name":"Golang","color":"green","description":null},{"id":"f0eb0715-052c-4f53-bc02-7e80b4ca13db","name":"开发者关系DevRel","color":"green","description":null},{"id":"e709ad24-5674-44e6-841f-9d01a73b3a58","name":"iOS","color":"green","description":null},{"id":"dbb88525-60d0-48b9-abd2-5009a5efa3de","name":"React","color":"green","description":null},{"id":"3f8f36f5-27ca-4a67-be27-2be581ad7c27","name":"Go","color":"green","description":null},{"id":"ec3f0f0c-b58a-449f-a638-f125153114ca","name":"移动端","color":"green","description":null},{"id":"4a129022-7012-4e0b-86a8-33f4f627ae28","name":"安卓","color":"green","description":null},{"id":"5d671e8b-d3e5-44ac-95bf-5fdb91d74da3","name":"分析师","color":"red","description":null},{"id":"502e9d6c-97cd-4740-900a-6bd4eca220b1","name":"CMO","color":"pink","description":null},{"id":"7a4a33a6-a7c7-4e47-b379-9da0f929c5fe","name":"品牌包装","color":"pink","description":null},{"id":"ff3d417f-8917-4a25-99ed-8fe470a5e8e8","name":"开发者社区","color":"pink","description":null},{"id":"64a84f0c-9f51-49ba-b6d5-47bf6e6faecc","name":"项目经理","color":"pink","description":null},{"id":"b1f52337-9f4f-47b5-8984-26e34a669a7d","name":"实习生","color":"blue","description":null},{"id":"01a8991e-87d6-4efb-b230-af33b3c51a6e","name":"助理","color":"blue","description":null},{"id":"8aadc7ef-a09c-4139-a8f6-27bcb6467f77","name":"翻译","color":"gray","description":null},{"id":"1bdfb5fa-f79b-49f7-a4ab-b96571a6f152","name":"合规","color":"gray","description":null},{"id":"2bcf5887-7851-4b52-9c8d-f0601038aaf1","name":"DBA","color":"yellow","description":null},{"id":"b86ee932-bd6f-4327-89d7-5b66d09d1f60","name":"HR","color":"brown","description":null},{"id":"b3199d68-4f6b-44f8-b70b-ea893ff68f90","name":"partners","color":"brown","description":null},{"id":"0930e2c5-5907-4d8d-8634-c61d7c847781","name":"合伙人","color":"brown","description":null},{"id":"c3fdbff5-8f93-4df5-8e66-8993ff6b3544","name":"写作者","color":"orange","description":null},{"id":"3a112c56-5540-4774-b05a-609d5d9219f0","name":"其他","color":"default","description":null},{"id":"ccb6a5bd-2efe-4bc5-ba45-921dc94e7bb6","name":"交易员","color":"green","description":null},{"id":"eb9bf933-f9ca-405d-a9ea-271d870d2340","name":"研究员","color":"gray","description":null},{"id":"6f8bfa03-ee45-4a0f-9fe7-e6303adb9128","name":"风控","color":"orange","description":null},{"id":"c862c0d4-8025-4522-896c-df2f28bb3add","name":"投资","color":"purple","description":null},{"id":"fa298708-aec0-4e86-a39f-f3079286f7b5","name":"Unity","color":"brown","description":null},{"id":"0602b61d-492e-4aaf-b914-5c08d8591969","name":"社区经理","color":"default","description":null},{"id":"14f5a589-9d8f-4162-8045-46e31c575762","name":"密码学","color":"orange","description":null},{"id":"40a7fa68-0f87-4f72-ab33-c254cb411f3e","name":"公链开发","color":"yellow","description":null},{"id":"646b8348-eced-4088-be3f-a7ae5eadd645","name":"大使","color":"gray","description":null},{"id":"436d03f1-51b4-4a12-bb5a-dcc5c8011df5","name":"用户资产","color":"blue","description":null},{"id":"77d86de2-0e4c-4d9d-9dfe-42cad21f00f4","name":"游戏商业化","color":"default","description":null},{"id":"9331ee00-7ec4-4331-83ff-f60d8ff2297f","name":"Flutter","color":"orange","description":null},{"id":"feaba102-4cc0-426e-be65-abc9d05ad974","name":"设计师","color":"yellow","description":null},{"id":"ffbec6d6-7b2a-46be-874e-5a339ecc20d9","name":"投后","color":"default","description":null},{"id":"348a89d1-df03-45a3-ac02-2cba83a1f203","name":"商务","color":"default","description":null},{"id":"c675b2e7-2942-49f1-b485-a0ff75ff82f2","name":"会计","color":"purple","description":null},{"id":"f53086d2-c53f-4dfc-ab3d-4069fbc4eb19","name":"nodejs","color":"gray","description":null},{"id":"b8d4fef2-2dd0-492d-918b-c00103ee2e3b","name":"嵌入式","color":"yellow","description":null},{"id":"1da46bd6-9f6a-45e5-992f-059f4ab704a5","name":"编辑","color":"brown","description":null},{"id":"4dec0c50-8e10-4867-beb9-30240734d410","name":"人事","color":"green","description":null},{"id":"f90a3174-7ab6-4ceb-858a-24c98e5fe1e4","name":"财务","color":"brown","description":null},{"id":"1e074a3a-de47-485a-817b-59f0d1fcb3cc","name":"C","color":"green","description":null},{"id":"e4dc2d23-24cb-48ab-a5ee-d4171feff738","name":"C++","color":"green","description":null},{"id":"32506144-3766-4531-aa70-61af4e997490","name":"SQL","color":"pink","description":null},{"id":"b0f2de6e-8be1-4125-a301-5255100203e5","name":"行政","color":"purple","description":null},{"id":"2ba19424-a33d-43d2-aa0d-c228ab923510","name":"算法","color":"yellow","description":null},{"id":"0943de34-299f-42bf-99c2-6d3fe600c522","name":"视频剪辑","color":"red","description":null},{"id":"c6e3418b-8afe-46e5-b3a6-fc975382b981","name":"Android","color":"green","description":null},{"id":"3a0cdd57-b99c-4917-8099-a917df4d6a10","name":"COO","color":"default","description":null},{"id":"c272ab05-7c6e-446b-bb0d-905289a6408e","name":"矿场","color":"orange","description":null},{"id":"fdeed12d-0e13-44d1-9b59-9da4bceb8d65","name":"全站","color":"brown","description":null},{"id":"7f800bea-cfb4-4810-b29a-7d639fffb1b9","name":"游戏策划","color":"red","description":null},{"id":"3685b721-22dd-4a72-bb9d-2a8e40b4c103","name":"AI","color":"brown","description":null},{"id":"a8e02cd9-8843-4ed9-8ade-909ac1b6ef67","name":"api","color":"pink","description":null},{"id":"f721ba55-1e5f-4582-9a32-fd3d72474dcc","name":"clarity","color":"orange","description":null},{"id":"405e6d48-dd22-4f43-b63a-d11cc52b3521","name":"runtime","color":"green","description":null},{"id":"ea93a485-cb4e-47d8-8c62-7167ccb6134e","name":"web","color":"brown","description":null},{"id":"b7a18852-c686-4543-842d-7dc3cb133b92","name":"法务","color":"blue","description":null},{"id":"7d88f194-8608-418c-ae00-3343ffef6a8b","name":"KYC","color":"purple","description":null},{"id":"3870f393-6c47-4eea-93aa-419f670ed369","name":"solana","color":"purple","description":null},{"id":"f4a6fdf4-0c7e-4c81-bdb1-3c18aa0603f3","name":"审计","color":"green","description":null},{"id":"a020a0c9-3ce2-43dd-b563-6d97bd0ca580","name":"QA","color":"pink","description":null},{"id":"8b593d81-4b56-44ad-8c20-fbeb049f3079","name":"涉及","color":"pink","description":null},{"id":"ab4a74f1-be82-49a8-95ca-75b809cb04b1","name":"move","color":"pink","description":null},{"id":"a545e1db-98c5-4880-8abe-72762941e065","name":"活动策划","color":"brown","description":null},{"id":"6768cb34-47d3-4083-8b25-fd51bec6daa3","name":"项目管理","color":"green","description":null},{"id":"cc28ecde-a8d0-4564-b94b-5bc74a4b8e84","name":"支付","color":"default","description":null},{"id":"b6549201-1ff7-45a6-b0db-a9d58a84932b","name":"动画","color":"brown","description":null},{"id":"f5e6b33e-1a25-46c7-8889-531e7446d141","name":"交易","color":"red","description":null},{"id":"56b9ef81-f2af-4d87-877a-dfb066061fbb","name":"IOT","color":"pink","description":null},{"id":"77b5179a-ab9a-4511-bd9b-f81d2417d945","name":"defi","color":"blue","description":null},{"id":"e6fff4d0-79c5-432e-b4e4-7d65f16a7b15","name":"文案","color":"default","description":null},{"id":"6a0b97d8-ee2a-4e2f-8552-ec61b2864358","name":"SRE","color":"yellow","description":null},{"id":"bb461239-d83c-4b12-bb86-2e4f638f5686","name":"以太坊","color":"brown","description":null},{"id":"bfdbf72f-3b2e-4972-b5c8-0d18fcbbc507","name":"做市","color":"red","description":null},{"id":"81d3737d-a93b-47ad-9dd1-dc964d660316","name":"量化","color":"default","description":null},{"id":"0bd9ff5b-4ada-4511-8f3d-e42afe5f3c30","name":"机构","color":"orange","description":null},{"id":"b057c143-009a-4152-bd9c-a045c693c851","name":"运营‘","color":"orange","description":null},{"id":"cc4eb889-59b2-4772-bebc-bb52f2b68d90","name":"#增长","color":"brown","description":null},{"id":"a3421f2d-e9d7-4632-9116-845e06d0d5da","name":"钱包","color":"purple","description":null},{"id":"3d4fcc92-3ede-4239-b1e2-2a171203ce22","name":"SEO","color":"red","description":null},{"id":"26c17840-6c41-43d2-b2ae-c2de2d71a335","name":"cosmos","color":"orange","description":null},{"id":"93518f72-5a8f-4263-bfa1-20108170a65c","name":"CTO","color":"brown","description":null},{"id":"4c5b969b-3ed3-46ef-9502-7f10122af345","name":"策略","color":"orange","description":null},{"id":"592b8e92-6ac5-40d8-9091-62c7b64aba6f","name":"DEX","color":"purple","description":null},{"id":"9f897270-9488-458d-accc-2276ae99ddfd","name":"校园大使","color":"blue","description":null},{"id":"ddf7bbd3-aa3e-4209-8efc-5845bf38fdff","name":"推广","color":"default","description":null},{"id":"9f91ef41-67a4-40c7-b02b-e5c781357048","name":"爬虫","color":"yellow","description":null},{"id":"d4eea183-d018-40e6-a105-89474add28be","name":"经济设计","color":"default","description":null},{"id":"9d460ff5-ff59-4d2d-81d2-775fc416f570","name":"美术","color":"green","description":null},{"id":"50bbffca-bb37-431b-875b-47b590497270","name":"内容","color":"green","description":null},{"id":"58ca0b37-122a-426b-bd3e-03ba54bbbb95","name":"视觉","color":"gray","description":null},{"id":"7e882401-f47b-4c28-ace6-f7973d41c707","name":"技术顾问","color":"orange","description":null},{"id":"5330cd2c-55d4-4154-a42f-5eae4b64a3ad","name":"视觉设计","color":"red","description":null}]}},"兼职":{"id":"d64c3586-25d2-45b8-ad04-c2a2f35e1d0c","name":"兼职","description":null,"type":"checkbox","checkbox":{}}},"parent":{"type":"block_id","block_id":"27184271-ff55-8057-b6d7-eae5d267507e"},"url":"https://www.notion.so/1f784271ff5580ecba7fc2d3da928b9e","public_url":"https://abetterweb3.notion.site/1f784271ff5580ecba7fc2d3da928b9e","in_trash":false,"archived":false,"request_id":"23d08443-4876-4eef-8685-2ca8f475fa31"}
+{
+  "object": "database",
+  "id": "1f784271-ff55-80ec-ba7f-c2d3da928b9e",
+  "created_time": "2025-05-18T08:55:00.000Z",
+  "last_edited_time": "2026-04-09T13:08:00.000Z",
+  "title": [
+    {
+      "type": "text",
+      "text": {
+        "content": "招聘审核区",
+        "link": null
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "招聘审核区",
+      "href": null
+    }
+  ],
+  "description": [
+    {
+      "type": "text",
+      "text": {
+        "content": "- 审核原则请参见 ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "- 审核原则请参见 ",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "https://t.me/abetterweb3_cn/3977",
+        "link": {
+          "url": "https://t.me/abetterweb3_cn/3977"
+        }
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": "https://t.me/abetterweb3_cn/3977",
+      "href": "https://t.me/abetterweb3_cn/3977"
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": " \n- ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": " \n- ",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "通过审核的招聘将加入",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "通过审核的招聘将加入",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": " ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": " ",
+      "href": null
+    },
+    {
+      "type": "mention",
+      "mention": {
+        "type": "page",
+        "page": {
+          "id": "e3577a9e-ea17-46b1-8b64-21227cfa3ccf"
+        }
+      },
+      "annotations": {
+        "bold": false,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": "Untitled",
+      "href": "https://www.notion.so/e3577a9eea1746b18b6421227cfa3ccf"
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": " 并同步至",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": " 并同步至",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": " ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": " ",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "Telegram 频道",
+        "link": {
+          "url": "https://t.me/abetterweb3_cn"
+        }
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": "Telegram 频道",
+      "href": "https://t.me/abetterweb3_cn"
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "  ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": "  ",
+      "href": null
+    }
+  ],
+  "is_inline": false,
+  "properties": {
+    "上次编辑时间": {
+      "id": "AZ~%5E",
+      "name": "上次编辑时间",
+      "description": null,
+      "type": "last_edited_time",
+      "last_edited_time": {}
+    },
+    "Created time": {
+      "id": "OA%5BF",
+      "name": "Created time",
+      "description": null,
+      "type": "created_time",
+      "created_time": {}
+    },
+    "薪酬": {
+      "id": "PWVA",
+      "name": "薪酬",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "岗位描述": {
+      "id": "RQBH",
+      "name": "岗位描述",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "企业邮箱": {
+      "id": "WJm%7C",
+      "name": "企业邮箱",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "Company": {
+      "id": "title",
+      "name": "Company",
+      "description": null,
+      "type": "title",
+      "title": {}
+    },
+    "投递": {
+      "id": "05244bce-7d6f-429d-b624-88606af7f48a",
+      "name": "投递",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "web3经验": {
+      "id": "24e66c49-b1ab-49e8-846c-914037090f13",
+      "name": "web3经验",
+      "description": null,
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "041438be-0e27-47c5-9103-a360eac76322",
+            "name": "< 1年",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "4571e1ae-4999-4359-9265-615026bfea66",
+            "name": "1-2年",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c654cf26-8813-4d0b-b4ec-1810df500501",
+            "name": "2-4年",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e6b23e5e-0e7f-4eff-b9a8-ca8fd0be6fd0",
+            "name": "> 4年",
+            "color": "purple",
+            "description": null
+          }
+        ]
+      }
+    },
+    "语言": {
+      "id": "301ece4a-45f3-4d7c-a216-72abb8218e9c",
+      "name": "语言",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "@QEa",
+            "name": "English",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "sg@_",
+            "name": "中文",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "143ee8b0-011f-4370-a767-74c60e2405f7",
+            "name": "粤语",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "{<z}",
+            "name": "한국어",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "20039d13-6590-41ac-96bf-0cb9f4b45e4b",
+            "name": "日本語",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "754efd2b-633b-4588-a7f5-295ec49e6c96",
+            "name": "Française",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "XTza",
+            "name": "Deutsch",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "A^Rj",
+            "name": "Pусский",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "6c2c7bce-2051-47c6-ac57-2625b50df8aa",
+            "name": "Española",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "01f6d9de-3812-4c95-ba53-2c643d4b3a98",
+            "name": "Mandarin",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "28e24b60-e3e0-4e4b-86f8-16ec133b8454",
+            "name": "Cantonese",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "全职": {
+      "id": "30ac9185-89dc-4b30-9ce6-bebbcf402225",
+      "name": "全职",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "币权/NFT": {
+      "id": "30ca4332-58d9-4bc4-aee3-606279c334a6",
+      "name": "币权/NFT",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "求职意向": {
+      "id": "34253e6b-a5a4-47a0-a4b6-cbfa1a32b069",
+      "name": "求职意向",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": ":^O?",
+            "name": "开发",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "RK^R",
+            "name": "前端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "Jo^U",
+            "name": "后端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "}f|y",
+            "name": "全栈",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "6d575f2f-f37b-4988-b028-05bb58ea88e9",
+            "name": "智能合约",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c5556d87-16d5-460d-a876-e0e4b1588571",
+            "name": "Solana",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "42f38c28-fbc6-44de-86d8-108d1ac4dc6d",
+            "name": "EVM",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "iQ[O",
+            "name": "QA",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c34254b7-198c-46d8-aa93-f4c929978f38",
+            "name": "测试",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "WvhZ",
+            "name": "产品",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "WN;_",
+            "name": "设计",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "c8ba3a48-6cd8-448d-bbfa-91108634e69c",
+            "name": "平面",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "FsLN",
+            "name": "3D",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "jVxz",
+            "name": "视觉",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "|e`r",
+            "name": "UIUX",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "iqUg",
+            "name": "运营",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "p;m}",
+            "name": "BD",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": ":R\\[",
+            "name": "HRBP",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": ";rot",
+            "name": "Infra",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "Itp?",
+            "name": "Tokenomics",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "v<K[",
+            "name": "DeFi",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "owNw",
+            "name": "VC",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "x|W~",
+            "name": "交易",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "PIeJ",
+            "name": "风控",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "65d88d6b-058b-419d-a43b-f62796efea4c",
+            "name": "量化",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "nE@S",
+            "name": "交易所",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "YRD|",
+            "name": "合伙人",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "EcjA",
+            "name": "增长",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "N<Un",
+            "name": "投研",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "[Wyj",
+            "name": "投资",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "usaF",
+            "name": "数据",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "WL}s",
+            "name": "文案",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "]=sN",
+            "name": "法务",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "_@uW",
+            "name": "游戏",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "idDn",
+            "name": "游戏策划",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "aQhg",
+            "name": "翻译",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "h>lk",
+            "name": "项目管理",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "<hdx",
+            "name": "其他",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "84953154-0f3e-4ca1-b037-732e5eba010d",
+            "name": "Python",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "1e5c1f65-73aa-4929-a64f-cd34013cdf83",
+            "name": "C++",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "2b5e7f0a-3fbd-4231-a1c4-4e73492abac8",
+            "name": "Java",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b6d5e57d-92f0-4762-8c1c-8a699f4cc679",
+            "name": "JavaScript",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "28141e04-585f-4de1-955f-2899d809526a",
+            "name": "Nodejs",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9055d30d-63f5-4955-bd70-c9517aab8fb7",
+            "name": "SQL",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "337986e5-e3f7-4a2c-94d9-385cd25a7446",
+            "name": "C#",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "a74fc5aa-f54b-450e-a267-c91237e194ed",
+            "name": "PHP",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "878873b8-1dff-4208-96fd-3f04fc88a5c1",
+            "name": "TypeScript",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "9af1fc0a-8a50-46a8-8090-4e2c416eb194",
+            "name": "Go",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "392559de-0155-481d-a1e2-5d031c876878",
+            "name": "Rust",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "68b5c309-a27f-4f1e-bd8e-0efb263833eb",
+            "name": "Solidity",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "078b5923-8e96-4626-a95c-92128526825c",
+            "name": "Swift",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "8dc7a47f-6944-4f22-8d59-057e4fc6056a",
+            "name": "Figma",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "ae9ac415-bd8d-4fd5-b6fc-ccca3c89083a",
+            "name": "PS",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "5b0225e4-00c7-45bb-817f-7675be30572d",
+            "name": "AE",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "33d8de4c-1c1b-4966-8981-4cd67bc131d4",
+            "name": "PR",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "26772384-56e4-4ce5-9ed1-c667dade2b83",
+            "name": "运维",
+            "color": "purple",
+            "description": null
+          }
+        ]
+      }
+    },
+    "猎头对接": {
+      "id": "3d24897e-f051-4a21-a8c2-facda152b345",
+      "name": "猎头对接",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "岗位需求": {
+      "id": "4514d706-1ddc-40d6-b0df-8c1a0772b71f",
+      "name": "岗位需求",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "经验": {
+      "id": "494c9c9f-8b29-4f22-93fb-f1f08b2c5dc8",
+      "name": "经验",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "825d8cc3-1b4c-4858-8a18-83a13c50a08f",
+            "name": "1年",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "7adfa077-e601-41cb-8f5e-9a47f438e522",
+            "name": "2年",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "b3b33150-f3d4-4ccb-ab4d-027327706ed6",
+            "name": "3年",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "9950c200-692e-4f6d-af41-09abe978d470",
+            "name": "4年",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "d35f9e40-8e69-4bed-9042-d65d8f3fa385",
+            "name": "5年",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "37c28f2b-17bd-4c58-b612-f68b964bcab5",
+            "name": "8年",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "ea34e342-1b08-4740-bd21-7bb5f6e39bf6",
+            "name": "10年+",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "11d73aa6-5fad-4d7d-b37c-7b89088ff4d6",
+            "name": "1-3年",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "e9e1416b-9409-433d-8b67-63e554637245",
+            "name": "不限",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "5fcf402a-d144-4cbb-b245-0489e86b7a35",
+            "name": "1-5年",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "093c102c-493f-44b2-9bdb-9ec7e74f3a15",
+            "name": "5-8年",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "b585a059-0800-48e7-b0c7-cb87acd67ce3",
+            "name": "2-5年",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "c96d9e75-62cf-492c-a10e-ecba9199abbc",
+            "name": "在校大学生",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "bf4a4b4c-6cdc-491a-8788-6be791d8cae1",
+            "name": "应届",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "2e557688-01e0-4663-b3e0-8f4c8945b2a6",
+            "name": "实习",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "af746302-fb86-4c48-b62c-807d3aaa1b05",
+            "name": "在校生",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "85ad3ed1-46a5-4de3-80fa-5e3b3af41bfe",
+            "name": "3-5年",
+            "color": "gray",
+            "description": null
+          }
+        ]
+      }
+    },
+    "学位（选填）": {
+      "id": "5c04c72c-b9c4-4f83-bf0d-0e6d22f97807",
+      "name": "学位（选填）",
+      "description": null,
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "f4b3aba5-9872-4a1e-ae11-67b8072b5788",
+            "name": "学士/本科",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "4f74a146-ea8c-408d-a361-d40e354e14f0",
+            "name": "硕士/研究生",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "2daaa587-9c3b-4784-947b-0a9b32c52c54",
+            "name": "博士/博士后",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "22fd736c-acf3-40ae-a05f-5082a322c388",
+            "name": "大专",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "dfcac915-37df-4189-ae52-47213f9b828e",
+            "name": "辍学大佬",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "35b6bd9d-1b4f-4156-8512-bdbe6f855b22",
+            "name": "其他",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "来源": {
+      "id": "698709b6-a30d-488d-beea-6a60ded1df5a",
+      "name": "来源",
+      "description": null,
+      "type": "url",
+      "url": {}
+    },
+    "生态": {
+      "id": "74f08a5c-55be-42de-aded-82e49b4f5449",
+      "name": "生态",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "9c688bea-6a82-4697-93aa-7e1e353c60f2",
+            "name": "Bitcoin",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "4e990809-6f2a-4710-aa5a-d7b4297ee26c",
+            "name": "solana",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "2b88f36c-fef6-44b7-8df2-f985a76d8d73",
+            "name": "Multi-chain/Cross-chain",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "d1a06212-f9c9-4b2b-ae7d-9bf9c8718156",
+            "name": "Ethereum",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "671df7af-5bed-4c27-946e-c0a0eb92fc3d",
+            "name": "BSC/BNBChain",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "7c7b4ed8-d540-4de1-80d9-6baf6fa618bf",
+            "name": "Polkadot/Substrate",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "1e69f067-8da3-4ed1-8a3b-c7d228c56702",
+            "name": "NEAR",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "59676d50-8f71-4b43-9775-5db21ca4ca53",
+            "name": "Avalanche",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "0580a578-6332-45af-8abb-648d35f50381",
+            "name": "Move",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "5ac16553-d482-4905-9131-4131186e8fcf",
+            "name": "Wormhole",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "4330971a-3e5a-41eb-9a21-a00a4710b216",
+            "name": "Axie Infinity",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "d4e7d553-281a-49ce-86dc-3fc23616b821",
+            "name": "IPFS",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "e8713da1-f79b-4a12-b346-7cd51a0ff474",
+            "name": "Terra",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "fc952420-1cd3-4fac-b957-23844e551d43",
+            "name": "NYM",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "485335b2-746d-4253-bfa6-a33d302e42c8",
+            "name": "Stacks",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "a2686a14-04e5-4138-b26f-1d6dc5feb8a9",
+            "name": "EVM",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "5daba96d-8b92-421a-9165-64d8c481ff92",
+            "name": "Sui",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "a0d7eff1-0d43-4235-bee9-d4d8687219fb",
+            "name": "Polygon",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "a136bb78-b0e8-44ce-be65-381931e0aef9",
+            "name": "Cosmos",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "94a9af44-39ac-44aa-8f0d-39c866bbeae9",
+            "name": "Tezos",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "3611a4d8-832f-4bb6-9706-47d1b72b1374",
+            "name": "Bitget",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "54f7fa33-17e5-4cad-87f2-49341cf040dd",
+            "name": "Aptos",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "3f4ec40d-ac57-42f6-b2e2-6ef69d57a0e5",
+            "name": "Fantom",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "99b410c8-53d9-4f04-901f-0080c12db40b",
+            "name": "StarkNet",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "80d668ad-d5dd-4552-a2e1-d3836ae876dc",
+            "name": "IOTA",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "3ab513ef-2ee5-4da9-9d44-1931fd13e80d",
+            "name": "Celo",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "0e051bdb-ca1c-4742-890d-65a6faca1a9c",
+            "name": "zksync",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "dc293d5f-c036-4614-8d32-bfff04f37a4d",
+            "name": "Nervos",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "feadd2f8-e5b3-42cc-b60e-26e78f1a33a5",
+            "name": "republic of vertu",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "cd59fd1a-b1cf-4e44-b088-6395efe9496a",
+            "name": "Aleo",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "94036b38-0742-434b-90ae-c38344468156",
+            "name": "Arbitrum",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "1a29ae5e-143c-48c7-b635-14770d261eab",
+            "name": "zkSync",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "28ab2902-60fa-48fa-ade1-f01ffe3d56ed",
+            "name": "Celestia",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "8a17993f-91f8-4a2b-a94c-345e59de64ce",
+            "name": "Aurora",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "cfff47b8-759b-4fde-a247-deeeb88fbeb5",
+            "name": "Starkware",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "823fab51-a758-4b42-87d8-bbc6b6cff3b4",
+            "name": "Scroll",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "4f6a85ea-13a2-4dc0-a3f0-bdad02989364",
+            "name": "IoTeX",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "09ea1b70-e849-4796-a468-f109ba31d861",
+            "name": "LayerZero",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "aa496784-51e6-4ec5-a783-b22d26734aae",
+            "name": "BASE",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "a1f9203c-29e9-410f-8481-18a86ef80d39",
+            "name": "Ton",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "c9ade736-f47c-4678-a2e1-c5ed0c11674b",
+            "name": "laun",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "1ead1f53-88b1-4201-865e-a15f2984b7f2",
+            "name": "Launchpad",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "58ad193b-0e66-4281-a91f-8257c0dbbddd",
+            "name": "Defi",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "9b312f75-f7c1-404b-a527-e44f2ae4b43c",
+            "name": "Filecoin",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "d0e7d4cd-c62f-4511-a89d-d0ba2761966f",
+            "name": "Blast",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "ed20b1df-848e-45a9-b096-e1976a9aa98f",
+            "name": "Merlin",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "6f1786c9-1a51-4094-afcb-6e93b4ebbbe6",
+            "name": "farcaster",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "be6a7078-9b00-4978-a5be-fc388c4e9d31",
+            "name": "lens",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "91f990b7-4ef5-4dc5-adc6-4a88d4951d99",
+            "name": "Sei",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "41769d09-9094-403e-b913-339cd77fc48d",
+            "name": "Injective",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "61180746-5ef1-43c9-ac36-d553a70accc7",
+            "name": "conflux",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "48495dc6-8de7-4b01-bc37-f1c21e78dfec",
+            "name": "Kaspa",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3e744a58-f9ee-40c3-acf2-6d1c0f69d3f7",
+            "name": "Morph",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "12d8baee-03e2-4a73-b519-ed97cb1eb9eb",
+            "name": "BeraChain",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "远程": {
+      "id": "8c811ea8-64f9-4ba5-a8e8-926f793c888e",
+      "name": "远程",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "类型": {
+      "id": "9457fce9-b2d4-4311-a443-082664da34a1",
+      "name": "类型",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "8af6cda7-3ae4-48d7-a006-67db67d6656a",
+            "name": "开发者社区",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "3d4b6b29-3524-4bfe-bf7b-1dbce7b0544a",
+            "name": "开发者工具",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "80a55364-ec7b-4b8e-b8a0-7a0dde8206df",
+            "name": "孵化器",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b4a12572-471e-4e73-baa5-78f64107b3b2",
+            "name": "PE/VC/咨询",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "c824be3d-5c4f-4127-bce1-ed6dbe0a8714",
+            "name": "审计",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "65aa5ddf-ae7c-4cbc-ad7c-d88099efd667",
+            "name": "区块链基建",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8717f18c-7f1b-45f2-8cc2-0a1a0e0d3b08",
+            "name": "安全",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "46fca28b-b17d-4272-bcc0-ccade64a6b5d",
+            "name": "跨链",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "0d6d8b75-ef12-48a9-ab48-e2752647c9c4",
+            "name": "Layer1",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "05bac28f-4a7c-4fb5-b033-4283d77294d6",
+            "name": "Layer2",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "24fe475b-8093-436b-9b6c-ee9b4ff277e2",
+            "name": "协议",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9d817cdd-dec8-4ded-ab12-7fc985ab08e8",
+            "name": "隐私",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "7cfeda2e-df50-46b7-ba69-b89adfd8ce8a",
+            "name": "预言机",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "c613317f-8330-43e8-bc8a-e5fbb17bed4a",
+            "name": "矿业/节点服务",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "c2b86df6-202b-46db-b7d5-cd62e8cdba11",
+            "name": "SaaS",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "1d457513-79e2-4eb2-8e2f-32d2b4d5e2fc",
+            "name": "云",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8fde64b9-650b-4a0c-ae74-dfccfa9f68ca",
+            "name": "zk",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "24ee5f64-07bb-4ab3-a872-e4f2faebd00f",
+            "name": "钱包",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "b28e0aef-866f-4f56-aa79-6cdca3b221de",
+            "name": "入口",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "2aa0f12f-902a-4874-b025-751bdb5f346b",
+            "name": "支付",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "08733f9d-1feb-44d1-ae8f-fc6bbbfe1573",
+            "name": "DID",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "fdb954d2-070a-4a37-80a2-b6377764bfe3",
+            "name": "稳定币",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "b32eb10b-99cc-4159-a20b-c4150a2b4d1e",
+            "name": "DeFi",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "5a2a47f7-295a-48e6-a166-749ecf906fc0",
+            "name": "复合金融",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "a9b7ac5d-5b65-4b4d-afe0-d3d1c7f189f0",
+            "name": "资产管理",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "e1c8e3f3-4294-45f6-add7-da3411e4917b",
+            "name": "数据",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "8d3ebe26-5a1c-4104-9538-e7cd00b86dfb",
+            "name": "NFT基建",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "54ec30a6-1851-4587-8444-57b645da8ceb",
+            "name": "社区基建",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "daedcfb1-80eb-4d90-ba36-9a37832806f8",
+            "name": "工具",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "4b1b4b39-8170-461c-b8c8-63a3cd290efa",
+            "name": "AI",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "406795fc-f492-4d09-971d-bb82473b9b67",
+            "name": "游戏",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "55d047f0-5a56-4d6c-8d2a-7b6366885aae",
+            "name": "HealthFi",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "af44216c-9305-4716-bbe4-1aeb1aec37ce",
+            "name": "metaverse",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "_a[l",
+            "name": "DEX",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e6f5eb8c-fa49-4059-a54a-a289dfc7ff41",
+            "name": "CEX/交易所",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "9d8581f3-7f06-4e8b-a7ad-ecfbedda2a78",
+            "name": "做市商",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "4fae8a6c-96e7-463a-b761-04abcc385384",
+            "name": "视频",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "ded6381c-4ebd-4920-849a-5a97717f284e",
+            "name": "社交",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "738c7277-49cb-4eb5-ad8e-0da80f11916f",
+            "name": "DAO",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "11273034-231a-4c21-a1a4-a864ac8c9515",
+            "name": "平台",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "c732eab8-d8c7-4b3c-9307-e823fc43af0e",
+            "name": "工作室",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9400577c-e879-43b8-8d66-2e2a7ccf8695",
+            "name": "媒体",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "7776964b-5572-440e-adca-3965a124b906",
+            "name": "自媒体",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "d0638155-1ba8-43ba-bb13-d215e2268943",
+            "name": "其他",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9e6f2105-75ca-483f-80c1-138355495b07",
+            "name": "人力资源",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "8568fe65-769c-4ae0-a80c-678cee7adf02",
+            "name": "技术支持",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "3a5a8f56-bf44-4bec-8d9a-ffb01fc331be",
+            "name": "硬件钱包",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "97b990e5-a2df-4bdc-ab7f-77bbcc771283",
+            "name": "数据分析",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "ed462739-f616-42f8-958d-9c79358549c8",
+            "name": "NFTfi",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "10c5fa67-b84f-4004-ba06-bfd72c9886a3",
+            "name": "营销服务",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "170ae003-b7e8-4a87-aaf7-2cf0e758d02a",
+            "name": "内容",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "a093cec1-608d-4151-8367-3ab9a5665c94",
+            "name": "研究",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "dde34645-49ed-4fbb-ae9f-b0f7974bb103",
+            "name": "Social",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "da635993-0d01-462b-905d-79f08aa0a6ab",
+            "name": "搜索引擎",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "79c9fa00-c1df-4134-90d8-41b6d92e70da",
+            "name": "AIGC",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "cd9dc485-6e3b-4c9c-8487-1bf47ce07432",
+            "name": "ERC3525",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "d113f352-b712-4f0f-95e2-7786e809dff5",
+            "name": "darkpool",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "b8d6bd58-40b2-4952-b83f-30b62d7aee12",
+            "name": "Web3",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "dd9a9ea0-c4c9-49ba-bbe2-74b4d5908d0f",
+            "name": "游戏引擎",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "e16da5b0-d47f-40f9-96dc-17e411b2396d",
+            "name": "技术服务",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "36cddb7f-e4d1-4b60-930b-951cf7cdae1e",
+            "name": "sk",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "981be913-d1b6-43de-8e84-440ccf93469d",
+            "name": "layer3",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "58bbf488-0dbd-43a0-b31b-6d5f82ac9a16",
+            "name": "on-chain game",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "9f6c7bcd-8c65-4f5e-a17b-ad049e63da12",
+            "name": "StakingaaS",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "09d411fa-ecb6-4570-89ae-e523cbe2c669",
+            "name": "DAO Tools",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "046b9c7d-d3db-41e2-bbd6-151eab1d2dd6",
+            "name": "项目孵化/加速",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "54914cb8-2dc4-4a24-88d6-5f196624fe87",
+            "name": "品牌和内容",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "c4f902e2-ba39-4b97-8001-aef2aa0c72fd",
+            "name": "dapp",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "067d975b-931e-4495-b7cb-ec603853d21e",
+            "name": "bugbounty",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "5ddbda77-c4b3-4ba4-b257-4bb0308be6ab",
+            "name": "platform",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "20599345-ae30-450a-837b-0a67a3fea7b3",
+            "name": "infra",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "a17123f9-e06b-430c-8994-205dfb534039",
+            "name": "x-to-earn",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "7dbdfbdb-b6c7-4236-9e0a-5197d392dbf7",
+            "name": "Vtuber",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "11c40a9c-fc3b-40ef-b24f-1986f182ab8a",
+            "name": "launchpad",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "80990f1d-6af0-49e8-9f52-753192be0c81",
+            "name": "zk-rollup",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "de151ad0-3334-4773-876c-da9e53e188ee",
+            "name": "evm",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b18d021a-2c50-4cc4-86eb-e1b56ca601ce",
+            "name": "data",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "3ee44758-4a99-4f0c-a4e7-ed158f321226",
+            "name": "借贷",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "98551635-09f3-4a6b-a423-79669a700c2c",
+            "name": "musicfi",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "ba2cf45e-1739-4234-871a-afbd2261ab7f",
+            "name": "密码学",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "77e2f1cb-f73b-4491-8d45-301839a8eb4d",
+            "name": "算法",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "75a68d26-b38b-471f-a853-7bd8f24fb194",
+            "name": "Hedge Fund",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "daf078fb-9ee0-46b8-917f-d2efd12aa170",
+            "name": "BTC",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "2ac39a5f-1a63-43dc-9bf4-f8845210f8d1",
+            "name": "解决方案",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "4d110991-3f93-4b7a-9464-4dea3ad8b56f",
+            "name": "hackathon",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "704800ec-78bd-4aec-ae83-2bebe7b77b7e",
+            "name": "on chain fund platform",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "ff7cee81-b986-46b1-866f-af6203cfe94a",
+            "name": "broker",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "f32d56db-93dd-4479-985b-3424bac5bf45",
+            "name": "音乐NFT",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "4201d60f-ebfa-404f-9116-893d98e4cc0b",
+            "name": "社会组织",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "a504c279-d39b-4b0a-9448-b23e48c2994c",
+            "name": "生态基金",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "78102671-a7b8-44fe-8e8a-b702d04db7ff",
+            "name": "创作者经济",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "746dd505-2ce0-4c1e-970d-6437a0913d86",
+            "name": "NFT平台",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "7bca8bee-ab68-41fa-b8d0-c84c8da56646",
+            "name": "机构级",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "6b16c5f7-e6b1-4a77-950f-f3363caf2765",
+            "name": "IM",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "eef0bd87-92c1-4c07-a965-02007247a84e",
+            "name": "衍生品交易",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "d3ee814d-ea0e-42af-af32-9ec045743528",
+            "name": "RWA",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "8734569f-437a-4117-b71e-9a27b3421a62",
+            "name": "数字艺术",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "a97ffb5b-0596-4d76-887d-d20c975c1aae",
+            "name": "NFC",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "368a7bb5-8519-4579-b39e-a521631270a9",
+            "name": "虚拟生活",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "6c0dbc2d-6cfb-4a6c-a241-ae8e3b5a3949",
+            "name": "元宇宙",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "ed9c591d-fb3f-4d13-9205-f5939dfda943",
+            "name": "socialFi",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "ba158ad8-eb40-45e4-acb7-1e9b5f80f670",
+            "name": "Perp DEX",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "dd86e228-fa0a-47f3-968e-1f86bfd0167a",
+            "name": "线下活动",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "e867d536-95e3-40f9-b86d-071559ae8e7e",
+            "name": "链",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "15a5e14b-7e7d-425f-8b16-5aa365589225",
+            "name": "域名",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "ca603e4b-b41e-4404-aa74-5c19c3f9ffb9",
+            "name": "Marketing",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "75ef2db8-7e5c-4611-998a-5aa59565d595",
+            "name": "公链",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b436e011-d1c5-4f93-9a5f-882fd6343a1d",
+            "name": "投资分析",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "9107ff38-2112-43d4-a292-cfd88827536a",
+            "name": "产品",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "5922c4a9-b61d-44ef-b453-b10ad60ef66e",
+            "name": "企业支持",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "26c3de0f-e2ea-4184-9003-130e048a8654",
+            "name": "碳中和",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "9e979e90-982d-4f88-8037-3a988c759d82",
+            "name": "交易所",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "7b3613d4-c267-4108-9e62-f4b684efd78f",
+            "name": "信息聚合",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8c84bfe0-6416-49ea-a2fe-72f5ec0de19f",
+            "name": "加速器",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "c1bc5123-6a00-4230-960c-738e53222a9c",
+            "name": "DePIN",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "52eeb819-da78-470d-a365-636d0daa7c17",
+            "name": "知识付费",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "16150bef-bb89-4ae7-b175-f81ca18fefa3",
+            "name": "用户教育",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9b559097-596c-4634-89f3-6d7a9c43c759",
+            "name": "算力",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "e4ba7818-6d07-4b39-8a2a-cd7a3350afcf",
+            "name": "矿池",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "207b815f-0239-412f-a78e-f28a15f685e3",
+            "name": "矿场",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "9e9e5d27-5604-4d2e-831a-4fceb0ca2166",
+            "name": "RPC",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "f52fe648-d92f-4e8c-93f4-cfb36e65c516",
+            "name": "对赌",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "6341711b-7c26-45cb-acbb-a581de9dc5ad",
+            "name": "社区",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "4051a3d1-6b23-4f84-a89c-f7ba022eeb77",
+            "name": "机构",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "b6489ddb-c26e-491a-a098-49cb56ff4542",
+            "name": "券商",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "1ec739ce-baf4-4750-b208-38a5bb689e14",
+            "name": "Broker",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "c028e185-4086-43d0-96e6-35c749d722ae",
+            "name": "交易",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "7da5b674-967c-4c4e-ac0f-06a7ad4eadfe",
+            "name": "MMORPG",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "9f1f60cf-a4f4-486a-8a53-9cac3d7443bf",
+            "name": "laucn",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "7eaec36d-8105-430f-89ea-02d18a9aea12",
+            "name": "模拟经营",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "649ac629-ea4c-447a-8a9e-bd7e7d87628f",
+            "name": "手机",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "0f3a2582-847f-4d56-88a6-f83236a91687",
+            "name": "数码产品",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "8072dd4a-4c69-4733-bb2b-f2e6e06f27f4",
+            "name": "存储",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "e9b80b3f-f100-43ad-b68e-87be66a8dade",
+            "name": "sdk",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "922aab1e-c12e-4f16-aff6-325347fd2016",
+            "name": "dpein",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "16e5019a-536d-45a8-b911-7781ab848de9",
+            "name": "电商",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "6cc9258b-3acd-4ed6-9311-1a4e3df59a19",
+            "name": "信用卡",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "12af27e2-62bf-4423-8440-ba7e025fb6d9",
+            "name": "平替",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7db135e3-60ff-457f-8b11-6f4d151c785c",
+            "name": "内容营销",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "6f7e9570-6d7a-48fa-aec5-643700125069",
+            "name": "交易工具",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "f11b3524-d00b-40c6-8aa3-6b5dd10da22e",
+            "name": "框架",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "2d5a4bc8-6f33-4245-97e3-283454add369",
+            "name": "法务",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "1d0e27d0-dc42-424e-b803-8c422305623b",
+            "name": "GPU Network",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "c51fe5b9-a787-4aa8-89f8-e4633ce9b498",
+            "name": "投研",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "9973e893-c9c2-41ad-968b-10fcccabb5fa",
+            "name": "社团",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "9053e68a-be2b-4bc3-bb7c-853e18d661cc",
+            "name": "量化",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "3a1c83df-1bbc-4c54-89a6-4d5abec3e902",
+            "name": "AI+web3",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "1ce83f66-bac9-4442-8f0a-c08c4926190e",
+            "name": "冷钱包",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "9c5f6c19-c678-48fe-9433-74a3894cd423",
+            "name": "cec",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "86f8ccfb-4f70-42e4-bdbc-1aa370fda25c",
+            "name": "浏览器",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "d4d7b429-03f3-4c07-bce3-085b30ef63c3",
+            "name": "DNS",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c64b0738-300c-4d98-a368-07fb3190bf29",
+            "name": "layae",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "910268d1-9e29-4f7c-83b1-2150ce5fb606",
+            "name": "区块浏览器",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b2276436-7f3b-4ff0-afe4-8fdc927ed856",
+            "name": "DeFund",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "052a186b-844d-4577-885b-a2f709153c05",
+            "name": "隐私计算",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b655e453-40b8-4b1b-9487-dc0981a32ba7",
+            "name": "渠道",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "c760d3f9-af68-4ebd-9979-122659c42a0c",
+            "name": "liquidfund",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "b8587a4d-5684-431e-b6ba-ebe335ed3377",
+            "name": "可穿戴设备",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "223d3e14-3208-4701-af9d-3187e9d090b4",
+            "name": "咨询",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "5969c59b-0d36-4e45-97c1-408e13b58cfd",
+            "name": "deNet",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "59131bdc-a542-4321-87c2-ec6ad7553cbb",
+            "name": "金融",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "21cb4fec-7c70-4d7c-b9a2-3baccf12c44f",
+            "name": "证券",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "661b4a46-e004-42c1-b07e-1ece7d9f77a3",
+            "name": "股票",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "69156dc1-01ef-46b0-955e-e66b96ef6b21",
+            "name": "直播",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "412e8774-2e58-441c-bcb5-4137a1a41da1",
+            "name": "矿机",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "1f6e5cd6-9e1e-4b19-827b-f204cad602fc",
+            "name": "NFT",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "a13aa743-4991-4e57-aea4-35b5816a87fc",
+            "name": "SUi",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "f7a04a24-f2e6-4c1c-88a6-d25b45e08c59",
+            "name": "Sui",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "f2d83c48-d194-4f4d-b3b2-e4dff0e43880",
+            "name": "分布式",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "a6205c80-d01e-418f-822a-729b3896b78b",
+            "name": "云计算",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "05d2783a-0dfe-4f95-967c-d5c893ad5ba0",
+            "name": "SVM",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "491efde0-3960-4630-8f77-ff9ea9d27023",
+            "name": "比特币",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "1a8369d5-5949-4c2d-8d54-a95425ffb36c",
+            "name": "潮玩",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "de9cc8f8-bc7a-4e39-8d6f-1c921648164a",
+            "name": "IP",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "66e16e35-b253-4ad2-95bf-e7c2086a6a0f",
+            "name": "游戏开发",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "实习": {
+      "id": "951da210-82c6-403e-8540-48a86d9a648e",
+      "name": "实习",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "办公区域": {
+      "id": "967c1c04-14a2-47f8-a652-94ed20e46581",
+      "name": "办公区域",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "c5ec05cf-7d6c-4af7-9801-a3b643f0343a",
+            "name": "深圳",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "70918c95-6f6c-4f10-8309-9b7bc19d2b6a",
+            "name": "香港",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "f4659c23-f135-4bdd-a77f-a5c9ce2c9eb0",
+            "name": "HongKong",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "f1e95a8b-dfa1-4584-b8e5-17c655bc504a",
+            "name": "上海",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "90a25b78-8555-4f8b-a0d8-2847d52a5f6d",
+            "name": "global",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "fbe4ccab-9883-4f18-9715-f0278ba45c42",
+            "name": "看人",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "28cb05cf-8574-452d-a5cb-261823e154ac",
+            "name": "北京",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "f8826f81-5169-4764-ac19-71b57217f266",
+            "name": "成都",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "f97cc072-162a-4425-9049-bc83bb680f8f",
+            "name": "杭州",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "c515af19-2072-4d23-94c8-2405605b5aa4",
+            "name": "合肥",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "adeb589c-0571-4182-a0ec-3b0e6b5ff373",
+            "name": "台北",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "dddce4ed-989b-4e03-9d3c-9d12bce7481e",
+            "name": "Singapore",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "334b9f7d-d1d6-460b-aea6-1693dfe031d0",
+            "name": "Canada",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "805f8a9f-381b-4fa0-b448-f6152f999ce3",
+            "name": "US",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "901a4663-2942-4e48-aedb-03161a94d2eb",
+            "name": "SF",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9fe5922d-28b1-4e24-bf76-7d0e0e8317e0",
+            "name": "NYC",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9d5250cd-c52e-4241-9172-0c0a01fe5e80",
+            "name": "Seattle",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "cae98f5d-d851-49b9-8de0-b7e0f6eb70c5",
+            "name": "EST",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "e8d60fee-6a45-4d2f-80a8-9fbb4afe34e4",
+            "name": "Australia",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "33cfff91-cdb9-4a81-9fc8-7de2a28bc8f9",
+            "name": "Europe",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "316fbbbe-8e8c-4ea3-8223-44128707fa29",
+            "name": "Britain",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "de937cdf-180f-495b-b9a9-e7f12e763a88",
+            "name": "Brazil",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "4ebb83d0-8bec-4f09-9d4b-00b4f6d5ce51",
+            "name": "Dubai",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "ab0fb363-6759-4b16-ab93-2bec48855a54",
+            "name": "Remote",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7973c039-a880-410f-8bd1-781deecf9f78",
+            "name": "Paris",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "4efc93f3-c6f3-4c08-9577-b6e95cda78c7",
+            "name": "SanFrancisco",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "46e4004a-37d9-4602-9705-505d967e5511",
+            "name": "Lisbon",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "befd1d56-4f18-4ff0-9f90-5c28eb95865f",
+            "name": "Berlin",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "97cdf24d-93a7-4a2b-bad9-acac6f335527",
+            "name": "Miami",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "f3c53c6c-ad2b-4002-a494-b880f87f8c51",
+            "name": "Zurich",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "579b38f8-183a-4395-991f-0e61b2689daa",
+            "name": "Poland",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "d183a113-644f-46c9-a547-487f740a86c3",
+            "name": "Czechia",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "48ef032e-cb6e-4f3d-b0de-cacd56c663e3",
+            "name": "UK",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "0fa9647b-71b9-4fef-9dc2-c65ca5c10ca1",
+            "name": "苏州",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "f78c6c4b-04b1-41c6-8cfb-754f584185ca",
+            "name": "Malaysia",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "15bf39cf-c950-41d6-8285-e69cdcd94f17",
+            "name": "India",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "9df5d765-5560-4a8c-b7d5-8275bce8e854",
+            "name": "分布式",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c1403bda-9515-4fb8-8689-b6e6efef4dcd",
+            "name": "Israel",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "0d38f4e3-24aa-49e2-bf7b-8d80feca8f20",
+            "name": "Switzerland",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "e2013e4b-9d0a-4296-a578-188a076e6951",
+            "name": "Tokyo",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "7a96e2be-7989-46b1-a851-a159493f39ee",
+            "name": "Sydney",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "db7ed279-1211-4b17-adb7-9c2b4bb0367b",
+            "name": "London",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "d95cdda3-7446-4d2a-a3bc-029922411f93",
+            "name": "Lincolnshire",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "b57dbf84-167c-4a1b-aa36-e1f1298156b8",
+            "name": "Scunthorpe",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "ef7e75a8-ed66-4d9b-93aa-8258b1ea399e",
+            "name": "迪拜",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "c1027e3a-8a19-4866-9b07-2d49fbd27303",
+            "name": "Tel Aviv",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b7572c96-2ad7-4d94-99de-a878e347a283",
+            "name": "上海/北京/深圳/成都办公均可",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "399d37dd-6fd0-4e17-8a79-77e9a6954508",
+            "name": "China",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "a6d9a0f9-522e-49e4-a4e9-00c334e01ac8",
+            "name": "LasVegas",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "b02ffbe6-d522-440c-bf53-746d83afc0be",
+            "name": "LA",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "1f020dd3-34b9-4b25-92cb-3874ab4460cb",
+            "name": "Bangkok",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "98a7c949-5bb1-4dfb-8347-23a51201a926",
+            "name": "Szczecin",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "5c801f1c-9d29-43c0-8a9b-c6b8f4e3a60f",
+            "name": "Brussels",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e23746a8-9ff0-48fc-961f-ad4bf941be94",
+            "name": "Asia",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8f18c539-4e03-43a3-8d9f-d8c0506170f9",
+            "name": "Vietnam",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "65acc05e-bf17-4e20-a2d4-3fb118392557",
+            "name": "Pakistan",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8fcfbbf4-a8c0-46b0-a24d-e288f8490eb3",
+            "name": "southkorea",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "d532c382-42a9-44d1-b2f5-1311d1231b11",
+            "name": "Barcelona",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "8dee266f-4027-4275-9ca1-2e3acf458b72",
+            "name": "Dublin",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "cb4a1633-2308-4b86-93a5-3da3e9802462",
+            "name": "Madrid",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "056dbbf3-cc3c-4246-bde5-c9c591399192",
+            "name": "Portugal",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "f5cfe3c1-d909-44a4-8101-bad3f8e91c52",
+            "name": "Boston",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "4bc7468f-14d6-4b18-a0c6-b5428b9dd575",
+            "name": "EMEA",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e5525264-bca1-4cc5-bd7c-8710bd70f12f",
+            "name": "APAC",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "f1ae55ac-9bd3-4a3e-994b-7bd546f1acfa",
+            "name": "Limassol",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "0db443fe-d478-4038-b18e-b4ff49fe6a8f",
+            "name": "USA",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "8494698d-d1ef-465d-80c6-933ccd3cfab7",
+            "name": "Colombia",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "d6d6fb70-ae6e-4729-a887-f2aed512d31b",
+            "name": "SouthEastAsia",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "566b575d-0078-45ef-9835-a916f1672373",
+            "name": "Japan",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "be338f23-f69b-41b1-8a42-1f0bc4490fa9",
+            "name": "Taipei",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "f933277b-3a7b-477d-afc3-8057e2313a1e",
+            "name": "LosAngeles",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "920b34d0-5316-4cfa-ab59-6f5c0ea69264",
+            "name": "Hawaii",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "ed2a2760-eb14-41c3-9fd0-f3ca6d9f46ee",
+            "name": "SantaMonica",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "a48aac7d-e19b-4354-a13d-079d536e6181",
+            "name": "大理",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "ec54e622-69ba-419d-9c05-1c21000e86d5",
+            "name": "Russia",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "1cbf852e-f745-4984-90af-f6da59275111",
+            "name": "伦敦",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "d775df89-5e8e-4e36-be8f-9330159b6c88",
+            "name": "non-china",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "9a41788d-402c-43b2-8d73-c13c884cd972",
+            "name": "美国",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "de8e39cf-2353-41df-9f30-d3446a6f5210",
+            "name": "吉隆坡",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "e282e4e8-01d3-478e-9044-6b66994fef0c",
+            "name": "Korean",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b52b2bea-9c17-4322-82ed-a9d656268c23",
+            "name": "Korea",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "0074fc28-4ef5-4123-8ad4-a8f0b7b64b13",
+            "name": "印度",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "659a119e-1831-44ac-ab88-b52a16c1ed4e",
+            "name": "台湾",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "a8c6faee-91b8-4c3b-94b4-64ec06a584b4",
+            "name": "PST",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "0f1894a8-cb2f-41a2-9863-b54ee388ffc7",
+            "name": "bangalore",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "09419110-e5a5-4356-81ea-16a9b30cd495",
+            "name": "大连",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "0adfe683-6aa1-4413-afd6-fa4d9be7cc26",
+            "name": "马尼拉",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "773814c7-7015-45da-9247-d6b9bf117f47",
+            "name": "Manila",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "4d683c52-cdc5-4ad6-8a1d-51c6b07c32ed",
+            "name": "Philippine",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "bfc3e364-4c67-40c8-af33-b3cebbb09b81",
+            "name": "osaka",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7d843703-6663-471e-9b87-d887088ea58d",
+            "name": "base",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "398a7249-ab47-45b6-b6eb-4fa7c2034b20",
+            "name": "韩国",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "6c723440-5ef1-434c-bb28-ff0c859937d4",
+            "name": "maca",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "e67ee382-8f72-4050-ad77-42f86ec23c83",
+            "name": "中国",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "de280116-9153-43d7-94a0-126eab39b5e8",
+            "name": "中山",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "58fa2563-1051-4fbe-a06f-1e81f1990e37",
+            "name": "广州",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "c72b38d5-d816-41c2-8319-bd9645c117d1",
+            "name": "mainland china/ HK",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "70e9f3d0-d889-4f14-8fed-98e64ddf7fc2",
+            "name": "新加坡",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "b2b75d82-b0e1-4d37-a91d-7012d6458e35",
+            "name": "amsterdam",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "fb4bc9c6-f036-427a-a255-20e7844fc733",
+            "name": "SriLanka",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "9e0cc495-7007-4b69-9c2c-1173736b9998",
+            "name": "remote",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "3993cda9-8b3f-4c21-9220-96af8f47bf5f",
+            "name": "东京",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "8c2e112a-1f5c-46da-b18a-5846a644b80b",
+            "name": "青岛",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "a2a9cfbf-2e84-49e9-ae73-ba86efccf711",
+            "name": "Toronto",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "1fc26b90-e1e2-490b-97a1-2ef682d7ba61",
+            "name": "Bengualuru",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "cb6b6d9d-f3bd-4cfb-8343-f4189157be99",
+            "name": "Americas",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "55809980-f02f-41ab-aef6-92cdab5db5a2",
+            "name": "日本",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "4753035d-12c0-47f8-850c-1a34dd0c5fda",
+            "name": "germany",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "ad944156-8138-49a3-bf9f-0e4749f21dce",
+            "name": "france",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "9d0b3175-331d-4ac0-9d84-d184b8289629",
+            "name": "netherlands",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "f2380315-6b81-4467-a28c-f3f3c4c1bada",
+            "name": "spain",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "f973555b-f9dc-4ff5-9be7-66ec436ad21f",
+            "name": "NCY",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "4052f2fc-4823-45b3-b3af-09ec6ab734d9",
+            "name": "Portland",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "2a7d9105-e959-4a4d-b7dd-c5aad2663d8c",
+            "name": "工作签",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "ee84f23e-de81-4102-9aaa-ab40637deca3",
+            "name": "CQ",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "7c4ce0ab-c049-4602-b546-5bcaf6125204",
+            "name": "France",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "a7b400ac-2ba2-4df0-8f0d-ffcf17041773",
+            "name": "hybrid",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "a4db3a87-4562-425e-8811-3b2f939b2696",
+            "name": "losaltos",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "a188812c-d889-4f1e-ae3b-2d0f96a6ed7c",
+            "name": "南京",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "0a326eb8-46ad-4325-acae-98ec341a0ff7",
+            "name": "温哥华",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "aa18b5e0-5109-4656-9bf9-4d906da7def9",
+            "name": "Vancouver",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7b5e0e72-e6ae-4eb3-bcb5-3fb4a189d230",
+            "name": "菲律宾",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "34cc30ea-b66f-49d8-8b05-f88e7d4c9dbc",
+            "name": "马来西亚",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "88920b5f-b5d4-4b26-9b18-a7bfb2184dd6",
+            "name": "South America",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "2b96dafc-0124-43d5-a63d-83445c9ee673",
+            "name": "melbourne",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "083db6d9-c1b5-4687-be49-5ee273910580",
+            "name": "江浙沪",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "8a69836f-e647-4688-8127-dafc51f1bf04",
+            "name": "长沙",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "ca391e06-c518-496c-842b-b3df8702e71c",
+            "name": "denver",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "85eb873d-61dc-4e62-9ed5-9f61ebc92c54",
+            "name": "远程",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "84b6f72f-df39-4ba7-b86e-363f9c137a9a",
+            "name": "Kualar Lumpur",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "23cc6423-965b-48de-b513-571e57bf4296",
+            "name": "泰国",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "7897fb90-4805-48b0-bc79-a5176089c5fa",
+            "name": "SilliconValley",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "6d409483-6701-4f9b-876e-cd80ad26c82e",
+            "name": "Taiwan",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "15211e56-5704-41c6-87fd-a41f4fbef433",
+            "name": "曼谷",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "1f1a1ce6-ff57-4224-898f-7c8660cb1085",
+            "name": "Abu Dhabi",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "046ec599-572f-4639-8cbd-7f0063541ae1",
+            "name": "UTC+8",
+            "color": "purple",
+            "description": null
+          }
+        ]
+      }
+    },
+    "待遇/工作环境": {
+      "id": "97ce83d6-4ecc-4e9b-96d1-3dcc47a02943",
+      "name": "待遇/工作环境",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "合作心态": {
+      "id": "b2905bf2-ea79-474b-90d2-23135630e999",
+      "name": "合作心态",
+      "description": null,
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "bf961c7d-76e8-46a9-9fec-2aafb28e5022",
+            "name": "随时合作",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b49c959d-7ce4-4e43-a095-52b099ccb2a1",
+            "name": "看看机会",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c7cd9ca8-4c39-4f4b-a06c-116ebe50ebce",
+            "name": "交友拓展",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "link": {
+      "id": "c3cf30d0-21c5-4bc9-aa21-264215c53fbd",
+      "name": "link",
+      "description": null,
+      "type": "url",
+      "url": {}
+    },
+    "涉及工种": {
+      "id": "d13c7b3a-0b3f-47e3-ba49-f4250e75d867",
+      "name": "涉及工种",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": "c1e1b566-10ba-4ca6-9795-6d63e657d90c",
+            "name": "投研",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "120d1931-c35e-41cc-b114-d43ccdb574fe",
+            "name": "开发",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "f6e66355-9bd4-4e03-bb97-7158cb92609e",
+            "name": "产品",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "42e1865b-124c-4ec2-bcd0-fef0515b93e0",
+            "name": "UI/UX",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "514f596b-a04b-400f-9156-59ced1ff7f71",
+            "name": "设计",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e6a77fea-38e8-497a-a36e-7c8bed632a8c",
+            "name": "运营",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "f5451641-e57f-42dc-b783-c910a3ebb0a0",
+            "name": "市场",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "6fbeebc7-10fa-47d4-9047-c523db0dbded",
+            "name": "增长",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "a7da4406-9b8f-44fa-98be-ab5decd91fb8",
+            "name": "PR",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9b05c2a4-1af3-4c95-b1f9-647eeb1ffb48",
+            "name": "BD",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "35a58dc0-475f-4484-81fe-384bcca3012e",
+            "name": "Mod",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "442176c1-41b4-48f3-9b46-381fd6cfa528",
+            "name": "客服",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "35dc6a48-acc7-4768-9dd5-ee27368fdaae",
+            "name": "数据",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "578e240c-741f-4c39-93ea-f55088ef9115",
+            "name": "运维",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "55612ae5-0d3b-423b-bae1-f87e77e88714",
+            "name": "安全",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "01e4dc18-41ff-4179-adf5-f3bc0851e0cb",
+            "name": "PHP",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "21913e2d-1617-4ff9-b6e5-88db73b88d64",
+            "name": "Rust",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "93ee8ec4-925f-430c-bb4e-a36c0707c2f5",
+            "name": "前端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "46551538-e19d-4fd1-a869-e11b522e0ad2",
+            "name": "后端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "6a9f019c-5031-4e84-ab57-6d8b435251f7",
+            "name": "全栈",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "46550990-4d5d-485c-b36c-898c7c5879ac",
+            "name": "智能合约",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "7cfdd077-d6f9-456a-a734-ad9f2bb91aad",
+            "name": "运维devops",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "b60a3a1a-b061-4393-9a1c-3b2c45dae7cb",
+            "name": "数据分析",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3f617583-7316-4871-bf24-2475826c9764",
+            "name": "测试",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "5690f3ee-00ff-4723-9758-4eaed5831661",
+            "name": "python",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "0a871b3e-53f6-4b4f-801e-8b7ac48a92d5",
+            "name": "技术负责人",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "e9d89064-c187-45d0-8ced-7cae28f00feb",
+            "name": "区块链开发",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "4ae1458e-4776-4509-91b7-0dd07bec5b4b",
+            "name": "solidity",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "91008245-c99a-4b90-a6eb-40ae8f4084ad",
+            "name": "zk",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "9031ed7e-9b1e-425a-9eac-508f771e899c",
+            "name": "架构",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3961915e-d8f6-4fdf-9146-64e84eeeddec",
+            "name": "技术支持",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3cab2a12-e5fc-4fbf-a1d6-d556152f9875",
+            "name": "Linux",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "61049af9-f321-44a9-82f6-79aa4847d026",
+            "name": "Java",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "8c87a0ad-7ada-47f6-867c-9fd6414d53fd",
+            "name": "游戏开发",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "29bd0edb-3077-48af-8e5b-10e1bf417ece",
+            "name": "Golang",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "f0eb0715-052c-4f53-bc02-7e80b4ca13db",
+            "name": "开发者关系DevRel",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "e709ad24-5674-44e6-841f-9d01a73b3a58",
+            "name": "iOS",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "dbb88525-60d0-48b9-abd2-5009a5efa3de",
+            "name": "React",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3f8f36f5-27ca-4a67-be27-2be581ad7c27",
+            "name": "Go",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "ec3f0f0c-b58a-449f-a638-f125153114ca",
+            "name": "移动端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "4a129022-7012-4e0b-86a8-33f4f627ae28",
+            "name": "安卓",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "5d671e8b-d3e5-44ac-95bf-5fdb91d74da3",
+            "name": "分析师",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "502e9d6c-97cd-4740-900a-6bd4eca220b1",
+            "name": "CMO",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "7a4a33a6-a7c7-4e47-b379-9da0f929c5fe",
+            "name": "品牌包装",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "ff3d417f-8917-4a25-99ed-8fe470a5e8e8",
+            "name": "开发者社区",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "64a84f0c-9f51-49ba-b6d5-47bf6e6faecc",
+            "name": "项目经理",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "b1f52337-9f4f-47b5-8984-26e34a669a7d",
+            "name": "实习生",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "01a8991e-87d6-4efb-b230-af33b3c51a6e",
+            "name": "助理",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "8aadc7ef-a09c-4139-a8f6-27bcb6467f77",
+            "name": "翻译",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "1bdfb5fa-f79b-49f7-a4ab-b96571a6f152",
+            "name": "合规",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "2bcf5887-7851-4b52-9c8d-f0601038aaf1",
+            "name": "DBA",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "b86ee932-bd6f-4327-89d7-5b66d09d1f60",
+            "name": "HR",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b3199d68-4f6b-44f8-b70b-ea893ff68f90",
+            "name": "partners",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "0930e2c5-5907-4d8d-8634-c61d7c847781",
+            "name": "合伙人",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "c3fdbff5-8f93-4df5-8e66-8993ff6b3544",
+            "name": "写作者",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "3a112c56-5540-4774-b05a-609d5d9219f0",
+            "name": "其他",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "ccb6a5bd-2efe-4bc5-ba45-921dc94e7bb6",
+            "name": "交易员",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "eb9bf933-f9ca-405d-a9ea-271d870d2340",
+            "name": "研究员",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "6f8bfa03-ee45-4a0f-9fe7-e6303adb9128",
+            "name": "风控",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "c862c0d4-8025-4522-896c-df2f28bb3add",
+            "name": "投资",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "fa298708-aec0-4e86-a39f-f3079286f7b5",
+            "name": "Unity",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "0602b61d-492e-4aaf-b914-5c08d8591969",
+            "name": "社区经理",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "14f5a589-9d8f-4162-8045-46e31c575762",
+            "name": "密码学",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "40a7fa68-0f87-4f72-ab33-c254cb411f3e",
+            "name": "公链开发",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "646b8348-eced-4088-be3f-a7ae5eadd645",
+            "name": "大使",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "436d03f1-51b4-4a12-bb5a-dcc5c8011df5",
+            "name": "用户资产",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "77d86de2-0e4c-4d9d-9dfe-42cad21f00f4",
+            "name": "游戏商业化",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9331ee00-7ec4-4331-83ff-f60d8ff2297f",
+            "name": "Flutter",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "feaba102-4cc0-426e-be65-abc9d05ad974",
+            "name": "设计师",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "ffbec6d6-7b2a-46be-874e-5a339ecc20d9",
+            "name": "投后",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "348a89d1-df03-45a3-ac02-2cba83a1f203",
+            "name": "商务",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "c675b2e7-2942-49f1-b485-a0ff75ff82f2",
+            "name": "会计",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "f53086d2-c53f-4dfc-ab3d-4069fbc4eb19",
+            "name": "nodejs",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "b8d4fef2-2dd0-492d-918b-c00103ee2e3b",
+            "name": "嵌入式",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "1da46bd6-9f6a-45e5-992f-059f4ab704a5",
+            "name": "编辑",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "4dec0c50-8e10-4867-beb9-30240734d410",
+            "name": "人事",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "f90a3174-7ab6-4ceb-858a-24c98e5fe1e4",
+            "name": "财务",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "1e074a3a-de47-485a-817b-59f0d1fcb3cc",
+            "name": "C",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "e4dc2d23-24cb-48ab-a5ee-d4171feff738",
+            "name": "C++",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "32506144-3766-4531-aa70-61af4e997490",
+            "name": "SQL",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "b0f2de6e-8be1-4125-a301-5255100203e5",
+            "name": "行政",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "2ba19424-a33d-43d2-aa0d-c228ab923510",
+            "name": "算法",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "0943de34-299f-42bf-99c2-6d3fe600c522",
+            "name": "视频剪辑",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "c6e3418b-8afe-46e5-b3a6-fc975382b981",
+            "name": "Android",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "3a0cdd57-b99c-4917-8099-a917df4d6a10",
+            "name": "COO",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "c272ab05-7c6e-446b-bb0d-905289a6408e",
+            "name": "矿场",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "fdeed12d-0e13-44d1-9b59-9da4bceb8d65",
+            "name": "全站",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "7f800bea-cfb4-4810-b29a-7d639fffb1b9",
+            "name": "游戏策划",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "3685b721-22dd-4a72-bb9d-2a8e40b4c103",
+            "name": "AI",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "a8e02cd9-8843-4ed9-8ade-909ac1b6ef67",
+            "name": "api",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "f721ba55-1e5f-4582-9a32-fd3d72474dcc",
+            "name": "clarity",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "405e6d48-dd22-4f43-b63a-d11cc52b3521",
+            "name": "runtime",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "ea93a485-cb4e-47d8-8c62-7167ccb6134e",
+            "name": "web",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "b7a18852-c686-4543-842d-7dc3cb133b92",
+            "name": "法务",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "7d88f194-8608-418c-ae00-3343ffef6a8b",
+            "name": "KYC",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "3870f393-6c47-4eea-93aa-419f670ed369",
+            "name": "solana",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "f4a6fdf4-0c7e-4c81-bdb1-3c18aa0603f3",
+            "name": "审计",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "a020a0c9-3ce2-43dd-b563-6d97bd0ca580",
+            "name": "QA",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "8b593d81-4b56-44ad-8c20-fbeb049f3079",
+            "name": "涉及",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "ab4a74f1-be82-49a8-95ca-75b809cb04b1",
+            "name": "move",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "a545e1db-98c5-4880-8abe-72762941e065",
+            "name": "活动策划",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "6768cb34-47d3-4083-8b25-fd51bec6daa3",
+            "name": "项目管理",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "cc28ecde-a8d0-4564-b94b-5bc74a4b8e84",
+            "name": "支付",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "b6549201-1ff7-45a6-b0db-a9d58a84932b",
+            "name": "动画",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "f5e6b33e-1a25-46c7-8889-531e7446d141",
+            "name": "交易",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "56b9ef81-f2af-4d87-877a-dfb066061fbb",
+            "name": "IOT",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "77b5179a-ab9a-4511-bd9b-f81d2417d945",
+            "name": "defi",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "e6fff4d0-79c5-432e-b4e4-7d65f16a7b15",
+            "name": "文案",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "6a0b97d8-ee2a-4e2f-8552-ec61b2864358",
+            "name": "SRE",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "bb461239-d83c-4b12-bb86-2e4f638f5686",
+            "name": "以太坊",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "bfdbf72f-3b2e-4972-b5c8-0d18fcbbc507",
+            "name": "做市",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "81d3737d-a93b-47ad-9dd1-dc964d660316",
+            "name": "量化",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "0bd9ff5b-4ada-4511-8f3d-e42afe5f3c30",
+            "name": "机构",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "b057c143-009a-4152-bd9c-a045c693c851",
+            "name": "运营‘",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "cc4eb889-59b2-4772-bebc-bb52f2b68d90",
+            "name": "#增长",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "a3421f2d-e9d7-4632-9116-845e06d0d5da",
+            "name": "钱包",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "3d4fcc92-3ede-4239-b1e2-2a171203ce22",
+            "name": "SEO",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "26c17840-6c41-43d2-b2ae-c2de2d71a335",
+            "name": "cosmos",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "93518f72-5a8f-4263-bfa1-20108170a65c",
+            "name": "CTO",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "4c5b969b-3ed3-46ef-9502-7f10122af345",
+            "name": "策略",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "592b8e92-6ac5-40d8-9091-62c7b64aba6f",
+            "name": "DEX",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "9f897270-9488-458d-accc-2276ae99ddfd",
+            "name": "校园大使",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "ddf7bbd3-aa3e-4209-8efc-5845bf38fdff",
+            "name": "推广",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9f91ef41-67a4-40c7-b02b-e5c781357048",
+            "name": "爬虫",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "d4eea183-d018-40e6-a105-89474add28be",
+            "name": "经济设计",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "9d460ff5-ff59-4d2d-81d2-775fc416f570",
+            "name": "美术",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "50bbffca-bb37-431b-875b-47b590497270",
+            "name": "内容",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "58ca0b37-122a-426b-bd3e-03ba54bbbb95",
+            "name": "视觉",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "7e882401-f47b-4c28-ace6-f7973d41c707",
+            "name": "技术顾问",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "5330cd2c-55d4-4154-a42f-5eae4b64a3ad",
+            "name": "视觉设计",
+            "color": "red",
+            "description": null
+          }
+        ]
+      }
+    },
+    "兼职": {
+      "id": "d64c3586-25d2-45b8-ad04-c2a2f35e1d0c",
+      "name": "兼职",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    }
+  },
+  "in_trash": false,
+  "archived": false
+}

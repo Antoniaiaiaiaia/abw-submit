@@ -109,3 +109,16 @@ Added a canonical-links block near the top of README.md and AGENTS.md. SKILL.md 
 **Why:** Antonia flagged the ambiguity. Agents telling users "your post will appear at @abetterweb3" was pointing to the wrong platform.
 
 **How to revert:** Restore the older generic "@abetterweb3 community" phrasing across the four files.
+
+### Stripped internal metadata from public repo
+
+**What:**
+- Untracked `context.md` (agent-briefing notes that referenced a private email, a private sibling repo, and internal workflow). Added to `.gitignore`. File kept locally for internal use.
+- Added `scripts/sanitize-schema.mjs` — strips `created_by` / `last_edited_by` / `parent` / `request_id` / `cover` / `icon` / `url` / `public_url` from the raw Notion snapshots, keeping only what the SCHEMA.md generator needs.
+- Re-ran the sanitizer on `schemas/talent_raw.json` and `schemas/recruit_raw.json`. Removes the Notion admin user ID, workspace parent-block IDs, and snapshot request IDs that the API had returned.
+
+**Why:** Security scrub. None of the stripped fields were credentials, but the admin's Notion user ID and internal workspace IDs don't belong in a public repo aimed at external agents. The email reference in `context.md` was a personal address that would otherwise be harvested from the public repo.
+
+**Note:** Git history before this commit still contains the previous versions of `context.md` and the un-sanitized schemas. If you want the history nuked as well, rewrite with `git filter-repo` + force-push. Left as-is for now — the information is not credential-grade.
+
+**How to revert:** `git revert` this commit; remove `context.md` from `.gitignore`; re-add the un-sanitized snapshots by copying from `submit-relay/lib/schemas/` (which holds the full Notion API responses internally).

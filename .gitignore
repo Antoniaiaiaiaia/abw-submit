@@ -3,3 +3,6 @@ node_modules/
 *.log
 .env
 .env.local
+
+# Internal agent-briefing notes — not for the public repo
+context.md
