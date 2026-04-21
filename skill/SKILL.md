@@ -1,13 +1,24 @@
 ---
 name: abw-submit
-description: Submit a candidate profile or job posting to the abetterweb3 community (Telegram channel t.me/abetterweb3_cn, Twitter @abetterweb3). Posts go to a Notion-backed review queue; admin approves and publishes to Telegram. Use when the user mentions abetterweb3, abw, web3 job board submission, web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterweb3 / 投递简历到 abw / 发一个招聘到 abw / 把这个候选人加到 abw人才库.
+description: Submit a candidate profile or job posting to the abetterweb3 community (Telegram channel t.me/abetterweb3_cn, Twitter @abetterweb3). Posts go to a Notion-backed review queue; admin approves and publishes to Telegram. Explicit trigger — slash command `/abw-submit` (optionally with a URL or description as arg, e.g. `/abw-submit https://jobs.solana.com/...` or `/abw-submit 帮我发这个简历`). Natural-language triggers — user mentions abetterweb3, abw, web3 job board submission, web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterweb3 / 投递简历到 abw / 发一个招聘到 abw / 把这个候选人加到 abw人才库.
 ---
 
 # abw-submit
 
 You're helping the user submit to one of the abetterweb3 Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
 
-Community canonical links:
+## How this skill is triggered
+
+1. **Slash command**: the user types `/abw-submit`, optionally with an inline argument:
+   - `/abw-submit` (no arg) — ask the user what they want to submit.
+   - `/abw-submit <URL>` — treat the URL as the source and run the URL-first flow below.
+   - `/abw-submit <free-text description>` — take the description as the submission content directly.
+2. **Natural language**: "帮我提交到 abw", "submit my resume to abetterweb3", "post this job to abw人才库", etc. (see the description field for the full trigger set).
+
+Either path lands you in the same workflow below.
+
+## Community canonical links
+
 - Main public channel: <https://t.me/abetterweb3_cn> (Telegram — approved entries publish here)
 - Twitter / X: [@abetterweb3](https://x.com/abetterweb3)
 

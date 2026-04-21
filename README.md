@@ -23,15 +23,21 @@ Open [AGENTS.md](./AGENTS.md). Everything you need is there.
 
 ## Install as a Claude skill (optional, for Claude Code / Claude Desktop users)
 
-Once installed, natural-language intents like "帮我提交招聘到 abetterweb3" or "submit my profile to abw" trigger the skill automatically — no manual clone, no context-pasting.
-
 ```bash
 mkdir -p ~/.claude/skills/abw-submit && \
 curl -sSL https://raw.githubusercontent.com/Antoniaiaiaiaia/abw-submit/main/skill/SKILL.md \
   -o ~/.claude/skills/abw-submit/SKILL.md
 ```
 
-To update later, re-run the same command. To uninstall: `rm -rf ~/.claude/skills/abw-submit`.
+Once installed you have two ways to trigger it:
+
+- **Slash command** — type `/abw-submit`, optionally with an argument:
+    - `/abw-submit` on its own — the skill will ask what you want to submit.
+    - `/abw-submit https://jobs.solana.com/...` — treats the URL as the source and auto-extracts.
+    - `/abw-submit 帮我发这份简历` + attach a PDF — same but for a candidate.
+- **Natural language** — just say it: "帮我提交招聘到 abetterweb3", "submit my profile to abw", etc. The skill description covers a wide trigger set.
+
+To update later, re-run the install command. To uninstall: `rm -rf ~/.claude/skills/abw-submit`.
 
 ## Files
 
