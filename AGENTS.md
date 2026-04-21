@@ -69,6 +69,7 @@ This returns the current field list and all valid `select` / `multi_select` opti
 Not every field surfaces in the public Telegram post. See [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) for a field-by-field breakdown. Short version:
 
 - **High priority** (always shown): `company`/`name`, `requirements` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `roles`, `source_url`.
+- **Note — `requirements` writes to the Notion page body, not a table property.** The relay automatically splits on double-newlines into paragraph blocks. No length cap matters at the 2000-char rich_text level; put the full job listing here.
 - **Medium priority** (shown as hashtags or sometimes inlined): `job_types`, `salary`, `company_type`, `ecosystem`.
 - **Internal / filter only** (not shown in the public post): `locations`, `experience_required`, `web3_experience`, `education_level`, `languages`, `looking_for`, `open_to_recruiters`, `token_equity`, most "选填" fields.
 

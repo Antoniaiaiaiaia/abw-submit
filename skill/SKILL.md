@@ -28,7 +28,7 @@ Rules for URL-first submissions:
 Not every submitted field shows up in the public Telegram post that readers actually see. See [`PUBLIC_MAPPING.md`](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/PUBLIC_MAPPING.md) in the upstream repo for the full breakdown. Short version — spend extraction effort in this order:
 
 1. `company` / `name` (always shown, required).
-2. `requirements` (recruit) or `skills` + `experience` (talent) — the main text body the reader reads.
+2. `requirements` (recruit) or `skills` + `experience` (talent) — the main text body the reader reads. Note: for recruit, `requirements` is routed to the Notion page body (正文) as paragraph blocks, not to a table property — no 2000-char limit to worry about. Use double newlines (`\n\n`) to separate paragraphs.
 3. Employment-type checkboxes (`fulltime` / `parttime` / `internship` / `remote`) — become the leading hashtags.
 4. `roles` + `job_types` — feed the rest of the hashtag row.
 5. `apply_link` + `apply_info` (recruit) / `contact` (talent) — how the reader acts.
