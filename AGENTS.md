@@ -73,6 +73,39 @@ GET $RELAY_URL/api/schema?type=recruit
 
 This returns the current field list and all valid `select` / `multi_select` options. Use it if you want runtime-fresh data; otherwise `SCHEMA.md` in this repo is the same info in readable form.
 
+## Classify: `talent` vs `recruit`
+
+When the user just pastes a URL and says "submit this to abw", the **page content itself** usually tells you which DB this is. Read the page (via your Tier-1 fetcher), then match against these signals:
+
+### Strong `recruit` signals (company is hiring)
+
+- URL is on a jobs ATS: `greenhouse.io`, `ashbyhq.com`, `lever.co`, `workable.com`, `jobs.*`, `boards.*`, `careers.*`, `/careers`, `/jobs`, `linkedin.com/jobs/view/...`
+- Page title contains a **job title + company** (e.g. "Senior Solana Engineer — Lightcone")
+- Salary range shown (`$180k–$260k`, `USD xxxx / year`)
+- "Apply" / "Submit application" / "投递" button or form
+- Headings like "Responsibilities", "Requirements", "What you'll do", "岗位要求", "We are hiring", "Join us"
+- Listing of multiple open roles under one company
+- Employment-type keywords: full-time / part-time / contract / intern
+
+### Strong `talent` signals (person is job-hunting)
+
+- URL is a **personal profile**: `github.com/<user>` (user page, not a repo), `twitter.com/<user>` / `x.com/<user>`, `linkedin.com/in/<user>`, a personal site (`<firstname>.xyz` / `<name>.dev`), a portfolio page
+- PDF **résumé** (either pasted as URL or attached to the chat) — almost always talent
+- Page describes one person: bio, projects, experience timeline, "About me"
+- Phrases like "Looking for", "Open to opportunities", "Available for", "求职", "找工作", "接单"
+- Contact row (email / Telegram / Twitter DM) framed as "reach me", not "apply here"
+
+### Ambiguous — ask the user
+
+- Company's top-level homepage with no `/careers` content (they might want the company as a future hire target, or as a talent-pool-for-partnerships entry — clarify)
+- A LinkedIn `linkedin.com/company/...` page (company profile, not a job listing)
+- The user says "post X to abw" where X is neither clearly a person nor a role
+- Pages that are partially both (e.g. a founder's site that also lists "we're hiring") — ask which half to submit
+
+### Priority when signals conflict
+
+The **user's explicit verb** wins. "Submit **me**" / "submit **my resume**" / "submit **this candidate**" → `talent` even if the URL is a company page. "Post **this job**" / "we're hiring" → `recruit` even if the URL is a personal site. Only fall back to page signals when the user's sentence is ambiguous (just "submit this to abw").
+
 ## Field priorities — what the reader will actually see
 
 Not every field surfaces in the public Telegram post. See [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) for a field-by-field breakdown. Short version:

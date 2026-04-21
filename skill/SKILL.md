@@ -54,7 +54,30 @@ Everything else (locations, experience_required, education, languages, salary ex
 | `talent` | The user is submitting a **candidate profile** (themselves or someone else) to the talent pool | `name` |
 | `recruit` | The user is submitting a **job posting** (hiring announcement) | `company` |
 
-If ambiguous ("提交到 abw" with no context), ask once which one.
+### Classify from page signals when the user only gives a URL
+
+Fetch the page, then match against these. **User's explicit verb wins** ("submit me" / "post this job") — only use page signals when the user's sentence is ambiguous ("提交到 abw").
+
+**Recruit signals** (company is hiring):
+- URL on a jobs ATS: `greenhouse.io`, `ashbyhq.com`, `lever.co`, `workable.com`, `jobs.*`, `boards.*`, `careers.*`, `/careers`, `/jobs`, `linkedin.com/jobs/view/...`
+- Page title = "Job title — Company" pattern
+- Salary range (`$180k–$260k`, `USD xx / year`)
+- "Apply" / "Submit application" / "投递" button or form
+- Headings: "Responsibilities", "Requirements", "What you'll do", "岗位要求", "We are hiring"
+- Multiple open roles listed under one company
+- Full-time / part-time / contract / intern keywords
+
+**Talent signals** (person is job-hunting):
+- Personal profile URLs: `github.com/<user>` (user page, not a repo), `twitter.com/<user>`, `x.com/<user>`, `linkedin.com/in/<user>`, personal site, portfolio
+- PDF **résumé** — almost always talent
+- Page describes one person: bio, projects, experience, "About me"
+- Phrases: "Looking for", "Open to opportunities", "Available for", "求职", "找工作", "接单"
+- Contact row framed as "reach me", not "apply here"
+
+**Ambiguous — ask the user**:
+- Company homepage with no `/careers` content
+- `linkedin.com/company/...` (company profile, not a job listing)
+- Pages that are partially both (founder site that also says "we're hiring") — ask which half
 
 ## Workflow
 
