@@ -81,11 +81,11 @@ The user will often paste a URL — a job posting on jobs.solana.com / cryptocur
 
 Rules:
 
-1. **Always fetch the URL** first. Picking order:
-    - (a) Native web-reading tool in your runtime (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`, etc.).
-    - (b) **Jina AI Reader** — zero-config HTTP fallback that works from any `curl`: `curl https://r.jina.ai/<the-URL>` returns clean markdown. Repo: [jina-ai/reader](https://github.com/jina-ai/reader).
-    - (c) If the site is heavy JS / SPA / anti-bot, reach for [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai), or [Playwright](https://github.com/microsoft/playwright). See [`FETCH_TOOLS.md`](./FETCH_TOOLS.md) for the full list with tradeoffs.
-    - (d) If you have no network access at all, **ask the user to paste the page text** and extract fields from what they paste. Never invent fields because you couldn't fetch a URL.
+1. **Always fetch the URL** first. Pick by tier, stop at the first that works:
+    - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), or [Jina Reader](https://github.com/jina-ai/reader) (`curl https://r.jina.ai/<URL>`), or [Firecrawl](https://github.com/mendableai/firecrawl) / [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
+    - **Tier 2 — browser control (only if Tier 1 fails on the specific URL):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't reach for these by default.
+    - **Tier 3 — ask the user:** if you have no network or Tier 1+2 all fail, say *"I can't reach that page from here. Can you paste the job description?"* Extract fields from what they paste. Never invent fields because you couldn't fetch.
+    - Full tradeoffs in [`FETCH_TOOLS.md`](./FETCH_TOOLS.md).
 2. For **recruit** submissions, put the URL in `source_url`. For **talent** submissions, put it in `more_links`.
 3. **Extract aggressively**: company name, job title, job description, requirements, salary, locations, remote/hybrid/on-site, full-time/part-time/internship, required technologies and ecosystems — almost always on the page.
 4. **Omit fields you cannot confidently determine.** Do not guess. The admin will fill in anything missing during review.
