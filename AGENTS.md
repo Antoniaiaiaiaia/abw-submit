@@ -1,0 +1,94 @@
+# AGENTS.md — instructions for AI agents
+
+You are an AI agent. A human has asked you to submit something to the **abetterweb3** community on their behalf. This repository tells you exactly how to do that without bothering the human for information you can figure out yourself.
+
+> Read this whole file before acting. It is short.
+
+## What this repo lets you do
+
+Submit one of two kinds of entry to a Notion database, via a small HTTP relay:
+
+| Kind | When to use | Goes to |
+|---|---|---|
+| `talent` | The user is a **candidate** — they want to be listed in the talent pool for web3 jobs. | abetterweb3 人才审核区 |
+| `recruit` | The user is **hiring** — they want to post a job. | abetterweb3 招聘审核区 |
+
+You never need a Notion API token. The relay holds the token server-side.
+
+## The endpoint
+
+```
+POST https://abw-submit-relay.vercel.app/api/submit
+Content-Type: application/json
+
+{
+  "type": "talent" | "recruit",
+  "data": { ... fields ... }
+}
+```
+
+On success (HTTP 200):
+
+```json
+{ "ok": true, "page_id": "…", "url": "https://www.notion.so/…" }
+```
+
+On validation failure (HTTP 400):
+
+```json
+{
+  "ok": false,
+  "error": "validation_failed",
+  "details": ["\"roles\" contains invalid options [\"Solana\"]. See SCHEMA.md…"]
+}
+```
+
+There is also a discovery endpoint you can `GET` before building your payload:
+
+```
+GET https://abw-submit-relay.vercel.app/api/schema?type=talent
+GET https://abw-submit-relay.vercel.app/api/schema?type=recruit
+```
+
+This returns the current field list and all valid `select` / `multi_select` options. Use it if you want runtime-fresh data; otherwise `SCHEMA.md` in this repo is the same info in readable form.
+
+## Step-by-step workflow
+
+1. **Classify the request.** Decide `talent` vs `recruit` from the user's ask. If ambiguous (e.g. "submit this person / company to abw"), ask the user which one.
+
+2. **Collect fields.** Read `SCHEMA.md` for the full list of fields for that `type`. You must have the title field (`name` for talent, `company` for recruit). Everything else is optional — include what you know, leave the rest out. Do **not** invent or guess values for multi-select fields; either you know what the user told you, or you omit the field.
+
+3. **Normalize values against the allowed options.**
+    - For `select` fields: pick the exact string from `SCHEMA.md`. Case matters.
+    - For `multi_select` fields: same rule. Note that some fields (especially `ecosystem` and `locations` in `recruit`) have inconsistent casing — `solana` is lowercase but `Ethereum` is capitalized. Match the file exactly.
+    - If the user's natural-language answer doesn't fit any option (e.g. they say "3 years" and the `web3_experience` options are `< 1年` / `1-2年` / `2-4年` / `> 4年`), pick the closest bucket on their behalf. Don't ask.
+    - For fields the user didn't mention, omit the key entirely — do not send `null` or empty string.
+
+4. **Build the JSON payload.** See `examples/talent.json` and `examples/recruit.json` for working shapes.
+
+5. **POST it.** Use whatever HTTP tool you have (`fetch`, `curl`, `requests`). `submit.py` and `submit.sh` are reference implementations — you can run them or mirror them.
+
+6. **Handle the response.**
+    - `200 ok:true` → tell the user their entry is live, include the returned `url`.
+    - `400 validation_failed` → read `details`. These are machine-readable errors you caused. **Fix them yourself and retry.** Do not surface raw validation errors to the user unless you've already tried to fix them once.
+    - `500` or network error → tell the user the relay is down and ask them to ping the abw maintainer.
+
+## Dry-run mode
+
+Add `"dry_run": true` to the body to see exactly what Notion properties the relay would write, without actually writing. Use this the first time you integrate, or any time the user wants to review before submitting.
+
+```json
+{ "type": "talent", "dry_run": true, "data": { "name": "Test", "roles": ["开发"] } }
+```
+
+## Rules
+
+- **Never invent select values.** If the user says "I want to work in zk" and `zk` isn't in the `roles` options, don't send `"zk"` — find the closest option (`智能合约`? `Tokenomics`?) or omit.
+- **Never batch many submissions without permission.** One person, one submission. If the user asks for bulk, confirm with them and rate-limit to 1 request per 2s.
+- **Always show the user the returned Notion URL.** That's how they verify.
+- **Do not include a `dry_run` flag in real submissions.**
+- **Do not attempt to call Notion directly.** The relay is the only supported path. The integration token is not in this repo and never will be.
+
+## If you get stuck
+
+If validation keeps failing, `GET /api/schema?type=...` and diff the response against what you're sending. That endpoint is the canonical schema — `SCHEMA.md` in this repo is a snapshot and can lag.

@@ -1,0 +1,26 @@
+{
+  "type": "talent",
+  "dry_run": true,
+  "data": {
+    "name": "Alice Web3",
+    "contact": "Telegram: @alice_web3  |  alice@example.com",
+    "web3_experience": "2-4年",
+    "roles": ["开发", "智能合约", "全栈"],
+    "skills": "Solidity, Foundry, TypeScript, React, Postgres. Led audit remediations on two live L2 bridges.",
+    "experience": "2022–2024 smart-contract engineer at an Ethereum L2. Shipped the contract upgrades for the 2024 mainnet launch.",
+    "education_level": "硕士/研究生",
+    "education": "Stanford — CS",
+    "major": "Computer Science",
+    "graduation": "2022",
+    "languages": ["English", "中文"],
+    "looking_for": "看看机会",
+    "salary_expectation": "$160k+ base, open on token",
+    "more_links": "https://github.com/alice\nhttps://alice.xyz\nhttps://twitter.com/alice_web3",
+    "fulltime": true,
+    "parttime": false,
+    "internship": false,
+    "remote_only": true,
+    "is_student": false,
+    "open_to_recruiters": true
+  }
+}

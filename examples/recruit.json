@@ -1,0 +1,31 @@
+{
+  "type": "recruit",
+  "dry_run": true,
+  "data": {
+    "company": "Example Labs",
+    "contact_email": "jobs@example-labs.xyz",
+    "source_url": "https://example-labs.xyz/careers/senior-solidity",
+    "apply_link": "https://example-labs.xyz/apply/senior-solidity",
+    "job_description": "Senior smart-contract engineer to lead the audit-remediation workstream on our L2 perpetuals DEX.",
+    "requirements": "5+ years engineering, 2+ years writing production Solidity. Comfortable with Foundry, fuzzing, and reading EVM bytecode.",
+    "salary": "$180k–$260k base + token grant",
+    "benefits": "Remote-first, quarterly offsites, health insurance (US/EU).",
+    "apply_info": "Email jobs@example-labs.xyz with CV and a recent contract you're proud of.",
+    "roles": ["智能合约", "后端"],
+    "job_types": ["智能合约", "后端", "solidity", "审计"],
+    "experience_required": ["5-8年"],
+    "ecosystem": ["Ethereum", "Arbitrum", "EVM"],
+    "company_type": ["DEX", "Layer2", "DeFi"],
+    "locations": ["Remote", "Singapore", "NYC"],
+    "languages": ["English"],
+    "web3_experience": "> 4年",
+    "education_level": "学士/本科",
+    "looking_for": "随时合作",
+    "fulltime": true,
+    "parttime": false,
+    "internship": false,
+    "remote": true,
+    "open_to_recruiters": true,
+    "token_equity": true
+  }
+}
