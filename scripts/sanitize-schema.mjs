@@ -4,6 +4,10 @@
 // `object`, `id`, `title`, `description`, `properties`, `is_inline`, `archived`,
 // `in_trash`, `created_time`, `last_edited_time`.
 //
+// Also recursively strips `href` and `text.link.url` from rich_text entries
+// (database description + property descriptions) — Notion embeds internal
+// workspace page URLs there that leak otherwise.
+//
 // Run after re-snapshotting the databases, before `generate-schema-doc.mjs`:
 //
 //   node scripts/sanitize-schema.mjs
@@ -17,7 +21,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const schemasDir = resolve(__dirname, '..', 'schemas');
 
-const KEEP = new Set([
+const KEEP_TOP_LEVEL = new Set([
   'object',
   'id',
   'title',
@@ -30,12 +34,40 @@ const KEEP = new Set([
   'last_edited_time',
 ]);
 
+// Recursively null out any embedded URL-shaped fields that could leak
+// internal workspace pages (rich_text hrefs, inline link.url, etc.).
+// Returns a new value; does not mutate.
+function scrubLinks(value) {
+  if (Array.isArray(value)) {
+    return value.map(scrubLinks);
+  }
+  if (value && typeof value === 'object') {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) {
+      if (k === 'href') {
+        // Null out top-level href on rich_text entries — it duplicates
+        // `text.link.url` for link spans. Drop entirely.
+        out[k] = null;
+      } else if (k === 'link' && v && typeof v === 'object' && 'url' in v) {
+        // Notion's text.link = { url: "..." } — drop the URL, keep the
+        // object shape as null so downstream code that checks for `.link`
+        // still sees a plain (non-linked) text span.
+        out[k] = null;
+      } else {
+        out[k] = scrubLinks(v);
+      }
+    }
+    return out;
+  }
+  return value;
+}
+
 for (const file of readdirSync(schemasDir).filter((f) => f.endsWith('.json'))) {
   const path = resolve(schemasDir, file);
   const raw = JSON.parse(readFileSync(path, 'utf8'));
   const clean = {};
   for (const k of Object.keys(raw)) {
-    if (KEEP.has(k)) clean[k] = raw[k];
+    if (KEEP_TOP_LEVEL.has(k)) clean[k] = scrubLinks(raw[k]);
   }
   writeFileSync(path, JSON.stringify(clean, null, 2) + '\n');
   console.log(`Sanitized ${file}`);

@@ -61,9 +61,7 @@
       "type": "text",
       "text": {
         "content": "https://forms.fillout.com/t/qHGhNkJepYus",
-        "link": {
-          "url": "https://forms.fillout.com/t/qHGhNkJepYus"
-        }
+        "link": null
       },
       "annotations": {
         "bold": true,
@@ -74,7 +72,7 @@
         "color": "blue"
       },
       "plain_text": "https://forms.fillout.com/t/qHGhNkJepYus",
-      "href": "https://forms.fillout.com/t/qHGhNkJepYus"
+      "href": null
     },
     {
       "type": "text",
@@ -267,9 +265,7 @@
       "type": "text",
       "text": {
         "content": "人才库归档 ",
-        "link": {
-          "url": "/12e84271ff5580da88a5cf1b23884420"
-        }
+        "link": null
       },
       "annotations": {
         "bold": true,
@@ -280,7 +276,7 @@
         "color": "blue"
       },
       "plain_text": "人才库归档 ",
-      "href": "/12e84271ff5580da88a5cf1b23884420"
+      "href": null
     },
     {
       "type": "text",

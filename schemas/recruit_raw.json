@@ -44,9 +44,7 @@
       "type": "text",
       "text": {
         "content": "https://t.me/abetterweb3_cn/3977",
-        "link": {
-          "url": "https://t.me/abetterweb3_cn/3977"
-        }
+        "link": null
       },
       "annotations": {
         "bold": true,
@@ -57,7 +55,7 @@
         "color": "blue"
       },
       "plain_text": "https://t.me/abetterweb3_cn/3977",
-      "href": "https://t.me/abetterweb3_cn/3977"
+      "href": null
     },
     {
       "type": "text",
@@ -127,7 +125,7 @@
         "color": "default"
       },
       "plain_text": "Untitled",
-      "href": "https://www.notion.so/e3577a9eea1746b18b6421227cfa3ccf"
+      "href": null
     },
     {
       "type": "text",
@@ -167,9 +165,7 @@
       "type": "text",
       "text": {
         "content": "Telegram 频道",
-        "link": {
-          "url": "https://t.me/abetterweb3_cn"
-        }
+        "link": null
       },
       "annotations": {
         "bold": true,
@@ -180,7 +176,7 @@
         "color": "blue"
       },
       "plain_text": "Telegram 频道",
-      "href": "https://t.me/abetterweb3_cn"
+      "href": null
     },
     {
       "type": "text",
@@ -3169,13 +3165,7 @@
         ]
       }
     },
-    "link": {
-      "id": "c3cf30d0-21c5-4bc9-aa21-264215c53fbd",
-      "name": "link",
-      "description": null,
-      "type": "url",
-      "url": {}
-    },
+    "link": null,
     "涉及工种": {
       "id": "d13c7b3a-0b3f-47e3-ba49-f4250e75d867",
       "name": "涉及工种",
