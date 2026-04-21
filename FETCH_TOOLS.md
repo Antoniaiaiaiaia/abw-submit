@@ -20,7 +20,7 @@ Zero-install, single HTTP call, returns LLM-ready content. Use these first.
 - **Returns:** clean markdown
 - **Auth:** none for typical volumes; register for higher limits
 - **Repo:** [jina-ai/reader](https://github.com/jina-ai/reader)
-- **Good for:** 90% of pages — static sites, job boards, blogs, docs. Handles moderate JS rendering server-side.
+- **Good for:** 90% of pages — static sites, job boards, blogs, docs. Handles moderate JS rendering server-side. **Also handles PDFs natively** — `curl https://r.jina.ai/https://example.com/resume.pdf` returns extracted markdown from the PDF. Useful for candidate résumés and PDF job listings.
 
 ### OpenCLI ⭐ also recommended
 

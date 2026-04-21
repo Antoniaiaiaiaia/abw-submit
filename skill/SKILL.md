@@ -15,6 +15,8 @@ Community canonical links:
 
 The user will often paste a URL — a job posting on another site (jobs.solana.com, cryptocurrencyjobs.co, a company careers page), a personal GitHub / LinkedIn / Twitter, a portfolio page, etc. **Fetch the URL first.** Extract everything you can from the page content, map it to the payload fields, and only ask the user for what you cannot determine.
 
+**PDFs work the same way.** If the user attaches a PDF file or pastes a PDF URL (common for resumes and some job listings), treat it as a URL source — use your runtime's native PDF reader (Claude / ChatGPT / Cursor handle attached PDFs natively) or Jina Reader for PDF URLs (it handles PDFs), then continue with the same extraction flow.
+
 Rules for URL-first submissions:
 
 1. **Always fetch the URL** before asking the user for fields. Pick by tier, stop at the first that works:

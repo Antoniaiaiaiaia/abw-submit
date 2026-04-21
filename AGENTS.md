@@ -89,6 +89,8 @@ Spend extraction effort on the high-priority fields first. Skip low-priority fie
 
 The user will often paste a URL — a job posting on jobs.solana.com / cryptocurrencyjobs.co / a company careers page, a candidate's GitHub / LinkedIn / Twitter / portfolio. **Fetch it before asking them to type anything.** Extract every field you can from the page content, map to the payload, and only ask the user for what you genuinely cannot determine.
 
+**PDFs work the same way.** Whether the user pastes a PDF URL (hosted resume, PDF job listing) or attaches a PDF file to the chat, treat it as a URL source: read it with whatever native PDF reader your runtime provides (Claude / ChatGPT / Cursor all handle PDFs in attachments natively; Jina Reader handles PDF URLs), extract fields, and continue the same flow. Candidate résumés are almost always PDFs — expect them.
+
 Rules:
 
 1. **Always fetch the URL** first. Pick by tier, stop at the first that works:
