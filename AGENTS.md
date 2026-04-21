@@ -70,7 +70,7 @@ The user will often paste a URL — a job posting on jobs.solana.com / cryptocur
 
 Rules:
 
-1. **Always fetch the URL** first. Use whatever HTTP fetch / web-reading tool you have.
+1. **Always fetch the URL** first. Use whatever web-reading tool you have — Claude Code's `WebFetch`, Cursor's browser, etc. If you only have raw HTTP (no native reader), use **Jina AI Reader** as a zero-config fallback: `curl https://r.jina.ai/<the-URL>` returns the page as clean markdown. No API key needed for typical volumes.
 2. For **recruit** submissions, put the URL in `source_url`. For **talent** submissions, put it in `more_links`.
 3. **Extract aggressively**: company name, job title, job description, requirements, salary, locations, remote/hybrid/on-site, full-time/part-time/internship, required technologies and ecosystems — almost always on the page.
 4. **Omit fields you cannot confidently determine.** Do not guess. The admin will fill in anything missing during review.

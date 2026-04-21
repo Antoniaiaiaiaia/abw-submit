@@ -13,7 +13,9 @@ The user will often paste a URL — a job posting on another site (jobs.solana.c
 
 Rules for URL-first submissions:
 
-1. **Always fetch the URL** (use `WebFetch` or equivalent) before asking the user for fields.
+1. **Always fetch the URL** before asking the user for fields.
+    - If you have a native web-reading tool (Claude Code's `WebFetch`, Cursor's browser, etc.), use it.
+    - If you don't, use **Jina AI Reader** as a zero-config fallback — it works from any HTTP client: `curl https://r.jina.ai/<the-URL>` returns the page as clean markdown that you can feed to your LLM. No API key needed for typical volumes.
 2. **Put the URL in `source_url`** (for recruit) or in `more_links` (for talent).
 3. **Extract aggressively.** Company / job title / description / requirements / salary / location / remote status / employment type / required tech → all usually on the page.
 4. **Omit fields you cannot confidently determine.** Leave them blank rather than guessing. The admin reviewer will fill in what's missing.
