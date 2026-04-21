@@ -16,11 +16,24 @@ Give this repo to your agent (Claude, Cursor, ChatGPT with browsing, Aider, etc.
 
 Open [AGENTS.md](./AGENTS.md). Everything you need is there.
 
+## Install as a Claude skill (optional, for Claude Code / Claude Desktop users)
+
+Once installed, natural-language intents like "帮我提交招聘到 abetterweb3" or "submit my profile to abw" trigger the skill automatically — no manual clone, no context-pasting.
+
+```bash
+mkdir -p ~/.claude/skills/abw-submit && \
+curl -sSL https://raw.githubusercontent.com/Antoniaiaiaiaia/abw-submit/main/skill/SKILL.md \
+  -o ~/.claude/skills/abw-submit/SKILL.md
+```
+
+To update later, re-run the same command. To uninstall: `rm -rf ~/.claude/skills/abw-submit`.
+
 ## Files
 
 | File | For |
 |---|---|
-| [`AGENTS.md`](./AGENTS.md) | Primary instructions for AI agents. |
+| [`AGENTS.md`](./AGENTS.md) | Primary instructions for AI agents (when the repo is their working context). |
+| [`skill/SKILL.md`](./skill/SKILL.md) | Claude skill — install once, triggers on natural language. |
 | [`SCHEMA.md`](./SCHEMA.md) | Every field, every valid `select` / `multi_select` option. |
 | [`submit.py`](./submit.py) | Reference Python submitter. |
 | [`submit.sh`](./submit.sh) | Reference `curl` one-liner. |
