@@ -64,6 +64,16 @@ GET https://abw-submit-relay.vercel.app/api/schema?type=recruit
 
 This returns the current field list and all valid `select` / `multi_select` options. Use it if you want runtime-fresh data; otherwise `SCHEMA.md` in this repo is the same info in readable form.
 
+## Field priorities — what the reader will actually see
+
+Not every field surfaces in the public Telegram post. See [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) for a field-by-field breakdown. Short version:
+
+- **High priority** (always shown): `company`/`name`, `requirements` (recruit) / `skills`+`experience` (talent), `apply_link`+`apply_info` (recruit) / `contact` (talent), `fulltime`/`parttime`/`internship`/`remote`, `roles`, `source_url`.
+- **Medium priority** (shown as hashtags or sometimes inlined): `job_types`, `salary`, `company_type`, `ecosystem`.
+- **Internal / filter only** (not shown in the public post): `locations`, `experience_required`, `web3_experience`, `education_level`, `languages`, `looking_for`, `open_to_recruiters`, `token_equity`, most "选填" fields.
+
+Spend extraction effort on the high-priority fields first. Skip low-priority fields if the source doesn't clearly have them.
+
 ## URL-first submissions (the common case)
 
 The user will often paste a URL — a job posting on jobs.solana.com / cryptocurrencyjobs.co / a company careers page, a candidate's GitHub / LinkedIn / Twitter / portfolio. **Fetch it before asking them to type anything.** Extract every field you can from the page content, map to the payload, and only ask the user for what you genuinely cannot determine.

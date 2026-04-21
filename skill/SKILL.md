@@ -23,6 +23,19 @@ Rules for URL-first submissions:
 6. **Show the user a dry-run first** when submitting from a URL (add `"dry_run": true` to the body). Let them spot anything you mis-extracted before the real submission.
 7. **Only ask the user for genuinely missing critical info** — typically: contact / apply channel if not on the page, or salary expectation for a candidate submission (can't be inferred from a profile URL).
 
+## What gets published publicly
+
+Not every submitted field shows up in the public Telegram post that readers actually see. See [`PUBLIC_MAPPING.md`](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/PUBLIC_MAPPING.md) in the upstream repo for the full breakdown. Short version — spend extraction effort in this order:
+
+1. `company` / `name` (always shown, required).
+2. `requirements` (recruit) or `skills` + `experience` (talent) — the main text body the reader reads.
+3. Employment-type checkboxes (`fulltime` / `parttime` / `internship` / `remote`) — become the leading hashtags.
+4. `roles` + `job_types` — feed the rest of the hashtag row.
+5. `apply_link` + `apply_info` (recruit) / `contact` (talent) — how the reader acts.
+6. `source_url` — the "更多在招" link at the bottom.
+
+Everything else (locations, experience_required, education, languages, salary expectation) is filter/internal and rarely appears in the Telegram post — include when easy to extract, skip when not.
+
 ## Decide which one
 
 | Kind | When | Title field |

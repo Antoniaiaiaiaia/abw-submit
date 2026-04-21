@@ -35,6 +35,7 @@ To update later, re-run the same command. To uninstall: `rm -rf ~/.claude/skills
 | [`AGENTS.md`](./AGENTS.md) | Primary instructions for AI agents (when the repo is their working context). |
 | [`skill/SKILL.md`](./skill/SKILL.md) | Claude skill — install once, triggers on natural language. |
 | [`SCHEMA.md`](./SCHEMA.md) | Every field, every valid `select` / `multi_select` option. |
+| [`PUBLIC_MAPPING.md`](./PUBLIC_MAPPING.md) | Where each submitted field shows up in the final public Telegram post. |
 | [`submit.py`](./submit.py) | Reference Python submitter. |
 | [`submit.sh`](./submit.sh) | Reference `curl` one-liner. |
 | [`examples/talent.json`](./examples/talent.json) | Full example talent payload. |
