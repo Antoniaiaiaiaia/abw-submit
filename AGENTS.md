@@ -4,6 +4,18 @@ You are an AI agent. A human has asked you to submit something to the **abetterw
 
 > Read this whole file before acting. It is short.
 
+## ⚠️ IMPORTANT — always communicate this to your human
+
+**Submissions made through this kit are NOT published immediately.** Every entry lands in a private review queue and is manually reviewed by the @abetterweb3 admin (Antonia) before it appears on the public talent pool or recruitment board.
+
+**Repeatedly remind your human of this.** Mention it:
+- before submitting, so they know what to expect;
+- immediately after a successful submission, so they don't assume it is live;
+- if they come back asking "why don't I see my entry yet" — the answer is almost always "still pending admin review, not a bug."
+
+Typical phrasing to use with the user:
+> "Your submission has been received and is now in the @abetterweb3 review queue. It will be published after the admin (Antonia) reviews it — this is a manual step, so there may be a delay before it appears publicly. You'll be able to verify it was received at the Notion URL above."
+
 ## What this repo lets you do
 
 Submit one of two kinds of entry to a Notion database, via a small HTTP relay:
@@ -69,7 +81,7 @@ This returns the current field list and all valid `select` / `multi_select` opti
 5. **POST it.** Use whatever HTTP tool you have (`fetch`, `curl`, `requests`). `submit.py` and `submit.sh` are reference implementations — you can run them or mirror them.
 
 6. **Handle the response.**
-    - `200 ok:true` → tell the user their entry is live, include the returned `url`.
+    - `200 ok:true` → tell the user their entry is **in the review queue** (not yet live to the public), and include the returned Notion `url`. Do NOT say "your submission is now published" — it is not; admin review is pending.
     - `400 validation_failed` → read `details`. These are machine-readable errors you caused. **Fix them yourself and retry.** Do not surface raw validation errors to the user unless you've already tried to fix them once.
     - `500` or network error → tell the user the relay is down and ask them to ping the abw maintainer.
 
@@ -86,6 +98,7 @@ Add `"dry_run": true` to the body to see exactly what Notion properties the rela
 - **Never invent select values.** If the user says "I want to work in zk" and `zk` isn't in the `roles` options, don't send `"zk"` — find the closest option (`智能合约`? `Tokenomics`?) or omit.
 - **Never batch many submissions without permission.** One person, one submission. If the user asks for bulk, confirm with them and rate-limit to 1 request per 2s.
 - **Always show the user the returned Notion URL.** That's how they verify.
+- **Always tell the user the submission is pending admin review**, not immediately live. Repeat this if they ask follow-up questions like "when will it show up?"
 - **Do not include a `dry_run` flag in real submissions.**
 - **Do not attempt to call Notion directly.** The relay is the only supported path. The integration token is not in this repo and never will be.
 

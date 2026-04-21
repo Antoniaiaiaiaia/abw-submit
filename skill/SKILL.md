@@ -45,9 +45,21 @@ If ambiguous ("提交到 abw" with no context), ask once which one.
    Add `"dry_run": true` inside the body to preview the Notion payload without writing.
 
 5. **Handle the response.**
-    - `200 ok:true` → share the returned `url` with the user, tell them the entry is now in the review queue.
+    - `200 ok:true` → share the returned `url` and **clearly tell the user the submission is pending admin review, not yet public**. See "Always communicate this" below.
     - `400 validation_failed` → read `details[]`, **fix the payload yourself**, retry. Don't bounce raw validation errors to the user unless you've already tried to fix them once.
     - `5xx` / network error → tell the user the relay is temporarily down.
+
+## ⚠️ Always communicate this to your human
+
+**Submissions are NOT published immediately.** Every entry goes to a private review queue and is manually reviewed by the @abetterweb3 admin (Antonia) before it appears publicly.
+
+Mention this:
+- before submitting, so they know what to expect;
+- right after a successful submission, so they don't assume it went live;
+- if they ask "why don't I see my entry yet" — the answer is almost always "still pending admin review."
+
+Typical phrasing:
+> "Your submission has been received and is now in the @abetterweb3 review queue. It will be published after admin Antonia reviews it manually, so there may be a delay before it shows up publicly. You can verify the entry was received at the Notion URL above."
 
 ## Payload shape quick reference
 
@@ -87,5 +99,5 @@ Full field list + every valid option: `GET /api/schema?type=...` or see the upst
 - Don't invent `select` values. Pick the closest legal option or omit.
 - Don't batch many submissions. One request per user intent.
 - Always share the Notion `url` on success so the user can verify.
-- The submission lands in a review queue; an @abetterweb3 admin publishes it. Tell the user this.
+- Always tell the user the submission is **pending admin review**, not immediately public. Repeat this if they follow up asking when it will appear.
 - Never try to call the Notion API directly. The relay is the only supported path.
