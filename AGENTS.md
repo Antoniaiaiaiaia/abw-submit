@@ -64,6 +64,20 @@ GET https://abw-submit-relay.vercel.app/api/schema?type=recruit
 
 This returns the current field list and all valid `select` / `multi_select` options. Use it if you want runtime-fresh data; otherwise `SCHEMA.md` in this repo is the same info in readable form.
 
+## URL-first submissions (the common case)
+
+The user will often paste a URL — a job posting on jobs.solana.com / cryptocurrencyjobs.co / a company careers page, a candidate's GitHub / LinkedIn / Twitter / portfolio. **Fetch it before asking them to type anything.** Extract every field you can from the page content, map to the payload, and only ask the user for what you genuinely cannot determine.
+
+Rules:
+
+1. **Always fetch the URL** first. Use whatever HTTP fetch / web-reading tool you have.
+2. For **recruit** submissions, put the URL in `source_url`. For **talent** submissions, put it in `more_links`.
+3. **Extract aggressively**: company name, job title, job description, requirements, salary, locations, remote/hybrid/on-site, full-time/part-time/internship, required technologies and ecosystems — almost always on the page.
+4. **Omit fields you cannot confidently determine.** Do not guess. The admin will fill in anything missing during review.
+5. **Map extracted text onto the legal option lists** from `GET /api/schema`. Be careful with casing — for `recruit.ecosystem`, `solana` is lowercase; for `recruit.roles`, `Solana` is capitalized. Same word, different capitalization in different fields.
+6. **Dry-run first** when submitting from a URL (`"dry_run": true`). Let the user spot mis-extractions before the real submission. Ask: "Here's what I'll submit — anything I got wrong?"
+7. Only ask the user for **genuinely missing critical info**. For a recruit: apply channel if not on the page. For a talent: salary expectation, since profile pages rarely show it.
+
 ## Step-by-step workflow
 
 1. **Classify the request.** Decide `talent` vs `recruit` from the user's ask. If ambiguous (e.g. "submit this person / company to abw"), ask the user which one.

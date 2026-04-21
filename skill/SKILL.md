@@ -7,6 +7,20 @@ description: Submit a candidate profile or job posting to the @abetterweb3 commu
 
 You're helping the user submit to one of the @abetterweb3 Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
 
+## If the user gives you a URL, use it
+
+The user will often paste a URL — a job posting on another site (jobs.solana.com, cryptocurrencyjobs.co, a company careers page), a personal GitHub / LinkedIn / Twitter, a portfolio page, etc. **Fetch the URL first.** Extract everything you can from the page content, map it to the payload fields, and only ask the user for what you cannot determine.
+
+Rules for URL-first submissions:
+
+1. **Always fetch the URL** (use `WebFetch` or equivalent) before asking the user for fields.
+2. **Put the URL in `source_url`** (for recruit) or in `more_links` (for talent).
+3. **Extract aggressively.** Company / job title / description / requirements / salary / location / remote status / employment type / required tech → all usually on the page.
+4. **Omit fields you cannot confidently determine.** Leave them blank rather than guessing. The admin reviewer will fill in what's missing.
+5. **Map extracted values onto the legal option lists** from `GET /api/schema`. Be careful with casing — `solana` lowercase for `ecosystem`, `Solana` capitalized for `roles`.
+6. **Show the user a dry-run first** when submitting from a URL (add `"dry_run": true` to the body). Let them spot anything you mis-extracted before the real submission.
+7. **Only ask the user for genuinely missing critical info** — typically: contact / apply channel if not on the page, or salary expectation for a candidate submission (can't be inferred from a profile URL).
+
 ## Decide which one
 
 | Kind | When | Title field |
