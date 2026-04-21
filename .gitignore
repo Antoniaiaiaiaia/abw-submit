@@ -4,5 +4,6 @@ node_modules/
 .env
 .env.local
 
-# Internal agent-briefing notes — not for the public repo
+# Internal engineering docs — kept local, never in the public repo
 context.md
+change-log.md

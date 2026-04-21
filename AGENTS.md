@@ -36,8 +36,10 @@ You never need a Notion API token. The relay holds the token server-side.
 
 ## The endpoint
 
+The relay URL is not published in this repo. Ask the abetterweb3 admin (pinned message in the [Telegram channel](https://t.me/abetterweb3_cn)) for the current endpoint, then substitute it for `$RELAY_URL` below.
+
 ```
-POST https://abw-submit-relay.vercel.app/api/submit
+POST $RELAY_URL/api/submit
 Content-Type: application/json
 
 {
@@ -65,8 +67,8 @@ On validation failure (HTTP 400):
 There is also a discovery endpoint you can `GET` before building your payload:
 
 ```
-GET https://abw-submit-relay.vercel.app/api/schema?type=talent
-GET https://abw-submit-relay.vercel.app/api/schema?type=recruit
+GET $RELAY_URL/api/schema?type=talent
+GET $RELAY_URL/api/schema?type=recruit
 ```
 
 This returns the current field list and all valid `select` / `multi_select` options. Use it if you want runtime-fresh data; otherwise `SCHEMA.md` in this repo is the same info in readable form.

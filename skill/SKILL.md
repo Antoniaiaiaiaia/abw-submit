@@ -53,10 +53,12 @@ If ambiguous ("提交到 abw" with no context), ask once which one.
 
 ## Workflow
 
+**Prerequisite — obtain the relay URL.** The endpoint is not published in this repo. Ask the user to set `RELAY_URL` (they can find it in the pinned message of the [abetterweb3 Telegram channel](https://t.me/abetterweb3_cn)) before running any of the commands below. If `RELAY_URL` is empty, stop and ask the user for it.
+
 1. **Fetch the current field schema at runtime**:
    ```
-   curl -sS https://abw-submit-relay.vercel.app/api/schema?type=talent
-   curl -sS https://abw-submit-relay.vercel.app/api/schema?type=recruit
+   curl -sS "$RELAY_URL/api/schema?type=talent"
+   curl -sS "$RELAY_URL/api/schema?type=recruit"
    ```
    This returns the authoritative list of fields and every valid `select` / `multi_select` option. **Always fetch this** — do not guess values. The option lists are large and contain inconsistent casing (e.g. `solana` lowercase but `Ethereum` capitalized).
 
@@ -70,7 +72,7 @@ If ambiguous ("提交到 abw" with no context), ask once which one.
 
 4. **Dry-run first** if the user wants to review, otherwise submit directly:
    ```bash
-   curl -sS -X POST https://abw-submit-relay.vercel.app/api/submit \
+   curl -sS -X POST "$RELAY_URL/api/submit" \
      -H 'Content-Type: application/json' \
      -d '{
        "type": "talent",

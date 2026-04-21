@@ -10,7 +10,8 @@ Give this repo to your agent (Claude, Cursor, ChatGPT with browsing, Aider, etc.
 - **Twitter / X:** [@abetterweb3](https://x.com/abetterweb3)
 - **Talent pool (Notion, review queue):** <https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
 - **Recruitment board (Notion, review queue):** <https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e>
-- **Relay URL (this kit posts here):** <https://abw-submit-relay.vercel.app>
+
+> **Relay URL:** not published in this repo. Ask the abetterweb3 admin (pinned message in the [Telegram channel](https://t.me/abetterweb3_cn)) for the current endpoint. Set it as `RELAY_URL` before running the submitters below.
 
 ## For humans
 
@@ -50,7 +51,7 @@ To update later, re-run the same command. To uninstall: `rm -rf ~/.claude/skills
 ## Quick curl sanity check
 
 ```bash
-curl -sS -X POST https://abw-submit-relay.vercel.app/api/submit \
+curl -sS -X POST "$RELAY_URL/api/submit" \
   -H 'Content-Type: application/json' \
   --data @examples/talent.json | jq
 ```
