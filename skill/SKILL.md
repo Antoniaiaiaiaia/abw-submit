@@ -92,7 +92,7 @@ Fetch the page, then match against these. **User's explicit verb wins** ("submit
 
 ## Workflow
 
-**Prerequisite — obtain the relay URL.** The endpoint is not published in this repo. Ask the user to set `RELAY_URL` (they can find it in the pinned message of the [abetterweb3 Telegram channel](https://t.me/abetterweb3_cn)) before running any of the commands below. If `RELAY_URL` is empty, stop and ask the user for it.
+**Relay endpoint.** The default base is `https://abw-submit-relay.vercel.app`, used in every command below as `$RELAY_URL`. If the user has set `RELAY_URL` in their shell to override it (e.g. for staging), respect that; otherwise just use the default.
 
 1. **Fetch the current field schema at runtime**:
    ```

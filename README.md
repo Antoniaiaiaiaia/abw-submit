@@ -11,7 +11,7 @@ Give this repo to your agent (Claude, Cursor, ChatGPT with browsing, Aider, etc.
 - **Talent pool (Notion, review queue):** <https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
 - **Recruitment board (Notion, review queue):** <https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e>
 
-> **Relay URL:** not published in this repo. Ask the abetterweb3 admin (pinned message in the [Telegram channel](https://t.me/abetterweb3_cn)) for the current endpoint. Set it as `RELAY_URL` before running the submitters below.
+> **Relay URL:** <https://abw-submit-relay.vercel.app> (default). Override with `export RELAY_URL=...` if a maintainer points you at a different endpoint.
 
 ## For humans
 

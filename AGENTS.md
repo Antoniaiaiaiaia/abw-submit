@@ -36,7 +36,7 @@ You never need a Notion API token. The relay holds the token server-side.
 
 ## The endpoint
 
-The relay URL is not published in this repo. Ask the abetterweb3 admin (pinned message in the [Telegram channel](https://t.me/abetterweb3_cn)) for the current endpoint, then substitute it for `$RELAY_URL` below.
+Default relay URL: `https://abw-submit-relay.vercel.app`. The submitter scripts use this by default; you can override it with `export RELAY_URL=...` if a maintainer points you at a different endpoint. Below, `$RELAY_URL` refers to that base.
 
 ```
 POST $RELAY_URL/api/submit

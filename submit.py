@@ -2,9 +2,9 @@
 """Reference submitter for abw-submit-kit.
 
 Usage:
-    # Set the relay URL. Ask the abw admin or see the pinned message in the
-    # Telegram channel (t.me/abetterweb3_cn) for the current endpoint.
-    export RELAY_URL="<the relay URL>"
+    # Defaults to https://abw-submit-relay.vercel.app
+    # Override only if a maintainer points you at a different endpoint:
+    #   export RELAY_URL="https://other.example/"
 
     # Dry run — shows what would be written, doesn't actually post.
     python submit.py examples/talent.json --dry-run
@@ -27,7 +27,7 @@ import os
 import sys
 from urllib import request, error
 
-DEFAULT_RELAY = os.environ.get("RELAY_URL", "")
+DEFAULT_RELAY = os.environ.get("RELAY_URL", "https://abw-submit-relay.vercel.app")
 
 
 def submit(payload: dict, relay_url: str, dry_run: bool) -> dict:
@@ -54,13 +54,6 @@ def main() -> int:
     p.add_argument("--relay", default=DEFAULT_RELAY, help="Relay base URL")
     p.add_argument("--dry-run", action="store_true", help="Do not actually write to Notion")
     args = p.parse_args()
-
-    if not args.relay:
-        sys.stderr.write(
-            "error: RELAY_URL is not set. Ask the abw admin or see the pinned\n"
-            "       message in the Telegram channel (t.me/abetterweb3_cn).\n"
-        )
-        return 2
 
     with open(args.payload_file, "r", encoding="utf-8") as f:
         payload = json.load(f)
