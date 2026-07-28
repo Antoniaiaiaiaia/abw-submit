@@ -6,12 +6,12 @@ Give this repo to your agent (Claude, Cursor, ChatGPT with browsing, Aider, etc.
 
 ## abetterpath canonical links
 
-- **Telegram (main public channel — where approved entries are published):** <https://t.me/abetterpathxyz>
+- **Telegram:** [@abetterpathxyz](https://t.me/abetterpathxyz)
 - **Twitter / X:** [@abetterpath](https://x.com/abetterpath)
-- **Talent pool (Notion, review queue):** <https://abetterpath.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
-- **Recruitment board (Notion, review queue):** <https://abetterpath.notion.site/1f784271ff5580ecba7fc2d3da928b9e>
+- **Talent review queue:** [Open in Notion](https://abetterpath.notion.site/1f584271ff5580ffa0a9f9b1fadd185c)
+- **Recruitment review queue:** [Open in Notion](https://abetterpath.notion.site/1f784271ff5580ecba7fc2d3da928b9e)
 
-> **Relay URL:** <https://abetterpath-submit-relay.vercel.app> (default). Override with `export RELAY_URL=...` if a maintainer points you at a different endpoint.
+> **Relay:** [abetterpath-submit-relay](https://abetterpath-submit-relay.vercel.app) · Override with `RELAY_URL` when needed.
 
 ## For humans
 
