@@ -1,26 +1,28 @@
 ---
-name: abw-submit
-description: Submit a candidate profile or job posting to the abetterweb3 community (Telegram channel t.me/abetterweb3_cn, Twitter @abetterweb3). Posts go to a Notion-backed review queue; admin approves and publishes to Telegram. Explicit trigger — slash command `/abw-submit` (optionally with a URL or description as arg, e.g. `/abw-submit https://jobs.solana.com/...` or `/abw-submit 帮我发这个简历`). Natural-language triggers — user mentions abetterweb3, abw, web3 job board submission, web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterweb3 / 投递简历到 abw / 发一个招聘到 abw / 把这个候选人加到 abw人才库.
+name: abetterpath-skill
+description: Submit a candidate profile or job posting to the abetterpath community (Telegram channel t.me/abetterpathxyz, Twitter @abetterpath). Posts go to a Notion-backed review queue; admin approves and publishes to Telegram. Explicit trigger — slash command `/abetterpath-skill` (optionally with a URL or description as arg, e.g. `/abetterpath-skill https://jobs.solana.com/...` or `/abetterpath-skill 帮我发这个简历`). Natural-language triggers — user mentions abetterpath, a web3 job board submission, a web3 talent pool, or asks to post a candidate / job / role to a web3 community. Also triggers on Chinese intents like 帮我提交到 abetterpath / 投递简历到 abetterpath / 发一个招聘到 abetterpath / 把这个候选人加到 abetterpath 人才库.
 ---
 
-# abw-submit
+# abetterpath-skill
 
-You're helping the user submit to one of the abetterweb3 Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
+You're helping the user submit to one of the abetterpath Notion databases via a small HTTP relay. No Notion token needed — the relay holds it server-side.
 
 ## How this skill is triggered
 
-1. **Slash command**: the user types `/abw-submit`, optionally with an inline argument:
-   - `/abw-submit` (no arg) — ask the user what they want to submit.
-   - `/abw-submit <URL>` — treat the URL as the source and run the URL-first flow below.
-   - `/abw-submit <free-text description>` — take the description as the submission content directly.
-2. **Natural language**: "帮我提交到 abw", "submit my resume to abetterweb3", "post this job to abw人才库", etc. (see the description field for the full trigger set).
+1. **Slash command**: the user types `/abetterpath-skill`, optionally with an inline argument:
+   - `/abetterpath-skill` (no arg) — ask the user what they want to submit.
+   - `/abetterpath-skill <URL>` — treat the URL as the source and run the URL-first flow below.
+   - `/abetterpath-skill <free-text description>` — take the description as the submission content directly.
+2. **Natural language**: "帮我提交到 abetterpath", "submit my resume to abetterpath", "post this job to abetterpath人才库", etc. (see the description field for the full trigger set).
 
 Either path lands you in the same workflow below.
 
 ## Community canonical links
 
-- Main public channel: <https://t.me/abetterweb3_cn> (Telegram — approved entries publish here)
-- Twitter / X: [@abetterweb3](https://x.com/abetterweb3)
+- Main public channel: <https://t.me/abetterpathxyz> (Telegram — approved entries publish here)
+- Twitter / X: [@abetterpath](https://x.com/abetterpath)
+- Talent review queue: <https://abetterpath.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
+- Recruitment review queue: <https://abetterpath.notion.site/1f784271ff5580ecba7fc2d3da928b9e>
 
 ## If the user gives you a URL, use it
 
@@ -34,7 +36,7 @@ Rules for URL-first submissions:
     - **Tier 1 — efficient extractors (try first):** your native web tool (Claude Code `WebFetch`, Cursor `@Web`, Cline `web_fetch`, Aider `/web`), **[Jina Reader](https://github.com/jina-ai/reader)** (`curl https://r.jina.ai/<URL>` — zero-config, no API key), **[OpenCLI](https://github.com/jackwener/OpenCLI)** (uses your logged-in Chrome session — great for auth-walled pages), [Firecrawl](https://github.com/mendableai/firecrawl), [Crawl4AI](https://github.com/unclecode/crawl4ai). Handles ≥95% of job postings.
     - **Tier 2 — headless browser (only if Tier 1 fails):** [Browserbase](https://github.com/browserbase/sdk-node), [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), [Playwright](https://github.com/microsoft/playwright), [browser-use](https://github.com/browser-use/browser-use). Slower — don't default to these.
     - **Tier 3 — ask the user:** *"I can't reach that page from here. Can you paste the job description?"* Extract from what they paste. **Never invent fields because you couldn't fetch.**
-    - Full tradeoffs: [FETCH_TOOLS.md](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/FETCH_TOOLS.md).
+    - Full tradeoffs: [FETCH_TOOLS.md](https://github.com/Antoniaiaiaiaia/abetterpath-skill/blob/main/FETCH_TOOLS.md).
 2. For **recruit**, two URLs matter:
     - `source_url` = the URL you fetched (aggregator page: jobs.solana.com, ashbyhq, greenhouse, lever, workable…). Put the user's pasted URL here.
     - `apply_link` = the **company's own official website** (e.g. `lightcone.trade`, `trustwallet.com`). Find it on the aggregator page or search the web for the company name. **If no official company website exists, tell the user upfront**: *"The admin won't approve submissions without a company official website — do you have one?"* Don't submit without it.
@@ -47,7 +49,7 @@ Rules for URL-first submissions:
 
 ## What gets published publicly
 
-Not every submitted field shows up in the public Telegram post that readers actually see. See [`PUBLIC_MAPPING.md`](https://github.com/Antoniaiaiaiaia/abw-submit/blob/main/PUBLIC_MAPPING.md) in the upstream repo for the full breakdown. Short version — spend extraction effort in this order:
+Not every submitted field shows up in the public Telegram post that readers actually see. See [`PUBLIC_MAPPING.md`](https://github.com/Antoniaiaiaiaia/abetterpath-skill/blob/main/PUBLIC_MAPPING.md) in the upstream repo for the full breakdown. Short version — spend extraction effort in this order:
 
 1. `company` / `name` (always shown, required).
 2. **recruit**: `requirements` = **list of job titles** the company is hiring for (one per line — a single posting often has multiple roles; put each title on its own line). Routed to the Notion page body, so a 10-title list is fine. The narrative/responsibilities/requirements prose goes in `job_description` (a separate field).  **talent**: `skills` + `experience` — the main text body the reader reads.
@@ -67,7 +69,7 @@ Everything else (locations, experience_required, education, languages, salary ex
 
 ### Classify from page signals when the user only gives a URL
 
-Fetch the page, then match against these. **User's explicit verb wins** ("submit me" / "post this job") — only use page signals when the user's sentence is ambiguous ("提交到 abw").
+Fetch the page, then match against these. **User's explicit verb wins** ("submit me" / "post this job") — only use page signals when the user's sentence is ambiguous ("提交到 abetterpath").
 
 **Recruit signals** (company is hiring):
 - URL on a jobs ATS: `greenhouse.io`, `ashbyhq.com`, `lever.co`, `workable.com`, `jobs.*`, `boards.*`, `careers.*`, `/careers`, `/jobs`, `linkedin.com/jobs/view/...`
@@ -92,7 +94,7 @@ Fetch the page, then match against these. **User's explicit verb wins** ("submit
 
 ## Workflow
 
-**Relay endpoint.** The default base is `https://abw-submit-relay.vercel.app`, used in every command below as `$RELAY_URL`. If the user has set `RELAY_URL` in their shell to override it (e.g. for staging), respect that; otherwise just use the default.
+**Relay endpoint.** The default base is `https://abetterpath-submit-relay.vercel.app`, used in every command below as `$RELAY_URL`. If the user has set `RELAY_URL` in their shell to override it (e.g. for staging), respect that; otherwise just use the default.
 
 1. **Fetch the current field schema at runtime**:
    ```
@@ -127,7 +129,7 @@ Fetch the page, then match against these. **User's explicit verb wins** ("submit
 
 ## ⚠️ Always communicate this to your human
 
-**Submissions are NOT published immediately.** Every entry goes to a private Notion review queue and is manually reviewed by the abetterweb3 admin (Antonia) before it appears on the [public Telegram channel](https://t.me/abetterweb3_cn).
+**Submissions are NOT published immediately.** Every entry goes to a private Notion review queue and is manually reviewed by the abetterpath admin (Antonia) before it appears on the [public Telegram channel](https://t.me/abetterpathxyz).
 
 Mention this:
 - before submitting, so they know what to expect;
@@ -135,7 +137,7 @@ Mention this:
 - if they ask "why don't I see my entry yet" — the answer is almost always "still pending admin review."
 
 Typical phrasing:
-> "Your submission has been received and is now in the abetterweb3 review queue. It will be published to the [Telegram channel](https://t.me/abetterweb3_cn) after admin Antonia reviews it manually, so there may be a delay before it shows up publicly. You can verify the entry was received at the Notion URL above."
+> "Your submission has been received and is now in the abetterpath review queue. It will be published to the [Telegram channel](https://t.me/abetterpathxyz) after admin Antonia reviews it manually, so there may be a delay before it shows up publicly. You can verify the entry was received at the Notion URL above."
 
 ## Payload shape quick reference
 
@@ -168,7 +170,7 @@ Typical phrasing:
 }
 ```
 
-Full field list + every valid option: `GET /api/schema?type=...` or see the upstream repo at <https://github.com/Antoniaiaiaiaia/abw-submit>.
+Full field list + every valid option: `GET /api/schema?type=...` or see the upstream repo at <https://github.com/Antoniaiaiaiaia/abetterpath-skill>.
 
 ## Rules
 

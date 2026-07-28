@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Reference submitter for abw-submit-kit.
+"""Reference submitter for abetterpath-skill.
 
 Usage:
-    # Defaults to https://abw-submit-relay.vercel.app
+    # Defaults to https://abetterpath-submit-relay.vercel.app
     # Override only if a maintainer points you at a different endpoint:
     #   export RELAY_URL="https://other.example/"
 
@@ -27,7 +27,7 @@ import os
 import sys
 from urllib import request, error
 
-DEFAULT_RELAY = os.environ.get("RELAY_URL", "https://abw-submit-relay.vercel.app")
+DEFAULT_RELAY = os.environ.get("RELAY_URL", "https://abetterpath-submit-relay.vercel.app")
 
 
 def submit(payload: dict, relay_url: str, dry_run: bool) -> dict:

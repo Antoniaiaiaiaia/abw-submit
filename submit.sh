@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Reference curl submitter.
 #
-# Defaults to https://abw-submit-relay.vercel.app. Override only if a
+# Defaults to https://abetterpath-submit-relay.vercel.app. Override only if a
 # maintainer points you at a different endpoint:
 #
 #   export RELAY_URL="https://other.example/"
@@ -9,7 +9,7 @@
 #
 set -euo pipefail
 
-RELAY_URL="${RELAY_URL:-https://abw-submit-relay.vercel.app}"
+RELAY_URL="${RELAY_URL:-https://abetterpath-submit-relay.vercel.app}"
 PAYLOAD_FILE="${1:-examples/talent.json}"
 
 curl -sS -X POST "${RELAY_URL%/}/api/submit" \

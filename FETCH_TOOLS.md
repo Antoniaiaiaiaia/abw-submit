@@ -130,9 +130,9 @@ Extract from whatever they give you. **Do not invent fields because you couldn't
 
 ---
 
-## Recommendation for the abw-submit use case
+## Recommendation for the abetterpath-skill use case
 
-Most abw users paste one of:
+Most abetterpath users paste one of:
 - A job-board posting (jobs.solana.com, cryptocurrencyjobs.co, greenhouse, ashbyhq, lever, workable)
 - A company careers page (usually static / SSR, Tier 1 covers it)
 - A candidate profile (GitHub, personal site)

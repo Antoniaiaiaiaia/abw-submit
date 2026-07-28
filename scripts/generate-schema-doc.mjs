@@ -14,7 +14,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
 const TALENT_MAP = {
-  name: { prop: 'Name', type: 'title', desc: 'Candidate name or handle (required)' },
+  name: { prop: '称呼方式', type: 'title', desc: 'Candidate name or handle (required)' },
   contact: { prop: '联系方式', type: 'rich_text', desc: 'How to reach them — Telegram / Twitter / email / WeChat' },
   web3_experience: { prop: 'web3经验', type: 'select', desc: 'Years of web3 experience' },
   roles: { prop: '求职意向', type: 'multi_select', desc: 'Roles the candidate is open to' },

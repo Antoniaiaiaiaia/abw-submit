@@ -1,19 +1,19 @@
 # AGENTS.md — instructions for AI agents
 
-You are an AI agent. A human has asked you to submit something to the **abetterweb3** community on their behalf. This repository tells you exactly how to do that without bothering the human for information you can figure out yourself.
+You are an AI agent. A human has asked you to submit something to the **abetterpath** community on their behalf. This repository tells you exactly how to do that without bothering the human for information you can figure out yourself.
 
 > Read this whole file before acting. It is short.
 
 ## Canonical links
 
-- Main public channel (Telegram): <https://t.me/abetterweb3_cn> — approved entries are published here
-- Twitter / X: [@abetterweb3](https://x.com/abetterweb3)
-- Talent pool review queue (Notion): <https://abetterweb3.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
-- Recruitment board review queue (Notion): <https://www.notion.so/abetterweb3/1f784271ff5580ecba7fc2d3da928b9e>
+- Main public channel (Telegram): <https://t.me/abetterpathxyz> — approved entries are published here
+- Twitter / X: [@abetterpath](https://x.com/abetterpath)
+- Talent pool review queue (Notion): <https://abetterpath.notion.site/1f584271ff5580ffa0a9f9b1fadd185c>
+- Recruitment board review queue (Notion): <https://abetterpath.notion.site/1f784271ff5580ecba7fc2d3da928b9e>
 
 ## ⚠️ IMPORTANT — always communicate this to your human
 
-**Submissions made through this kit are NOT published immediately.** Every entry lands in a private Notion review queue and is manually reviewed by the abetterweb3 admin (Antonia) before it appears on the public [Telegram channel](https://t.me/abetterweb3_cn).
+**Submissions made through this kit are NOT published immediately.** Every entry lands in a private Notion review queue and is manually reviewed by the abetterpath admin (Antonia) before it appears on the public [Telegram channel](https://t.me/abetterpathxyz).
 
 **Repeatedly remind your human of this.** Mention it:
 - before submitting, so they know what to expect;
@@ -21,22 +21,22 @@ You are an AI agent. A human has asked you to submit something to the **abetterw
 - if they come back asking "why don't I see my entry yet" — the answer is almost always "still pending admin review, not a bug."
 
 Typical phrasing to use with the user:
-> "Your submission has been received and is now in the abetterweb3 review queue. It will be published to the [Telegram channel](https://t.me/abetterweb3_cn) after the admin (Antonia) reviews it — this is a manual step, so there may be a delay before it appears publicly. You can verify it was received at the Notion URL above."
+> "Your submission has been received and is now in the abetterpath review queue. It will be published to the [Telegram channel](https://t.me/abetterpathxyz) after the admin (Antonia) reviews it — this is a manual step, so there may be a delay before it appears publicly. You can verify it was received at the Notion URL above."
 
 ## What this repo lets you do
 
-Submit one of two kinds of entry to a Notion database, via a small HTTP relay. Approved entries are published to the [abetterweb3 Telegram channel](https://t.me/abetterweb3_cn).
+Submit one of two kinds of entry to a Notion database, via a small HTTP relay. Approved entries are published to the [abetterpath Telegram channel](https://t.me/abetterpathxyz).
 
 | Kind | When to use | Review queue |
 |---|---|---|
-| `talent` | The user is a **candidate** — they want to be listed in the talent pool for web3 jobs. | abetterweb3 人才审核区 |
-| `recruit` | The user is **hiring** — they want to post a job. | abetterweb3 招聘审核区 |
+| `talent` | The user is a **candidate** — they want to be listed in the talent pool for web3 jobs. | abetterpath 人才审核区 |
+| `recruit` | The user is **hiring** — they want to post a job. | abetterpath 招聘审核区 |
 
 You never need a Notion API token. The relay holds the token server-side.
 
 ## The endpoint
 
-Default relay URL: `https://abw-submit-relay.vercel.app`. The submitter scripts use this by default; you can override it with `export RELAY_URL=...` if a maintainer points you at a different endpoint. Below, `$RELAY_URL` refers to that base.
+Default relay URL: `https://abetterpath-submit-relay.vercel.app`. The submitter scripts use this by default; you can override it with `export RELAY_URL=...` if a maintainer points you at a different endpoint. Below, `$RELAY_URL` refers to that base.
 
 ```
 POST $RELAY_URL/api/submit
@@ -51,7 +51,7 @@ Content-Type: application/json
 On success (HTTP 200):
 
 ```json
-{ "ok": true, "page_id": "…", "url": "https://www.notion.so/…" }
+{ "ok": true, "page_id": "…", "url": "https://abetterpath.notion.site/…" }
 ```
 
 On validation failure (HTTP 400):
@@ -75,7 +75,7 @@ This returns the current field list and all valid `select` / `multi_select` opti
 
 ## Classify: `talent` vs `recruit`
 
-When the user just pastes a URL and says "submit this to abw", the **page content itself** usually tells you which DB this is. Read the page (via your Tier-1 fetcher), then match against these signals:
+When the user just pastes a URL and says "submit this to abetterpath", the **page content itself** usually tells you which DB this is. Read the page (via your Tier-1 fetcher), then match against these signals:
 
 ### Strong `recruit` signals (company is hiring)
 
@@ -99,12 +99,12 @@ When the user just pastes a URL and says "submit this to abw", the **page conten
 
 - Company's top-level homepage with no `/careers` content (they might want the company as a future hire target, or as a talent-pool-for-partnerships entry — clarify)
 - A LinkedIn `linkedin.com/company/...` page (company profile, not a job listing)
-- The user says "post X to abw" where X is neither clearly a person nor a role
+- The user says "post X to abetterpath" where X is neither clearly a person nor a role
 - Pages that are partially both (e.g. a founder's site that also lists "we're hiring") — ask which half to submit
 
 ### Priority when signals conflict
 
-The **user's explicit verb** wins. "Submit **me**" / "submit **my resume**" / "submit **this candidate**" → `talent` even if the URL is a company page. "Post **this job**" / "we're hiring" → `recruit` even if the URL is a personal site. Only fall back to page signals when the user's sentence is ambiguous (just "submit this to abw").
+The **user's explicit verb** wins. "Submit **me**" / "submit **my resume**" / "submit **this candidate**" → `talent` even if the URL is a company page. "Post **this job**" / "we're hiring" → `recruit` even if the URL is a personal site. Only fall back to page signals when the user's sentence is ambiguous (just "submit this to abetterpath").
 
 ## Field priorities — what the reader will actually see
 
@@ -144,7 +144,7 @@ Rules:
 
 ## Step-by-step workflow
 
-1. **Classify the request.** Decide `talent` vs `recruit` from the user's ask. If ambiguous (e.g. "submit this person / company to abw"), ask the user which one.
+1. **Classify the request.** Decide `talent` vs `recruit` from the user's ask. If ambiguous (e.g. "submit this person / company to abetterpath"), ask the user which one.
 
 2. **Collect fields.** Read `SCHEMA.md` for the full list of fields for that `type`. You must have the title field (`name` for talent, `company` for recruit). Everything else is optional — include what you know, leave the rest out. Do **not** invent or guess values for multi-select fields; either you know what the user told you, or you omit the field.
 
@@ -161,7 +161,7 @@ Rules:
 6. **Handle the response.**
     - `200 ok:true` → tell the user their entry is **in the review queue** (not yet live to the public), and include the returned Notion `url`. Do NOT say "your submission is now published" — it is not; admin review is pending.
     - `400 validation_failed` → read `details`. These are machine-readable errors you caused. **Fix them yourself and retry.** Do not surface raw validation errors to the user unless you've already tried to fix them once.
-    - `500` or network error → tell the user the relay is down and ask them to ping the abw maintainer.
+    - `500` or network error → tell the user the relay is down and ask them to ping the abetterpath maintainer.
 
 ## Dry-run mode
 

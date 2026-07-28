@@ -1,13 +1,13 @@
 {
   "object": "database",
-  "id": "57b3f805-0619-4422-9c49-5d20284ce161",
-  "created_time": "2022-05-21T19:30:00.000Z",
-  "last_edited_time": "2026-04-17T12:16:00.000Z",
+  "id": "1f584271-ff55-80ff-a0a9-f9b1fadd185c",
+  "created_time": "2025-05-16T11:02:00.000Z",
+  "last_edited_time": "2026-07-26T08:07:00.000Z",
   "title": [
     {
       "type": "text",
       "text": {
-        "content": "abetterwbe3人才库（按编辑时间由新到旧）",
+        "content": "人才审核区",
         "link": null
       },
       "annotations": {
@@ -18,7 +18,7 @@
         "code": false,
         "color": "default"
       },
-      "plain_text": "abetterwbe3人才库（按编辑时间由新到旧）",
+      "plain_text": "人才审核区",
       "href": null
     }
   ],
@@ -26,24 +26,7 @@
     {
       "type": "text",
       "text": {
-        "content": "提交求职信息：",
-        "link": null
-      },
-      "annotations": {
-        "bold": true,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": "提交求职信息：",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "\n",
+        "content": "-",
         "link": null
       },
       "annotations": {
@@ -54,13 +37,30 @@
         "code": false,
         "color": "default"
       },
-      "plain_text": "\n",
+      "plain_text": "-",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": "https://forms.fillout.com/t/qHGhNkJepYus",
+        "content": " 审核原则请参见  ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "default"
+      },
+      "plain_text": " 审核原则请参见  ",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": "https://t.me/abetterpathxyz/10034",
         "link": null
       },
       "annotations": {
@@ -71,64 +71,13 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "https://forms.fillout.com/t/qHGhNkJepYus",
+      "plain_text": "https://t.me/abetterpathxyz/10034",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": " \n\n",
-        "link": null
-      },
-      "annotations": {
-        "bold": false,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": " \n\n",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "备注：",
-        "link": null
-      },
-      "annotations": {
-        "bold": true,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": "备注：",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "\n点击 ",
-        "link": null
-      },
-      "annotations": {
-        "bold": false,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": "\n点击 ",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "Filter",
+        "content": " \n",
         "link": null
       },
       "annotations": {
@@ -139,30 +88,30 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "Filter",
+      "plain_text": " \n",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": " 可进行筛选。 \n点击 ",
+        "content": "- 通过审核的信息将被移动至",
         "link": null
       },
       "annotations": {
-        "bold": false,
+        "bold": true,
         "italic": false,
         "strikethrough": false,
         "underline": false,
         "code": false,
         "color": "default"
       },
-      "plain_text": " 可进行筛选。 \n点击 ",
+      "plain_text": "- 通过审核的信息将被移动至",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": "Sort ",
+        "content": " ",
         "link": null
       },
       "annotations": {
@@ -173,14 +122,16 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "Sort ",
+      "plain_text": " ",
       "href": null
     },
     {
-      "type": "text",
-      "text": {
-        "content": "可进行排序。\n点击右上角的 ",
-        "link": null
+      "type": "mention",
+      "mention": {
+        "type": "page",
+        "page": {
+          "id": "57b3f805-0619-4422-9c49-5d20284ce161"
+        }
       },
       "annotations": {
         "bold": false,
@@ -190,13 +141,13 @@
         "code": false,
         "color": "default"
       },
-      "plain_text": "可进行排序。\n点击右上角的 ",
+      "plain_text": "Untitled",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": "小放大镜",
+        "content": " ",
         "link": null
       },
       "annotations": {
@@ -207,30 +158,13 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "小放大镜",
+      "plain_text": " ",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": " 即可进行搜素。\n\n",
-        "link": null
-      },
-      "annotations": {
-        "bold": false,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": " 即可进行搜素。\n\n",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "归档：",
+        "content": "并同步至",
         "link": null
       },
       "annotations": {
@@ -241,30 +175,13 @@
         "code": false,
         "color": "default"
       },
-      "plain_text": "归档：",
+      "plain_text": "并同步至",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": "\n超过 6 个月的求职信息将被归档至 ",
-        "link": null
-      },
-      "annotations": {
-        "bold": false,
-        "italic": false,
-        "strikethrough": false,
-        "underline": false,
-        "code": false,
-        "color": "default"
-      },
-      "plain_text": "\n超过 6 个月的求职信息将被归档至 ",
-      "href": null
-    },
-    {
-      "type": "text",
-      "text": {
-        "content": "人才库归档 ",
+        "content": " ",
         "link": null
       },
       "annotations": {
@@ -275,13 +192,13 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "人才库归档 ",
+      "plain_text": " ",
       "href": null
     },
     {
       "type": "text",
       "text": {
-        "content": "。",
+        "content": "Telegram 频道",
         "link": null
       },
       "annotations": {
@@ -292,109 +209,488 @@
         "code": false,
         "color": "blue"
       },
-      "plain_text": "。",
+      "plain_text": "Telegram 频道",
+      "href": null
+    },
+    {
+      "type": "text",
+      "text": {
+        "content": " ",
+        "link": null
+      },
+      "annotations": {
+        "bold": true,
+        "italic": false,
+        "strikethrough": false,
+        "underline": false,
+        "code": false,
+        "color": "blue"
+      },
+      "plain_text": " ",
       "href": null
     }
   ],
-  "is_inline": true,
+  "is_inline": false,
   "properties": {
+    "求职意向": {
+      "id": "aA%5BY",
+      "name": "求职意向",
+      "description": null,
+      "type": "multi_select",
+      "multi_select": {
+        "options": [
+          {
+            "id": ":^O?",
+            "name": "开发",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "RK^R",
+            "name": "前端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "Jo^U",
+            "name": "后端",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "}f|y",
+            "name": "全栈",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "6d575f2f-f37b-4988-b028-05bb58ea88e9",
+            "name": "智能合约",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c5556d87-16d5-460d-a876-e0e4b1588571",
+            "name": "Solana",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "42f38c28-fbc6-44de-86d8-108d1ac4dc6d",
+            "name": "EVM",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "iQ[O",
+            "name": "QA",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c34254b7-198c-46d8-aa93-f4c929978f38",
+            "name": "测试",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "WvhZ",
+            "name": "产品",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "WN;_",
+            "name": "设计",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "c8ba3a48-6cd8-448d-bbfa-91108634e69c",
+            "name": "平面",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "FsLN",
+            "name": "3D",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "jVxz",
+            "name": "视觉",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "|e`r",
+            "name": "UIUX",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "iqUg",
+            "name": "运营",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "p;m}",
+            "name": "BD",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": ":R\\[",
+            "name": "HRBP",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": ";rot",
+            "name": "Infra",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "Itp?",
+            "name": "Tokenomics",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "v<K[",
+            "name": "DeFi",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "owNw",
+            "name": "VC",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "x|W~",
+            "name": "交易",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "PIeJ",
+            "name": "风控",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "65d88d6b-058b-419d-a43b-f62796efea4c",
+            "name": "量化",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "nE@S",
+            "name": "交易所",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "YRD|",
+            "name": "合伙人",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "EcjA",
+            "name": "增长",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "N<Un",
+            "name": "投研",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "[Wyj",
+            "name": "投资",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "usaF",
+            "name": "数据",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "WL}s",
+            "name": "文案",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "]=sN",
+            "name": "法务",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "_@uW",
+            "name": "游戏",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "idDn",
+            "name": "游戏策划",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "aQhg",
+            "name": "翻译",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "h>lk",
+            "name": "项目管理",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "<hdx",
+            "name": "其他",
+            "color": "gray",
+            "description": null
+          },
+          {
+            "id": "84953154-0f3e-4ca1-b037-732e5eba010d",
+            "name": "Python",
+            "color": "orange",
+            "description": null
+          },
+          {
+            "id": "1e5c1f65-73aa-4929-a64f-cd34013cdf83",
+            "name": "C++",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "2b5e7f0a-3fbd-4231-a1c4-4e73492abac8",
+            "name": "Java",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "b6d5e57d-92f0-4762-8c1c-8a699f4cc679",
+            "name": "JavaScript",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "28141e04-585f-4de1-955f-2899d809526a",
+            "name": "Nodejs",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "9055d30d-63f5-4955-bd70-c9517aab8fb7",
+            "name": "SQL",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "337986e5-e3f7-4a2c-94d9-385cd25a7446",
+            "name": "C#",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "a74fc5aa-f54b-450e-a267-c91237e194ed",
+            "name": "PHP",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "878873b8-1dff-4208-96fd-3f04fc88a5c1",
+            "name": "TypeScript",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "9af1fc0a-8a50-46a8-8090-4e2c416eb194",
+            "name": "Go",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "392559de-0155-481d-a1e2-5d031c876878",
+            "name": "Rust",
+            "color": "red",
+            "description": null
+          },
+          {
+            "id": "68b5c309-a27f-4f1e-bd8e-0efb263833eb",
+            "name": "Solidity",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "078b5923-8e96-4626-a95c-92128526825c",
+            "name": "Swift",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "8dc7a47f-6944-4f22-8d59-057e4fc6056a",
+            "name": "Figma",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "ae9ac415-bd8d-4fd5-b6fc-ccca3c89083a",
+            "name": "PS",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "5b0225e4-00c7-45bb-817f-7675be30572d",
+            "name": "AE",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "33d8de4c-1c1b-4966-8981-4cd67bc131d4",
+            "name": "PR",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "26772384-56e4-4ce5-9ed1-c667dade2b83",
+            "name": "运维",
+            "color": "purple",
+            "description": null
+          }
+        ]
+      }
+    },
     "上次编辑时间": {
-      "id": "AYY%3F",
+      "id": "xA%5E%3A",
       "name": "上次编辑时间",
       "description": null,
       "type": "last_edited_time",
       "last_edited_time": {}
     },
-    "学位（选填）": {
-      "id": "BsqZ",
-      "name": "学位（选填）",
+    "称呼方式": {
+      "id": "title",
+      "name": "称呼方式",
+      "description": null,
+      "type": "title",
+      "title": {}
+    },
+    "兼职": {
+      "id": "0f21cc57-15c7-4e21-bf92-f7c5feb862e5",
+      "name": "兼职",
+      "description": null,
+      "type": "checkbox",
+      "checkbox": {}
+    },
+    "联系方式": {
+      "id": "11d9089b-4374-4a19-b46d-4d614cbb1422",
+      "name": "联系方式",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "擅长": {
+      "id": "1b818b54-1907-4698-ba85-039ac7802b8b",
+      "name": "擅长",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "web3经验": {
+      "id": "2a8879ee-7957-4e02-b638-b8b7459b8cf4",
+      "name": "web3经验",
       "description": null,
       "type": "select",
       "select": {
         "options": [
           {
-            "id": "f4b3aba5-9872-4a1e-ae11-67b8072b5788",
-            "name": "学士/本科",
+            "id": "041438be-0e27-47c5-9103-a360eac76322",
+            "name": "< 1年",
+            "color": "yellow",
+            "description": null
+          },
+          {
+            "id": "4571e1ae-4999-4359-9265-615026bfea66",
+            "name": "1-2年",
+            "color": "green",
+            "description": null
+          },
+          {
+            "id": "c654cf26-8813-4d0b-b4ec-1810df500501",
+            "name": "2-4年",
             "color": "blue",
             "description": null
           },
           {
-            "id": "4f74a146-ea8c-408d-a361-d40e354e14f0",
-            "name": "硕士/研究生",
+            "id": "e6b23e5e-0e7f-4eff-b9a8-ca8fd0be6fd0",
+            "name": "> 4年",
             "color": "purple",
             "description": null
-          },
+          }
+        ]
+      }
+    },
+    "合作心态": {
+      "id": "322e7a47-7e1f-46ef-8b9e-63bb81cd1079",
+      "name": "合作心态",
+      "description": null,
+      "type": "select",
+      "select": {
+        "options": [
           {
-            "id": "2daaa587-9c3b-4784-947b-0a9b32c52c54",
-            "name": "博士/博士后",
-            "color": "pink",
+            "id": "bf961c7d-76e8-46a9-9fec-2aafb28e5022",
+            "name": "随时合作",
+            "color": "red",
             "description": null
           },
           {
-            "id": "22fd736c-acf3-40ae-a05f-5082a322c388",
-            "name": "大专",
-            "color": "brown",
+            "id": "b49c959d-7ce4-4e43-a095-52b099ccb2a1",
+            "name": "看看机会",
+            "color": "green",
             "description": null
           },
           {
-            "id": "dfcac915-37df-4189-ae52-47213f9b828e",
-            "name": "辍学大佬",
-            "color": "default",
-            "description": null
-          },
-          {
-            "id": "35b6bd9d-1b4f-4156-8512-bdbe6f855b22",
-            "name": "其他",
+            "id": "c7cd9ca8-4c39-4f4b-a06c-116ebe50ebce",
+            "name": "交友拓展",
             "color": "default",
             "description": null
           }
         ]
       }
     },
-    "教育背景（选填）": {
-      "id": "EAAA",
-      "name": "教育背景（选填）",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
-    "实习": {
-      "id": "Ebmt",
-      "name": "实习",
-      "description": null,
-      "type": "checkbox",
-      "checkbox": {}
-    },
     "猎头对接": {
-      "id": "FF%7Dl",
+      "id": "379d3b25-f8c0-4517-9a1b-0cfbed68ac00",
       "name": "猎头对接",
       "description": null,
       "type": "checkbox",
       "checkbox": {}
     },
-    "待遇期待": {
-      "id": "HtqH",
-      "name": "待遇期待",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
-    "兼职": {
-      "id": "JTWf",
-      "name": "兼职",
+    "实习": {
+      "id": "67616184-cc36-4a48-b581-3ed0b3fcac20",
+      "name": "实习",
       "description": null,
       "type": "checkbox",
       "checkbox": {}
     },
-    "擅长": {
-      "id": "RdR%5D",
-      "name": "擅长",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
     "语言": {
-      "id": "VDF%7D",
+      "id": "8b6ae9c3-657a-40bc-95a5-7b7be51687a0",
       "name": "语言",
       "description": null,
       "type": "multi_select",
@@ -469,400 +765,114 @@
         ]
       }
     },
-    "联系方式": {
-      "id": "X%3C%40M",
-      "name": "联系方式",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
-    "web3经验": {
-      "id": "ZHm%3A",
-      "name": "web3经验",
-      "description": null,
-      "type": "select",
-      "select": {
-        "options": [
-          {
-            "id": "041438be-0e27-47c5-9103-a360eac76322",
-            "name": "< 1年",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "4571e1ae-4999-4359-9265-615026bfea66",
-            "name": "1-2年",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "c654cf26-8813-4d0b-b4ec-1810df500501",
-            "name": "2-4年",
-            "color": "blue",
-            "description": null
-          },
-          {
-            "id": "e6b23e5e-0e7f-4eff-b9a8-ca8fd0be6fd0",
-            "name": "> 4年",
-            "color": "purple",
-            "description": null
-          }
-        ]
-      }
-    },
-    "更多链接": {
-      "id": "drzY",
-      "name": "更多链接",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
-    "Last edited time": {
-      "id": "eMyB",
-      "name": "Last edited time",
-      "description": null,
-      "type": "last_edited_time",
-      "last_edited_time": {}
-    },
-    "合作心态": {
-      "id": "gOi~",
-      "name": "合作心态",
-      "description": null,
-      "type": "select",
-      "select": {
-        "options": [
-          {
-            "id": "bf961c7d-76e8-46a9-9fec-2aafb28e5022",
-            "name": "随时合作",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "b49c959d-7ce4-4e43-a095-52b099ccb2a1",
-            "name": "看看机会",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "c7cd9ca8-4c39-4f4b-a06c-116ebe50ebce",
-            "name": "交友拓展",
-            "color": "default",
-            "description": null
-          }
-        ]
-      }
-    },
-    "Created time": {
-      "id": "jpd%5B",
-      "name": "Created time",
-      "description": null,
-      "type": "created_time",
-      "created_time": {}
-    },
-    "毕业时间（选填）": {
-      "id": "k%3Du%5D",
-      "name": "毕业时间（选填）",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
-    "求职意向": {
-      "id": "n%5DeS",
-      "name": "求职意向",
-      "description": null,
-      "type": "multi_select",
-      "multi_select": {
-        "options": [
-          {
-            "id": "02b5e9bd-edb0-40f1-9b69-79d2f1ec1be4",
-            "name": "开发",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "ea10fab2-0e50-4423-8363-e8c62c1cb3bd",
-            "name": "前端",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "cfbf2776-c91b-4741-8274-3d1442966bfc",
-            "name": "后端",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "22181067-0f54-406a-9c14-e2793e699d37",
-            "name": "全栈",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "f32f4190-0b5e-4ff8-b7fa-19eddd7d3698",
-            "name": "运营",
-            "color": "green",
-            "description": null
-          },
-          {
-            "id": "602f7e44-a292-4fa1-99b1-8c53c1430d75",
-            "name": "BD",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "3419a03f-da46-4856-960c-1bc877a1cf7a",
-            "name": "投研",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "856eb0fa-899d-4791-acc0-68b7fb0b336a",
-            "name": "HRBP",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "5eeaaddd-4998-47ed-a58b-5fcf2da250ea",
-            "name": "项目管理",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "f59ff676-5b44-44f7-94b9-b6f48970cef4",
-            "name": "翻译",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "d6f6f178-49cc-4765-9dbd-3c0553fcbdf2",
-            "name": "法务",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "bb317af1-fd62-4d77-b1d3-85df9228cf56",
-            "name": "QA",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "701a69d4-9eef-4873-956c-0887927d0902",
-            "name": "合伙人",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "fb6152bf-c00f-4d4c-a4be-c32df8bf2949",
-            "name": "数据",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "_PCj",
-            "name": "其他",
-            "color": "default",
-            "description": null
-          },
-          {
-            "id": "bebd5756-8b98-464a-93de-9fd5c3a79aec",
-            "name": "风控",
-            "color": "orange",
-            "description": null
-          },
-          {
-            "id": "98f8602e-65e5-4b8e-8478-bdf2dc1648b6",
-            "name": "文案",
-            "color": "brown",
-            "description": null
-          },
-          {
-            "id": "96e3b047-b7c8-4dca-aeca-935aceed646d",
-            "name": "产品",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "6bc9218f-038c-4f75-8106-b78c3d3df5a1",
-            "name": "交易所",
-            "color": "default",
-            "description": null
-          },
-          {
-            "id": "7fe7dc4c-619d-4bf1-b893-2955e1c58826",
-            "name": "DeFi",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "c6720837-b347-48e4-8f16-b5dfcb863f5c",
-            "name": "Infra",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "be87284d-66e8-42b4-9528-38d583e72b28",
-            "name": "Tokenomics",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "2b4d2789-e87b-47b5-9d74-36516f781017",
-            "name": "游戏策划",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "66013e85-55b3-4ef0-a8bf-102c54046908",
-            "name": "UIUX",
-            "color": "blue",
-            "description": null
-          },
-          {
-            "id": "6549b6ff-45c4-4529-88ff-372601c6c412",
-            "name": "设计",
-            "color": "purple",
-            "description": null
-          },
-          {
-            "id": "a78e6b9f-2b8d-4f0a-a555-5d35f950f6e4",
-            "name": "视觉",
-            "color": "brown",
-            "description": null
-          },
-          {
-            "id": "5f8d5418-dc98-44f4-854b-763d9cf5f748",
-            "name": "3D",
-            "color": "blue",
-            "description": null
-          },
-          {
-            "id": "63f5b7da-a764-47e7-8fd3-4516ee22a70d",
-            "name": "增长",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "0bd327e0-6395-44ee-9a51-d0088bcae35e",
-            "name": "商务",
-            "color": "blue",
-            "description": null
-          },
-          {
-            "id": "697e791f-7066-4cdc-ba0a-098a269b46cd",
-            "name": "游戏",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "2d8c52a1-13e5-457c-800a-5baf5abdbccd",
-            "name": "投资",
-            "color": "pink",
-            "description": null
-          },
-          {
-            "id": "60ca0cf2-1468-4b13-b263-3f0e19765bbd",
-            "name": "交易",
-            "color": "orange",
-            "description": null
-          },
-          {
-            "id": "8c6423dc-f371-4f61-b8d1-41d22eba3594",
-            "name": "VC",
-            "color": "purple",
-            "description": null
-          },
-          {
-            "id": "eb86ae05-dfee-4996-a9d4-4b8ce4cd27aa",
-            "name": "测试",
-            "color": "red",
-            "description": null
-          },
-          {
-            "id": "7ae3885d-c9a0-4d5d-8875-1b313925e0c6",
-            "name": "JavaScript",
-            "color": "blue",
-            "description": null
-          },
-          {
-            "id": "3fd35822-bbbe-4d9b-aaa3-f878833ead10",
-            "name": "TypeScript",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "4f4c3b2d-a298-4e52-a379-9d6a98e2ed0c",
-            "name": "Nodejs",
-            "color": "purple",
-            "description": null
-          },
-          {
-            "id": "b76d06d4-8b6d-4869-bb7e-7f0db1030ea0",
-            "name": "Python",
-            "color": "gray",
-            "description": null
-          },
-          {
-            "id": "a905f220-5d3c-4567-af9e-361498b6f743",
-            "name": "SQL",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "21a1543e-f449-4260-84c6-ac1885af9567",
-            "name": "智能合约",
-            "color": "yellow",
-            "description": null
-          },
-          {
-            "id": "12aafc44-f14c-45fb-9276-5d3bdd683aaf",
-            "name": "Solana",
-            "color": "purple",
-            "description": null
-          }
-        ]
-      }
-    },
-    "经历": {
-      "id": "pV~w",
-      "name": "经历",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
     "在校/应届": {
-      "id": "r%3B~N",
+      "id": "8ba00348-ff65-479f-9757-dd63930ab69e",
       "name": "在校/应届",
       "description": null,
       "type": "checkbox",
       "checkbox": {}
     },
-    "专业（选填）": {
-      "id": "u%5B%5CH",
-      "name": "专业（选填）",
-      "description": null,
-      "type": "rich_text",
-      "rich_text": {}
-    },
     "全职": {
-      "id": "v%7D%7C%7C",
+      "id": "922ddb63-1601-4b86-9ce6-41fe491b7c03",
       "name": "全职",
       "description": null,
       "type": "checkbox",
       "checkbox": {}
     },
+    "毕业时间（选填）": {
+      "id": "94e46ac8-9d06-4e5b-8cdf-a0a9bd455ff7",
+      "name": "毕业时间（选填）",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
     "只看远程": {
-      "id": "wlTR",
+      "id": "a4a7aa0b-8ff3-4985-ab36-67800ad7a7e8",
       "name": "只看远程",
       "description": null,
       "type": "checkbox",
       "checkbox": {}
     },
-    "Name": {
-      "id": "title",
-      "name": "Name",
+    "经历": {
+      "id": "c68ce0cb-93f7-4c08-b0a7-aed4542646d8",
+      "name": "经历",
       "description": null,
-      "type": "title",
-      "title": {}
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "教育背景（选填）": {
+      "id": "cc30002d-461c-4a00-b1a9-1d47cc7cc014",
+      "name": "教育背景（选填）",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "学位（选填）": {
+      "id": "d3ab2a0a-ecc8-40d8-9f24-9ad8ef35d3c2",
+      "name": "学位（选填）",
+      "description": null,
+      "type": "select",
+      "select": {
+        "options": [
+          {
+            "id": "f4b3aba5-9872-4a1e-ae11-67b8072b5788",
+            "name": "学士/本科",
+            "color": "blue",
+            "description": null
+          },
+          {
+            "id": "4f74a146-ea8c-408d-a361-d40e354e14f0",
+            "name": "硕士/研究生",
+            "color": "purple",
+            "description": null
+          },
+          {
+            "id": "2daaa587-9c3b-4784-947b-0a9b32c52c54",
+            "name": "博士/博士后",
+            "color": "pink",
+            "description": null
+          },
+          {
+            "id": "22fd736c-acf3-40ae-a05f-5082a322c388",
+            "name": "大专",
+            "color": "brown",
+            "description": null
+          },
+          {
+            "id": "dfcac915-37df-4189-ae52-47213f9b828e",
+            "name": "辍学大佬",
+            "color": "default",
+            "description": null
+          },
+          {
+            "id": "35b6bd9d-1b4f-4156-8512-bdbe6f855b22",
+            "name": "其他",
+            "color": "default",
+            "description": null
+          }
+        ]
+      }
+    },
+    "待遇期待": {
+      "id": "ec03ab64-fad0-47a1-a41a-58d211e6ac6d",
+      "name": "待遇期待",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "专业（选填）": {
+      "id": "f7c11ce4-049f-4135-bf5f-1de934522111",
+      "name": "专业（选填）",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
+    },
+    "更多链接": {
+      "id": "fc7ea9f5-5c90-4a6d-b858-b67178d78300",
+      "name": "更多链接",
+      "description": null,
+      "type": "rich_text",
+      "rich_text": {}
     }
   },
   "in_trash": false,

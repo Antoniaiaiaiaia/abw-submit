@@ -53,9 +53,9 @@ Title key: `name` (required, non-empty string)
 
 ### talent: valid `multi_select` options
 
-<details><summary><b><code>roles</code></b> (41 options)</summary>
+<details><summary><b><code>roles</code></b> (56 options)</summary>
 
-`开发`, `前端`, `后端`, `全栈`, `运营`, `BD`, `投研`, `HRBP`, `项目管理`, `翻译`, `法务`, `QA`, `合伙人`, `数据`, `其他`, `风控`, `文案`, `产品`, `交易所`, `DeFi`, `Infra`, `Tokenomics`, `游戏策划`, `UIUX`, `设计`, `视觉`, `3D`, `增长`, `商务`, `游戏`, `投资`, `交易`, `VC`, `测试`, `JavaScript`, `TypeScript`, `Nodejs`, `Python`, `SQL`, `智能合约`, `Solana`
+`开发`, `前端`, `后端`, `全栈`, `智能合约`, `Solana`, `EVM`, `QA`, `测试`, `产品`, `设计`, `平面`, `3D`, `视觉`, `UIUX`, `运营`, `BD`, `HRBP`, `Infra`, `Tokenomics`, `DeFi`, `VC`, `交易`, `风控`, `量化`, `交易所`, `合伙人`, `增长`, `投研`, `投资`, `数据`, `文案`, `法务`, `游戏`, `游戏策划`, `翻译`, `项目管理`, `其他`, `Python`, `C++`, `Java`, `JavaScript`, `Nodejs`, `SQL`, `C#`, `PHP`, `TypeScript`, `Go`, `Rust`, `Solidity`, `Swift`, `Figma`, `PS`, `AE`, `PR`, `运维`
 
 </details>
 
