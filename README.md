@@ -75,4 +75,4 @@ MIT.
 
 ---
 
-![abetterpath](./assets/abetterpath-banner.jpeg)
+
